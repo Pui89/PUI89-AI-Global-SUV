@@ -182,3 +182,17 @@ This repository is a research and software foundation. It does **not** contain a
 ## License
 
 Apache License 2.0. See [LICENSE](LICENSE). Third-party images, datasets, model weights, trademarks and other assets retain their own terms and licences.
+
+---
+
+## Preliminary Prototype Cost Estimate (15 November 2026)
+
+**Indicative one-unit engineering prototype planning range: ฿100,000–฿350,000 (THB).**
+
+**Included at a planning level:** An AI compute and sensor-integration prototype using an existing compatible test vehicle or bench rig. Purchase of a donor SUV and vehicle certification are excluded.
+
+**Estimate status:** preliminary internal planning estimate only; not a supplier quotation, purchase commitment, verified bill of materials, fixed project budget or claim that a prototype exists. The range depends on final requirements, component selection, non-Chinese-origin supplier availability, compatibility, import/shipping costs and test scope. Obtain current written quotations and verify country of manufacture/origin, exact model/part number, specifications, warranty and lead time before any procurement.
+
+**Generally excluded:** engineering labour, research salaries, facilities, taxes/VAT, import duties, shipping unless stated in a supplier quotation, certification/regulatory approvals, production tooling, mass production, long-term maintenance and contingency. Project-specific exclusions: purchase of a donor vehicle, major vehicle modifications and road-vehicle certification.
+
+**Lower-cost development path:** continue software-first development, open-source tools and simulation before purchasing physical hardware. Shared AI Core software and reusable development equipment may reduce duplicated costs; savings are not yet quantified. No purchase or installation is authorised by this estimate.
