@@ -224,3 +224,12 @@ Apache License 2.0. See [LICENSE](LICENSE). Third-party images, datasets, model 
 ## World-Class Engineering Standard v1.0
 
 This product follows the proposed [PUI89 World-Class Engineering Standard v1.0](https://github.com/Pui89/Pui89.github.io/blob/main/docs/PUI89_WORLD_CLASS_ENGINEERING_STANDARD_V1.0.md), alongside the [PUI89 Simple, Safe & Professional Engineering Standard](https://github.com/Pui89/Pui89.github.io/blob/main/docs/PUI89_SIMPLE_SAFE_PROFESSIONAL_STANDARD.md). The shared standard defines requirements traceability, Shared AI Core contracts, PTI evaluation, simulation, safety, hardware provenance, cost engineering, verification and release gates. Product capabilities remain subject to their stated evidence and validation boundaries; this reference does not imply that a gate has been passed.
+
+
+## PUI89 Technical Visual — AI workflow
+
+![SUV workflow: road observation, context fusion, hazard assessment, advisory warnings and human driver control.](docs/images/pui89-technical-visual.svg)
+
+*Advisory-only concept. No autonomous steering, throttle, braking, flood-wading, crash or fire-protection capability is claimed.*
+
+This diagram follows the [PUI89 Technical Visual Standard v1.0](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/PUI89_TECHNICAL_VISUAL_STANDARD_V1.0.md). It explains the proposed product-specific AI workflow and does not imply unverified implementation or physical capability.
