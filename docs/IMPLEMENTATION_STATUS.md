@@ -1,7 +1,7 @@
 # Implementation Status — PUI89 AI Global SUV
 
 Last updated: 2026-11-13  
-Repository: Pui89/PUI89-Compact-Smart-Car  
+Repository: Pui89/PUI89-AI-Global-SUV  
 Official project identity: PUI89 AI Global SUV  
 Overall status: early-stage software and research foundation; vehicle concept and engineering requirements are not a built or validated product.
 
