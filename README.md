@@ -173,8 +173,8 @@ This repository is a research and software foundation. It does **not** contain a
 
 ## Project links
 
-- [English project page](https://pui89.github.io/ai-robot-car.html)
-- [Thai project page](https://pui89.github.io/ai-robot-car-th.html)
+- [English project page](https://pui89.github.io/ai-global-suv.html)
+- [Thai project page](https://pui89.github.io/ai-global-suv-th.html)
 - [PUI89 portfolio](https://pui89.github.io/)
 - [Website source](https://github.com/Pui89/Pui89.github.io)
 - [PUI89 Shared AI Core](https://github.com/Pui89/PUI89-Shared-AI-Core)
