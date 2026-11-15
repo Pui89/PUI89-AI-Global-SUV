@@ -1,4 +1,4 @@
-# PUI89 Compact Smart Car — Fire & Flood Resilience Requirements v0.1
+# PUI89 AI Global SUV — Fire & Flood Resilience Requirements v0.1
 
 **Status:** Proposed requirements for software research and future engineering review. No physical fire, flood, ingress, thermal, crash or occupant-protection performance is implemented, tested or certified.
 
