@@ -232,6 +232,16 @@ The proposed driver-assistance interaction profile may provide:
 
 **Driver authority:** voice is an information interface only. It must not issue autonomous steering, throttle, braking or propulsion commands. Safety-critical alerts must be prioritised, understandable and tested for distraction; the human driver retains control.
 
+**Recommended model candidates for AI Global SUV (not approved or integrated):**
+
+| Model/tool | Role in SUV interaction | Status |
+|---|---|---|
+| [openai/whisper-small](https://huggingface.co/openai/whisper-small) | Speech-to-text for limited navigation/context requests; requires in-cabin noise and distraction evaluation | PENDING_REVIEW |
+| [hexgrad/Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) | English spoken navigation/status prompts; Thai TTS is not established | PENDING_REVIEW |
+| [Silero VAD](https://github.com/snakers4/silero-vad) | Speech-segment detection; evaluate false triggers and in-cabin noise | PENDING_REVIEW |
+
+Use short, low-distraction prompts and physical controls. Do not enable complex dialogue while driving. These candidates cannot issue steering, throttle, braking or propulsion commands. Thai speech generation remains an open candidate-research task.
+
 **Maturity:** proposed capability only. No interaction model or in-vehicle voice integration is claimed as implemented or validated.
 
 ## World-Class Engineering Standard v1.0
