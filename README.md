@@ -221,6 +221,19 @@ Apache License 2.0. See [LICENSE](LICENSE). Third-party images, datasets, model 
 
 **Prototype boundary:** the allowance is for a controlled engineering prototype, not a certified commercial product or production-ready system. It excludes labour, research salaries, facilities, VAT/tax, import duties, freight/insurance unless explicitly quoted, certification, production tooling, mass production, maintenance and contingency. No purchase, download, installation or supplier commitment is authorised by this documentation.
 
+## Shared Interaction Intelligence — PUI89 AI Global SUV
+
+The proposed driver-assistance interaction profile may provide:
+
+- Voice requests for navigation, route context and vehicle-information explanations.
+- Concise spoken hazard and system-status alerts.
+- Thai/English speech input and output where supported and validated for the target market.
+- Hands-free interaction designed to minimise driver distraction.
+
+**Driver authority:** voice is an information interface only. It must not issue autonomous steering, throttle, braking or propulsion commands. Safety-critical alerts must be prioritised, understandable and tested for distraction; the human driver retains control.
+
+**Maturity:** proposed capability only. No interaction model or in-vehicle voice integration is claimed as implemented or validated.
+
 ## World-Class Engineering Standard v1.0
 
 This product follows the proposed [PUI89 World-Class Engineering Standard v1.0](https://github.com/Pui89/Pui89.github.io/blob/main/docs/PUI89_WORLD_CLASS_ENGINEERING_STANDARD_V1.0.md), alongside the [PUI89 Simple, Safe & Professional Engineering Standard](https://github.com/Pui89/Pui89.github.io/blob/main/docs/PUI89_SIMPLE_SAFE_PROFESSIONAL_STANDARD.md). The shared standard defines requirements traceability, Shared AI Core contracts, PTI evaluation, simulation, safety, hardware provenance, cost engineering, verification and release gates. Product capabilities remain subject to their stated evidence and validation boundaries; this reference does not imply that a gate has been passed.
