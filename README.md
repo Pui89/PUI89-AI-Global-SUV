@@ -263,3 +263,15 @@ This diagram follows the [PUI89 Technical Visual Standard v1.0](https://github.c
 ## Automotive AI Compute & Sensor Architecture v1.0
 
 The Global SUV has a product-specific engineering architecture covering staged automotive compute, sensor strategy, read-only vehicle-data boundaries, driver-distraction controls, test gates and evidence requirements. It is a proposed research architecture only; no vehicle integration or validation is claimed. See [SUV Automotive AI Compute & Sensor Architecture v1.0](docs/SUV_AUTOMOTIVE_AI_COMPUTE_AND_SENSOR_ARCHITECTURE_V1.0.md).
+
+## Portfolio consistency and founder-approved requirements
+
+**PUI89 AI Global SUV**
+
+Product identity: **PUI89 AI Global SUV** (do not repeat the PUI89 prefix). AI functions are advisory for the human driver. Flood and road-water risk awareness is in scope; if water depth, current, road condition or route safety is unknown, report **unknown — do not enter**. No autonomous steering, throttle or braking is claimed.
+
+**ข้อกำหนดภาษาไทย**
+
+ชื่อผลิตภัณฑ์: **PUI89 AI Global SUV** (ไม่ต้องใส่ PUI89 ซ้ำ) AI ทำหน้าที่ให้คำแนะนำแก่ผู้ขับขี่เท่านั้น รวมถึงการรับรู้ความเสี่ยงน้ำท่วมและน้ำบนถนน หากไม่ทราบความลึก กระแสน้ำ สภาพถนน หรือความปลอดภัยของเส้นทาง ให้แจ้งว่า **ไม่ทราบ — ห้ามเข้า** และไม่มีการควบคุมพวงมาลัย คันเร่ง หรือเบรกอัตโนมัติ
+
+**Portfolio boundary:** PUI89 has exactly six active products. Shared AI Core is infrastructure, not a product. Extreme Flood Rescue AI is inactive as a standalone product; preserve historical records but do not present it as an active product.
