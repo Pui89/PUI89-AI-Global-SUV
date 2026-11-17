@@ -95,7 +95,7 @@ Software-first driver-awareness research using removable, non-invasive sensors a
 
 **First evidence gate:** permission-cleared road-scene datasets, defined classes and operating context, held-out evaluation, missed/false detection analysis, uncertainty and stale-data tests, alert-usability review, and measured resource use on the intended compute target.
 
-**Not established:** road-tested perception, production automotive capability, autonomous driving, collision prevention, automatic steering/throttle/braking, or validated flood-wading ability. The driver remains in control; no PTI actuation path is authorised. See the [shared PTI specification](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/perception/PUI89_PERCEPTION_TASK_INTELLIGENCE_V1.0.md) (maintainer repository access required).
+**Not established:** road-tested perception, production automotive capability, autonomous driving, collision prevention, automatic steering/throttle/braking, or validated flood-wading ability. The driver remains in control; no PTI actuation path is authorised. See the [public Shared AI Core overview](https://pui89.github.io/ai-core.htmlperception/PUI89_PERCEPTION_TASK_INTELLIGENCE_V1.0.md) (maintainer repository access required).
 
 ## Six Core Intelligence Groups — Product Allocation
 
@@ -179,7 +179,7 @@ This repository is a research and software foundation. It does **not** contain a
 - [Thai project page](https://pui89.github.io/ai-global-suv-th.html)
 - [PUI89 portfolio](https://pui89.github.io/)
 - [Website source](https://github.com/Pui89/Pui89.github.io)
-- [PUI89 Shared AI Core](https://github.com/Pui89/PUI89-Shared-AI-Core)
+- [PUI89 Shared AI Core public overview](https://pui89.github.io/ai-core.html)
 
 ## License
 
@@ -257,9 +257,21 @@ This product follows the proposed [PUI89 World-Class Engineering Standard v1.0](
 
 *Advisory-only concept. No autonomous steering, throttle, braking, flood-wading, crash or fire-protection capability is claimed.*
 
-This diagram follows the [PUI89 Technical Visual Standard v1.0](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/PUI89_TECHNICAL_VISUAL_STANDARD_V1.0.md). It explains the proposed product-specific AI workflow and does not imply unverified implementation or physical capability.
+This diagram follows the [public PUI89 technical architecture overview](https://pui89.github.io/ai-core.htmlPUI89_TECHNICAL_VISUAL_STANDARD_V1.0.md). It explains the proposed product-specific AI workflow and does not imply unverified implementation or physical capability.
 
 
 ## Automotive AI Compute & Sensor Architecture v1.0
 
 The Global SUV has a product-specific engineering architecture covering staged automotive compute, sensor strategy, read-only vehicle-data boundaries, driver-distraction controls, test gates and evidence requirements. It is a proposed research architecture only; no vehicle integration or validation is claimed. See [SUV Automotive AI Compute & Sensor Architecture v1.0](docs/SUV_AUTOMOTIVE_AI_COMPUTE_AND_SENSOR_ARCHITECTURE_V1.0.md).
+
+## Portfolio consistency and founder-approved requirements
+
+**PUI89 AI Global SUV**
+
+Product identity: **PUI89 AI Global SUV** (do not repeat the PUI89 prefix). AI functions are advisory for the human driver. Flood and road-water risk awareness is in scope; if water depth, current, road condition or route safety is unknown, report **unknown — do not enter**. No autonomous steering, throttle or braking is claimed.
+
+**ข้อกำหนดภาษาไทย**
+
+ชื่อผลิตภัณฑ์: **PUI89 AI Global SUV** (ไม่ต้องใส่ PUI89 ซ้ำ) AI ทำหน้าที่ให้คำแนะนำแก่ผู้ขับขี่เท่านั้น รวมถึงการรับรู้ความเสี่ยงน้ำท่วมและน้ำบนถนน หากไม่ทราบความลึก กระแสน้ำ สภาพถนน หรือความปลอดภัยของเส้นทาง ให้แจ้งว่า **ไม่ทราบ — ห้ามเข้า** และไม่มีการควบคุมพวงมาลัย คันเร่ง หรือเบรกอัตโนมัติ
+
+**Portfolio boundary:** PUI89 has exactly six active products. Shared AI Core is infrastructure, not a product. Extreme Flood Rescue AI is inactive as a standalone product; preserve historical records but do not present it as an active product.
