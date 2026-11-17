@@ -12,9 +12,9 @@
 
 **Key capabilities and design priorities:** HEV-first powertrain research; road and weather context; flood-risk and route awareness; vehicle-health and hazard advisory concepts; driver remains in control.
 
-**Current development stage:** Early software and research foundation.
+**Evidence maturity:** **Implemented** — an early software-only safety and contract foundation is documented. This label describes repository software work only; it does not mean the physical vehicle is implemented.
 
-**Portfolio readiness baseline:** **29%** — last recorded baseline dated **7 November 2026**. This is a historical, evidence-based portfolio readiness snapshot, not a live progress feed or a claim of physical product completion. Refresh it only from the dated PUI89 portfolio register.
+**Portfolio status:** No numeric commercial-readiness percentage is published. See the [PUI89 Development Observatory](https://pui89.github.io/) for the current evidence label, limitations and next gate.
 
 **Evidence boundary:** No selected vehicle platform, production vehicle, flood-wading capability or autonomous-driving function is claimed.
 
