@@ -263,3 +263,11 @@ This diagram follows the [PUI89 Technical Visual Standard v1.0](https://github.c
 ## Automotive AI Compute & Sensor Architecture v1.0
 
 The Global SUV has a product-specific engineering architecture covering staged automotive compute, sensor strategy, read-only vehicle-data boundaries, driver-distraction controls, test gates and evidence requirements. It is a proposed research architecture only; no vehicle integration or validation is claimed. See [SUV Automotive AI Compute & Sensor Architecture v1.0](docs/SUV_AUTOMOTIVE_AI_COMPUTE_AND_SENSOR_ARCHITECTURE_V1.0.md).
+
+## Quality engineering and evidence
+
+This repository's nine-part quality-engineering adoption record is [PUI89_QUALITY_ENGINEERING_ADOPTION.md](docs/PUI89_QUALITY_ENGINEERING_ADOPTION.md). Product failure scenarios are maintained in [quality/failure-scenarios.json](quality/failure-scenarios.json).
+
+**Current product-specific boundary:** Flood-risk awareness is advisory only. If water depth, current, road condition or passability is unknown, show “unknown — do not enter”. No autonomous steering, throttle, braking or flood-wading capability is claimed.
+
+**Local scenario-contract check:** `python -m unittest discover -s tests -p test_pui89_failure_scenarios.py -v`. Passing this check verifies the scenario data contract only; it does not prove model performance, end-to-end simulation, physical safety or field validation.
