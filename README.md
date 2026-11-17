@@ -6,6 +6,8 @@
 
 **Intelligent mobility. Global-market thinking. Evidence-led safety.**
 
+**Official product identity:** PUI89 AI Global SUV — a medium-size, five-door SUV concept developed with global-market requirements in mind.
+
 PUI89 AI Global SUV is a software-first vehicle-intelligence research concept for a **medium-size, five-door SUV**. The design direction prioritizes practical passenger and cargo space, all-weather usability, global-market adaptability and risk-aware driver support. It is not a small city car.
 
 ## Product direction
