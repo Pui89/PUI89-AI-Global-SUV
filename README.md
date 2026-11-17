@@ -95,7 +95,7 @@ Software-first driver-awareness research using removable, non-invasive sensors a
 
 **First evidence gate:** permission-cleared road-scene datasets, defined classes and operating context, held-out evaluation, missed/false detection analysis, uncertainty and stale-data tests, alert-usability review, and measured resource use on the intended compute target.
 
-**Not established:** road-tested perception, production automotive capability, autonomous driving, collision prevention, automatic steering/throttle/braking, or validated flood-wading ability. The driver remains in control; no PTI actuation path is authorised. See the [shared PTI specification](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/perception/PUI89_PERCEPTION_TASK_INTELLIGENCE_V1.0.md) (maintainer repository access required).
+**Not established:** road-tested perception, production automotive capability, autonomous driving, collision prevention, automatic steering/throttle/braking, or validated flood-wading ability. The driver remains in control; no PTI actuation path is authorised. See the [public Shared AI Core overview](https://pui89.github.io/ai-core.htmlperception/PUI89_PERCEPTION_TASK_INTELLIGENCE_V1.0.md) (maintainer repository access required).
 
 ## Six Core Intelligence Groups — Product Allocation
 
@@ -179,7 +179,7 @@ This repository is a research and software foundation. It does **not** contain a
 - [Thai project page](https://pui89.github.io/ai-global-suv-th.html)
 - [PUI89 portfolio](https://pui89.github.io/)
 - [Website source](https://github.com/Pui89/Pui89.github.io)
-- [PUI89 Shared AI Core](https://github.com/Pui89/PUI89-Shared-AI-Core)
+- [PUI89 Shared AI Core public overview](https://pui89.github.io/ai-core.html)
 
 ## License
 
@@ -257,7 +257,7 @@ This product follows the proposed [PUI89 World-Class Engineering Standard v1.0](
 
 *Advisory-only concept. No autonomous steering, throttle, braking, flood-wading, crash or fire-protection capability is claimed.*
 
-This diagram follows the [PUI89 Technical Visual Standard v1.0](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/PUI89_TECHNICAL_VISUAL_STANDARD_V1.0.md). It explains the proposed product-specific AI workflow and does not imply unverified implementation or physical capability.
+This diagram follows the [public PUI89 technical architecture overview](https://pui89.github.io/ai-core.htmlPUI89_TECHNICAL_VISUAL_STANDARD_V1.0.md). It explains the proposed product-specific AI workflow and does not imply unverified implementation or physical capability.
 
 
 ## Automotive AI Compute & Sensor Architecture v1.0
