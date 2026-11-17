@@ -4,6 +4,23 @@
 
 *Concept artwork only. It is not production CAD, a selected vehicle platform, a functioning prototype, or proof of flood, fire, crash, or autonomous-driving capability.*
 
+## Product at a glance
+
+**Product direction:** A medium-size, five-door SUV concept with a software-first, advisory AI architecture.
+
+**User value:** Explore driver-support intelligence for global-market mobility, with context-aware road-risk awareness and human control.
+
+**Key capabilities and design priorities:** HEV-first powertrain research; road and weather context; flood-risk and route awareness; vehicle-health and hazard advisory concepts; driver remains in control.
+
+**Current development stage:** Early software and research foundation.
+
+**Portfolio readiness baseline:** **29%** — last recorded baseline dated **7 November 2026**. This is a historical, evidence-based portfolio readiness snapshot, not a live progress feed or a claim of physical product completion. Refresh it only from the dated PUI89 portfolio register.
+
+**Evidence boundary:** No selected vehicle platform, production vehicle, flood-wading capability or autonomous-driving function is claimed.
+
+**Project links:** [English website](https://pui89.github.io/ai-vehicles.html) · [PUI89 portfolio](https://pui89.github.io/)  
+
+---
 **Intelligent mobility. Global-market thinking. Evidence-led safety.**
 
 **Official product identity:** PUI89 AI Global SUV — a medium-size, five-door SUV concept developed with global-market requirements in mind.
