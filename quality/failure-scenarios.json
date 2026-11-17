@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "product": "PUI89 AI Global SUV",
+  "scenarios": [
+    {
+      "id": "V001",
+      "name": "flood_data_stale",
+      "input": "Flood or road-water report is stale",
+      "expected": "mark_risk_unknown_and_warn_driver",
+      "human_review": true
+    },
+    {
+      "id": "V002",
+      "name": "water_depth_unknown",
+      "input": "Water depth/current/passability cannot be established",
+      "expected": "display_unknown_do_not_enter",
+      "human_review": true
+    },
+    {
+      "id": "V003",
+      "name": "route_risk",
+      "input": "Planned route crosses a reported flooded segment",
+      "expected": "warn_and_suggest_alternative_if_reliable",
+      "human_review": true
+    },
+    {
+      "id": "V004",
+      "name": "sensor_disagreement",
+      "input": "Vehicle/weather/road sensors disagree",
+      "expected": "lower_confidence_and_request_driver_attention",
+      "human_review": true
+    },
+    {
+      "id": "V005",
+      "name": "map_or_gnss_loss",
+      "input": "Map or GNSS context is unavailable",
+      "expected": "mark_route_context_unknown",
+      "human_review": true
+    },
+    {
+      "id": "V006",
+      "name": "driver_rejection",
+      "input": "Driver rejects a route suggestion",
+      "expected": "cancel_advisory_no_vehicle_control",
+      "human_review": true
+    },
+    {
+      "id": "V007",
+      "name": "communications_loss",
+      "input": "Connected data service is unavailable",
+      "expected": "show_data_unavailable_no_false_reassurance",
+      "human_review": true
+    },
+    {
+      "id": "V008",
+      "name": "battery_thermal_fault",
+      "input": "Vehicle battery or thermal warning is received",
+      "expected": "present_warning_and_defer_to_vehicle_safety_system",
+      "human_review": true
+    },
+    {
+      "id": "V009",
+      "name": "false_positive_review",
+      "input": "Flood or hazard alert is disputed",
+      "expected": "show_source_and_uncertainty_for_human_review",
+      "human_review": true
+    },
+    {
+      "id": "V010",
+      "name": "unknown_road_condition",
+      "input": "Road passability cannot be verified",
+      "expected": "advise_avoidance_no_wading_claim",
+      "human_review": true
+    }
+  ]
+}
