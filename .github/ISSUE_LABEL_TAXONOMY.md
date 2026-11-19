@@ -1,4 +1,4 @@
-# PUI89 AI Global SUV — Issue label taxonomy
+# PUI89 AI Robot Car — Issue label taxonomy
 
 This file documents recommended labels; it does not create GitHub labels automatically. Create and verify repository labels separately before any automation depends on them.
 
