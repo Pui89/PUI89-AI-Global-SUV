@@ -1,10 +1,10 @@
-# PUI89 AI Global SUV Architecture
+# PUI89 AI Robot Car Architecture
 
 **Status:** Software-only research architecture. Simulation first; no physical vehicle control or validated vehicle integration.
 
 ## Product architecture
 
-Medium-size, five-door global-market SUV concept with HEV-first powertrain research. Passenger/cargo packaging, chassis, dimensions, mass, occupant capacity and hybrid subtype remain open engineering studies. No numerical vehicle specification is approved by this architecture document.
+vehicle concept with body style and dimensions not yet selected concept with powertrain-neutral powertrain research. Passenger/cargo packaging, chassis, dimensions, mass, occupant capacity and hybrid subtype remain open engineering studies. No numerical vehicle specification is approved by this architecture document.
 
 ## Intelligence pipeline
 
