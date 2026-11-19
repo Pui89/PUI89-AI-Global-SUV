@@ -1,13 +1,13 @@
-# Implementation Status — PUI89 AI Global SUV
+# Implementation Status — PUI89 AI Robot Car
 
 Last updated: 2026-11-13  
-Repository: Pui89/PUI89-AI-Global-SUV  
-Official project identity: PUI89 AI Global SUV  
+Repository: Pui89/PUI89-AI-Global-vehicle  
+Official project identity: PUI89 AI Robot Car  
 Overall status: early-stage software and research foundation; vehicle concept and engineering requirements are not a built or validated product.
 
 ## Verified software foundation
 
-- `docs/MASTER_ENGINEERING_SPEC_V2.md`: prior hybrid-SUV engineering direction, payload study target, flood-resilience design intent, global-market gates and unresolved decisions. Treat all numerical targets as unverified study inputs until reconciled and approved.
+- `docs/MASTER_ENGINEERING_SPEC_V2.md`: prior hybrid-vehicle engineering direction, payload study target, flood-resilience design intent, global-market gates and unresolved decisions. Treat all numerical targets as unverified study inputs until reconciled and approved.
 - `docs/AI_CAR_MODULE_CATALOG.md`: proposed vehicle-intelligence modules with inputs, advisory outputs and failure cases.
 - `pui89_car/intelligence.py`: deterministic, dependency-free signal-to-advisory baseline; preserves unknown, stale, conflicting and low-quality signal states.
 - `pui89_car/shared_contract_adapter.py`: initial serialization adapter for Shared AI Core contracts.
@@ -24,7 +24,7 @@ Overall status: early-stage software and research foundation; vehicle concept an
 - Approved vehicle datasets and real sensor integration.
 - Driving-scenario or vehicle-dynamics simulation integration.
 - Final HEV architecture, supplier, vehicle platform or powertrain selection.
-- Approved medium-size SUV dimensions, curb mass, GVWR/GAWR, payload calculations or physical packaging validation.
+- Approved vehicle concept dimensions, curb mass, GVWR/GAWR, payload calculations or physical packaging validation.
 - Global-market homologation, crash tests or regional compliance.
 - Flood ingress/wading tests, fire containment, thermal propagation, battery safety or post-crash tests.
 - Predictive model validated on longitudinal vehicle data.
@@ -36,7 +36,7 @@ Overall status: early-stage software and research foundation; vehicle concept an
 2. Expand adapter tests for malformed input, timestamps, conflicting signals and unknown states.
 3. Add reproducible benchmark outputs and CPU/RAM measurements without paid services or unapproved downloads.
 4. Create synthetic flood-risk, unknown-depth, fast-moving-water, smoke, thermal-event and sensor-failure scenarios.
-5. Conduct qualified SUV packaging, hybrid powertrain, fire/flood resilience and target-market compliance studies before hardware work.
+5. Conduct qualified vehicle packaging, hybrid powertrain, fire/flood resilience and target-market compliance studies before hardware work.
 
 ## Status vocabulary
 
