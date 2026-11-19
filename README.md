@@ -296,3 +296,21 @@ This diagram follows the [PUI89 Technical Visual Standard v1.0](https://github.c
 ## Automotive AI Compute & Sensor Architecture v1.0
 
 The Global SUV has a product-specific engineering architecture covering staged automotive compute, sensor strategy, read-only vehicle-data boundaries, driver-distraction controls, test gates and evidence requirements. It is a proposed research architecture only; no vehicle integration or validation is claimed. See [SUV Automotive AI Compute & Sensor Architecture v1.0](docs/SUV_AUTOMOTIVE_AI_COMPUTE_AND_SENSOR_ARCHITECTURE_V1.0.md).
+
+
+## Everyday Intelligence, Simple Operation & On-Device Alerts
+
+**Design principle:** AI for Everyone. Easy to Use. Safe to Trust. Ready for the Real World.
+
+PUI89 AI Global SUV follows the PUI89 shared design direction: make everyday life easier through intelligence, not make people learn complicated technology.
+
+- **Simple physical operation:** clear buttons and a safe, bounded start workflow. Basic local use should not require an app, smartphone pairing or internet where technically feasible. Voice is optional.
+- **Multi-Perception Intelligence (MPI):** select mission-appropriate vision, audio, touch/contact, spatial, motion, thermal and environmental sensing. Chemical sensing or material analysis is only for specific validated instruments; these are not universal human-equivalent senses.
+- **On-device text alerts:** a readable physical display is a mandatory design requirement. Show plain-language Information, Warning and Emergency messages, what happened, uncertainty and the next safe step. Keep local alert history. Optional mobile notifications supplement, never replace, device alerts.
+- **Accessibility:** large readable text, clear controls, high contrast, optional audio, plain language and adjustable preferences.
+- **Safety and reliability:** preserve human authority, independent emergency/protective stops, safe hold, fault reporting, uncertainty/abstention and controlled recovery. No silent restart into hazardous action.
+- **Offline-first essentials:** local functions and alerts should continue without internet where technically possible and supported by the final hardware.
+
+- **Vehicle authority:** driver/rider remains in control. These requirements do not authorise autonomous steering, throttle or braking; alerts must be glanceable and non-distracting.
+
+**Shared specification:** [PUI89 Everyday Intelligence & Multi-Perception Standard v1.0](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/interaction/PUI89_EVERYDAY_INTELLIGENCE_MPI_STANDARD_V1.0.md). These are design requirements, not claims that displays, sensors, offline operation, animal recognition or physical functions are already implemented or validated.
