@@ -19,7 +19,7 @@
 
 ---
 
-![PUI89 AI Robot Car concept artwork — medium-size vehicle concept with advisory-only AI awareness overlays](assets/images/pui89-ai-global-vehicle-concept.svg)
+![PUI89 AI Robot Car concept artwork — vehicle-intelligence concept diagram; body style not selected](assets/images/pui89-ai-robot-car-concept.svg)
 
 *Concept artwork only. It is not production CAD, a selected vehicle platform, a functioning prototype, or proof of flood, fire, crash, or autonomous-driving capability.*
 
@@ -51,16 +51,16 @@ PUI89 AI Robot Car is a software-first vehicle-intelligence research concept for
 | Dimension | Current direction | Evidence boundary |
 |---|---|---|
 | Official project name | **PUI89 AI Robot Car** | Confirmed project identity |
-| Vehicle class | vehicle concept, five-door | Design direction; no production vehicle selected |
-| Initial powertrain study | **powertrain-neutral** (full hybrid preferred for initial evaluation) | No supplier, drivetrain or vehicle platform selected |
+| Vehicle class | **Not selected** — body style, dimensions and seating remain open | No production vehicle or platform selected |
+| Powertrain | **Not selected** — evaluate options only after requirements are defined | No drivetrain, supplier or platform selected |
 | AI architecture | PUI89 Shared AI Core | Software-first; advisory only |
 | Market intent | Global-market requirements and regional adaptation | No market homologation or regulatory compliance claimed |
 | Environment | Flood-risk awareness, route avoidance, all-weather hazard context | No flood wading, waterproofing or fire-resistance capability claimed |
 | Human authority | Human driver retains control | No autonomous steering, throttle, braking or propulsion |
 
-## powertrain-neutral, powertrain-neutral AI
+## Powertrain-neutral AI architecture
 
-Full Hybrid (HEV) is the one of several powertrain architectures that may be evaluated; no priority is selected. It offers electric-motor assistance without requiring routine external plug-in charging. This is a research priority, not a final drivetrain decision or a claim of fuel-economy performance.
+No powertrain type is currently selected. The PUI89 AI Core should remain independent of propulsion type. Any future comparison of petrol/ICE, HEV, PHEV or BEV options must be based on verified vehicle specifications, user requirements, safety, service access, warranty, lifecycle cost and regional conditions. No powertrain priority or fuel-economy claim is approved.
 
 Keep the PUI89 AI Core independent of propulsion type. Versioned, read-only vehicle-context adapters may support petrol/ICE, HEV, PHEV and BEV information without creating separate AI stacks. Compare specific vehicles and markets using verified specifications, safety ratings, service access, warranty, lifecycle cost and independent evidence. Do not treat mild hybrid (MHEV) as equivalent to full hybrid (HEV).
 
