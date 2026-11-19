@@ -1,7 +1,7 @@
 {
   "profile_version": "0.1.0",
-  "project_id": "ai-global-suv",
-  "project_name": "PUI89 AI Global SUV",
+  "project_id": "ai-global-vehicle",
+  "project_name": "PUI89 AI Robot Car",
   "integration_status": "profile_added_runtime_integration_pending",
   "shared_core": {
     "repository": "Pui89/PUI89-Shared-AI-Core",
