@@ -1,7 +1,7 @@
 # PUI89 AI Robot Car — Automotive AI Compute & Sensor Architecture v1.0
 
 **Status:** Proposed engineering architecture — not implemented, installed, vehicle-integrated, road-tested or validated.  
-**Scope:** Software-first, driver-assistance and vehicle-context research for a medium-size, five-door global vehicle concept.  
+**Scope:** Software-first, driver-assistance and vehicle-context research for a global vehicle concept; body style, dimensions and platform not yet selected.  
 **Safety boundary:** Human-driver-first, advisory-only. No commands to steering, throttle, braking, propulsion, high-voltage isolation or battery management.
 
 ## 1. Why this product-specific architecture exists
