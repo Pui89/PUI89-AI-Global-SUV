@@ -6,9 +6,9 @@ A software-first vehicle-intelligence research concept for a vehicle concept wit
 
 ## Vehicle and powertrain strategy
 
-**Vehicle class:** vehicle concept. The project is no longer a compact/small city-car concept.
+**Vehicle class:** vehicle concept. The project is no longer a compact/vehicle concept with body style and dimensions not yet selected.
 
-**Powertrain priority: powertrain-neutral.** Full Hybrid (HEV) is the preferred first architecture to evaluate, subject to vehicle-specific, market-specific and engineering evidence. No supplier, production platform or final drivetrain has been selected.
+**Powertrain selection: not yet selected.** No powertrain architecture is currently preferred or selected. Any future comparison must follow user requirements, safety, cost and regional engineering evidence. No supplier, production platform or final drivetrain has been selected.
 
 1. Study full HEV first; use petrol/ICE as a benchmark and preserve PHEV/BEV compatibility.
 2. Keep the PUI89 AI Core propulsion-neutral through versioned, read-only vehicle-context adapters.
