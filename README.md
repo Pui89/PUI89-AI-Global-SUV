@@ -367,3 +367,30 @@ These are design requirements and message examples, not claims that the display,
 **ข้อแตกต่างด้านวิศวกรรม:** ทีมพัฒนาและเจ้าหน้าที่บริการที่ได้รับอนุญาตยังใช้เครื่องมือทางวิศวกรรมได้ แต่ลูกค้าทั่วไปไม่จำเป็นต้องใช้เครื่องมือเหล่านั้น
 
 **ขอบเขตหลักฐาน:** เป็นข้อกำหนดด้านการออกแบบ ไม่ใช่หลักฐานว่าระบบควบคุม หน้าจอ การทำงานออฟไลน์ หรือฮาร์ดแวร์ได้รับการติดตั้ง ทดสอบ หรือรับรองแล้ว.
+
+
+## On-Device Warning & Alert Experience
+
+**Design requirement:** essential warnings and system status must be shown directly on the product's integrated display or appropriate local operator station. No smartphone app, account, pairing, internet connection or remote service may be required for critical alerts, safe stopping or essential recovery.
+
+**Severity:** use four levels — **Information, Advisory, Warning and Emergency**. Each alert should state what happened, affected area/subsystem, time and source, confidence/uncertainty, recommended safe action, and whether human acknowledgement is needed. Missing, stale or conflicting evidence must not be presented as confirmed or safe.
+
+**suv warning scope:** Road hazards and collision-risk advisories; weather and verified flood-risk context; unknown water depth, current or passability; supported read-only vehicle-health, battery or thermal anomalies; stale, missing or conflicting sensor/vehicle data.
+
+**Product safety boundary:** Warnings must be glanceable and non-distracting. If flood depth, current or passability is unknown, show “UNKNOWN — DO NOT ENTER.” The driver retains full steering, throttle and braking control; AI is advisory only.
+
+**Local resilience:** keep active alerts and timestamped history locally, including acknowledgement and cleared state. Support Thai and English where the interface supports both. Essential alerts should continue during internet/cloud loss where technically feasible; optional mobile notifications only mirror local alerts. Report sensor obstruction, stale data, communication loss and internal faults. Define a safe response; never silently continue or automatically restart hazardous operation. Provide local acknowledge, inspect, pause/stop and documented recovery paths. Never advise bypassing an interlock or protective stop.
+
+### ภาษาไทย — การแจ้งเตือนบนตัวผลิตภัณฑ์
+
+ต้องแสดงคำเตือนและสถานะสำคัญผ่านหน้าจอที่ติดตั้งกับผลิตภัณฑ์หรือสถานีควบคุมในพื้นที่ที่เหมาะสม ห้ามบังคับให้ใช้แอป บัญชีผู้ใช้ การจับคู่โทรศัพท์ อินเทอร์เน็ต หรือบริการระยะไกล เพื่อรับคำเตือนสำคัญ หยุดระบบอย่างปลอดภัย หรือกู้คืนการใช้งานพื้นฐาน
+
+กำหนดระดับความรุนแรง 4 ระดับ ได้แก่ **ข้อมูล (Information), คำแนะนำ (Advisory), คำเตือน (Warning) และฉุกเฉิน (Emergency)** แต่ละข้อความควรระบุเหตุการณ์ ระบบที่เกี่ยวข้อง เวลาและแหล่งข้อมูล ความเชื่อมั่น/ความไม่แน่นอน การดำเนินการที่ปลอดภัย และการยืนยันจากมนุษย์เมื่อจำเป็น ห้ามแสดงข้อมูลที่ขาดหาย ล้าสมัย หรือขัดแย้งกันว่าเป็นข้อเท็จจริงหรือปลอดภัย
+
+**ขอบเขตคำเตือนเฉพาะผลิตภัณฑ์:** อันตรายบนถนนและความเสี่ยงการชน สภาพอากาศและบริบทน้ำท่วมที่ตรวจสอบได้ ความลึกของน้ำ กระแสน้ำ หรือความสามารถในการผ่านที่ยังไม่ทราบ ความผิดปกติของรถจากข้อมูลอ่านอย่างเดียว และข้อมูลเซนเซอร์/รถที่ล้าสมัย ขาดหาย หรือขัดแย้งกัน
+
+**ขอบเขตความปลอดภัย:** คำเตือนต้องอ่านได้รวดเร็วและไม่รบกวนสมาธิ หากไม่ทราบความลึกของน้ำ กระแสน้ำ หรือความสามารถในการผ่าน ให้แสดง “ไม่ทราบ — ห้ามเข้า” ผู้ขับขี่ยังคงควบคุมพวงมาลัย คันเร่ง และเบรกทั้งหมด AI ให้คำแนะนำเท่านั้น
+
+เก็บคำเตือนที่ยังทำงานและประวัติเหตุการณ์พร้อมเวลาไว้ในระบบภายใน รองรับภาษาไทยและอังกฤษตามความสามารถของส่วนติดต่อ คำเตือนสำคัญควรทำงานได้เมื่ออินเทอร์เน็ตหรือคลาวด์ขัดข้องเท่าที่เทคโนโลยีรองรับ การแจ้งเตือนผ่านมือถือเป็นเพียงช่องทางเสริม ต้องรายงานเซนเซอร์ถูกบัง ข้อมูลล้าสมัย การสื่อสารขาดหาย และความขัดข้อง พร้อมกำหนดการตอบสนองที่ปลอดภัยและห้ามเริ่มการทำงานเสี่ยงต่อโดยอัตโนมัติ ผู้ใช้ต้องรับทราบ ตรวจสอบ หยุดหรือพักระบบ และกู้คืนจากส่วนควบคุมในพื้นที่ได้ ห้ามแนะนำให้ข้ามระบบป้องกัน
+
+**Evidence status:** design requirement only; no display, alert hardware, offline behaviour or safety performance is claimed as implemented or validated. Conformance remains **Unknown / Not Tested** until traceable evidence exists.
