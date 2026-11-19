@@ -1,10 +1,10 @@
-# Initial Safety Case — PUI89 AI Global SUV
+# Initial Safety Case — PUI89 AI Robot Car
 
 **Status:** Preliminary design record only. Not a certification, safety approval or proof of vehicle safety.
 
 ## Safety objective
 
-The initial system provides software-only advisory outputs for a medium-size SUV concept. It must not command steering, throttle, brakes, propulsion, high-voltage isolation or any physical vehicle actuator.
+The initial system provides software-only advisory outputs for a vehicle concept concept. It must not command steering, throttle, brakes, propulsion, high-voltage isolation or any physical vehicle actuator.
 
 ## Initial hazard register
 
