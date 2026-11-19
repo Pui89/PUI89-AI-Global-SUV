@@ -1,12 +1,12 @@
 {
   "profile_version": "0.1.0",
-  "project_id": "ai-autonomous-robot-car",
+  "project_id": "ai-global-suv",
   "project_name": "PUI89 AI Global SUV",
   "integration_status": "profile_added_runtime_integration_pending",
   "shared_core": {
     "repository": "Pui89/PUI89-Shared-AI-Core",
     "pull_request": "https://github.com/Pui89/PUI89-Shared-AI-Core/pull/26",
-    "release_status": "draft_not_merged"
+    "release_status": "merged"
   },
   "intended_use": "Advisory road-scene geometry, obstacle-relative position and scene-change evidence.",
   "recommended_modalities": [

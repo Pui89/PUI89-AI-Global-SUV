@@ -17,11 +17,7 @@ Advisory road-scene geometry, obstacle-relative position and scene-change eviden
 - Vehicle dynamics, weather, calibration and road testing remain unvalidated.
 
 ## Shared implementation dependency
-The common software interfaces are being developed in the
-[PUI89 Shared AI Core Spatial Intelligence PR #26](https://github.com/Pui89/PUI89-Shared-AI-Core/pull/26).
-That pull request is still a draft and has not been merged. This file records
-the project-specific integration contract; it does not mean the project
-currently imports or executes the shared spatial module.
+The Spatial Intelligence Engine v0.1 was merged into the private Shared AI Core on 10 November 2026 ([PR #26](https://github.com/Pui89/PUI89-Shared-AI-Core/pull/26)). This file records the project-specific integration contract; it does not mean the project currently imports or executes the shared spatial module. The Shared AI Core is private and requires maintainer access.
 
 Before runtime integration, require lawful sensor/data provenance, calibrated
 coordinate frames, synchronized timestamps, sensor-health checks, uncertainty
