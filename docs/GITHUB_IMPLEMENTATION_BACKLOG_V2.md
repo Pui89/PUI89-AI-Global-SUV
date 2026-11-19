@@ -1,4 +1,4 @@
-# PUI89 AI Global SUV — GitHub Implementation Backlog v2
+# PUI89 AI Robot Car — GitHub Implementation Backlog v2
 
 **Status:** Proposed backlog. Issues have not been created automatically.  
 **Working mode:** Software-first, CPU-only, open-source-first, no-cost by default.  
