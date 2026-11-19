@@ -1,12 +1,12 @@
-# PUI89 AI Global SUV — Automotive AI Compute & Sensor Architecture v1.0
+# PUI89 AI Robot Car — Automotive AI Compute & Sensor Architecture v1.0
 
 **Status:** Proposed engineering architecture — not implemented, installed, vehicle-integrated, road-tested or validated.  
-**Scope:** Software-first, driver-assistance and vehicle-context research for a medium-size, five-door global SUV concept.  
+**Scope:** Software-first, driver-assistance and vehicle-context research for a medium-size, five-door global vehicle concept.  
 **Safety boundary:** Human-driver-first, advisory-only. No commands to steering, throttle, braking, propulsion, high-voltage isolation or battery management.
 
 ## 1. Why this product-specific architecture exists
 
-The Global SUV is a distinct PUI89 product, not merely a generic voice-assistant configuration. Its engineering work must explicitly address automotive compute constraints, sensor placement and calibration, vehicle electrical conditions, read-only data interfaces, driver distraction, thermal management, vibration, privacy and regional regulatory differences.
+The Global vehicle is a distinct PUI89 product, not merely a generic voice-assistant configuration. Its engineering work must explicitly address automotive compute constraints, sensor placement and calibration, vehicle electrical conditions, read-only data interfaces, driver distraction, thermal management, vibration, privacy and regional regulatory differences.
 
 The architecture reuses PUI89 Shared AI Core contracts and intelligence groups. It does not create a separate AI platform or duplicate the Shared AI Core.
 
@@ -59,7 +59,7 @@ Use versioned, vehicle-specific adapters. Begin with synthetic fixtures and publ
 
 ## 6. Product-specific intelligence allocation
 
-| Intelligence group | SUV-specific use | Boundary |
+| Intelligence group | vehicle-specific use | Boundary |
 |---|---|---|
 | Vision Intelligence | Road-scene and supported road-user perception | No collision-prevention guarantee |
 | Audio Intelligence | Limited speech interface and selected cabin/external sound cues | No guaranteed siren, horn or emergency detection |
