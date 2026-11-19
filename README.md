@@ -423,3 +423,11 @@ Each record should include, where available: unique incident ID; local date/time
 **ขอบเขตหลักฐานเฉพาะผลิตภัณฑ์:** Road/vehicle advisories, collision-risk observations, weather and verified flood-context events, unknown water depth, sensor/data-quality faults and supported read-only vehicle-health anomalies. Image review only while safely parked; AI never takes over steering, throttle or braking.
 
 **สถานะหลักฐาน:** ข้อกำหนดการออกแบบเท่านั้น การบันทึกภาพ การจัดเก็บ การค้นหาตามวัน/เดือน การเล่นเสียงย้อนหลัง การรักษาหลักฐาน ความเป็นส่วนตัว และการกู้คืนยังเป็น **Unknown / Not Tested** จนกว่าจะพัฒนาและทดสอบกับผลิตภัณฑ์จริง
+
+## PUI89 Easy Direct Control Standard v1.0 — Proposed
+
+This product follows the shared [PUI89 Easy Direct Control Standard](https://github.com/Pui89/Pui89.github.io/blob/main/docs/PUI89_EASY_DIRECT_CONTROL_STANDARD_V1.0.md). Essential vehicle and AI-status information must be available through physical controls and the vehicle's own display; a smartphone application is never required for driving or essential safety information.
+
+**Proposed driver interface:** clearly identified physical controls for vehicle power/start and normal vehicle stop functions as defined by the vehicle architecture; simple display-accessible AI modes such as Safety Monitoring, Driving Information and Navigation Assistance; and concise visual/audible alerts. Emergency vehicle controls remain governed by the vehicle's independent safety architecture and applicable regulations.
+
+**Operating boundary:** PUI89 AI functions remain advisory. The driver retains control. The AI interface must not provide steering, throttle, braking or propulsion commands. Remote/application features are optional and cannot be the only way to view or acknowledge essential warnings.
