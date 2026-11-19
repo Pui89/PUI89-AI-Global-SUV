@@ -1,5 +1,15 @@
 # PUI89 AI Global SUV
 
+
+## PUI89 Product Philosophy
+
+> **Build what you wish existed as a user.**  
+> **สร้างสิ่งที่คุณอยากให้มีในฐานะผู้ใช้งาน**
+
+Start with the user, then apply engineering to build products that provide practical value in real life. Start with drivers’ and passengers’ real needs: improve awareness of road, weather and vehicle risks while keeping the driver in control.
+
+หลักการคือเริ่มต้นจากผู้ใช้งาน แล้วจึงใช้วิศวกรรมสร้างผลิตภัณฑ์ที่มีประโยชน์ในชีวิตจริง โดยยึดปัญหาและบริบทการใช้งานจริงเป็นหลัก ไม่เพิ่มเทคโนโลยีหรือกล่าวอ้างความสามารถโดยไม่มีเหตุผลและหลักฐานรองรับ。
+
 ## Product and AI system update — 18 November 2026
 
 **Public product summary (EN):** PUI89 AI Global SUV is a medium-size, five-door SUV concept with a software-first, driver-centred AI architecture. HEV is the preferred first powertrain research direction; no production vehicle, donor platform or drivetrain has been selected.
