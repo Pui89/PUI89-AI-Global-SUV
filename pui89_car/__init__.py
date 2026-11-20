@@ -1,1 +1,1 @@
-"""PUI89 AI Global SUV software-only research scaffold."""
+"""PUI89 AI Robot Car software-only research scaffold."""

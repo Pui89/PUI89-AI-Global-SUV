@@ -1,4 +1,7 @@
-# PUI89 AI Global SUV
+# PUI89 AI Robot Car
+
+> **Current identity correction — 20 November 2026:** This product is named PUI89 AI Robot Car, not an SUV. Vehicle body style, dimensions, seating configuration, platform and powertrain are not currently selected. Do not infer or illustrate an SUV or any other unconfirmed body type. All vehicle capabilities remain proposed unless supported by implementation and validation evidence.
+
 
 
 ## PUI89 Product Philosophy
@@ -12,9 +15,9 @@ Start with the user, then apply engineering to build products that provide pract
 
 ## Product and AI system update — 18 November 2026
 
-**Public product summary (EN):** PUI89 AI Global SUV is a medium-size, five-door SUV concept with a software-first, driver-centred AI architecture. HEV is the preferred first powertrain research direction; no production vehicle, donor platform or drivetrain has been selected.
+**Public product summary (EN):** PUI89 AI Robot Car is a vehicle concept with body style and dimensions not yet selected concept with a software-first, driver-centred AI architecture. Powertrain selection remains open and will be evaluated against user needs, safety, cost and regional requirements; no production vehicle, donor platform or drivetrain has been selected.
 
-**เทคโนโลยีและประโยชน์ (TH):** แนวคิด SUV ขนาดกลาง 5 ประตู ใช้ AI ช่วยผู้ขับขี่รับรู้สภาพถนน ผู้ใช้ถนน สิ่งกีดขวาง สภาพอากาศ น้ำบนถนน และข้อมูลความเสี่ยงน้ำท่วมจากแหล่งที่ตรวจสอบได้ รวมถึงข้อมูลสุขภาพรถผ่านช่องทางอ่านอย่างเดียว ช่วยเตือนและเสนอทางเลือก แต่ผู้ขับขี่ยังคงควบคุมรถเอง
+**เทคโนโลยีและประโยชน์ (TH):** แนวคิด vehicle ขนาดกลาง 5 ประตู ใช้ AI ช่วยผู้ขับขี่รับรู้สภาพถนน ผู้ใช้ถนน สิ่งกีดขวาง สภาพอากาศ น้ำบนถนน และข้อมูลความเสี่ยงน้ำท่วมจากแหล่งที่ตรวจสอบได้ รวมถึงข้อมูลสุขภาพรถผ่านช่องทางอ่านอย่างเดียว ช่วยเตือนและเสนอทางเลือก แต่ผู้ขับขี่ยังคงควบคุมรถเอง
 
 **AI technology direction:** computer vision and object tracking; GNSS/IMU; read-only OBD-II or supported vehicle telemetry; edge AI; sensor fusion; map/weather context; uncertainty-aware hazard assessment; route-avoidance advice and driver alerts. The AI Core remains independent of propulsion type.
 
@@ -22,21 +25,21 @@ Start with the user, then apply engineering to build products that provide pract
 
 **Safety boundary:** advisory-only. No autonomous steering, throttle, braking or propulsion. If flood depth, current, road condition or passability is unknown, the system must say “unknown — do not enter.” No flood-wading, waterproofing, crashworthiness, fire protection, production readiness or global regulatory certification is claimed.
 
-**Project website:** [English](https://pui89.github.io/ai-global-suv.html) · [ภาษาไทย](https://pui89.github.io/ai-global-suv-th.html) · [PUI89 portfolio](https://pui89.github.io/)
+**Project website:** [English](https://pui89.github.io/ai-global-vehicle.html) · [ภาษาไทย](https://pui89.github.io/ai-global-vehicle-th.html) · [PUI89 portfolio](https://pui89.github.io/)
 
 ---
 
-![PUI89 AI Global SUV concept artwork — medium-size five-door SUV with advisory-only AI awareness overlays](assets/images/pui89-ai-global-suv-concept.svg)
+![PUI89 AI Robot Car concept artwork — vehicle-intelligence concept diagram; body style not selected](assets/images/pui89-ai-robot-car-concept.svg)
 
 *Concept artwork only. It is not production CAD, a selected vehicle platform, a functioning prototype, or proof of flood, fire, crash, or autonomous-driving capability.*
 
 ## Product at a glance
 
-**Product direction:** A medium-size, five-door SUV concept with a software-first, advisory AI architecture.
+**Product direction:** A vehicle concept with body style and dimensions not yet selected concept with a software-first, advisory AI architecture.
 
 **User value:** Explore driver-support intelligence for global-market mobility, with context-aware road-risk awareness and human control.
 
-**Key capabilities and design priorities:** HEV-first powertrain research; road and weather context; flood-risk and route awareness; vehicle-health and hazard advisory concepts; driver remains in control.
+**Key capabilities and design priorities:** powertrain-neutral powertrain research; road and weather context; flood-risk and route awareness; vehicle-health and hazard advisory concepts; driver remains in control.
 
 **Evidence maturity:** **Implemented** — an early software-only safety and contract foundation is documented. This label describes repository software work only; it does not mean the physical vehicle is implemented.
 
@@ -49,25 +52,25 @@ Start with the user, then apply engineering to build products that provide pract
 ---
 **Intelligent mobility. Global-market thinking. Evidence-led safety.**
 
-**Official product identity:** PUI89 AI Global SUV — a medium-size, five-door SUV concept developed with global-market requirements in mind.
+**Official product identity:** PUI89 AI Robot Car — a vehicle concept with body style and dimensions not yet selected concept developed with global-market requirements in mind.
 
-PUI89 AI Global SUV is a software-first vehicle-intelligence research concept for a **medium-size, five-door SUV**. The design direction prioritizes practical passenger and cargo space, all-weather usability, global-market adaptability and risk-aware driver support. It is not a small city car.
+PUI89 AI Robot Car is a software-first vehicle-intelligence research concept for a **vehicle concept with body style and dimensions not yet selected**. The design direction prioritizes practical passenger and cargo space, all-weather usability, global-market adaptability and risk-aware driver support. It is not a small city car.
 
 ## Product direction
 
 | Dimension | Current direction | Evidence boundary |
 |---|---|---|
-| Official project name | **PUI89 AI Global SUV** | Confirmed project identity |
-| Vehicle class | Medium-size SUV, five-door | Design direction; no production vehicle selected |
-| Initial powertrain study | **HEV-first** (full hybrid preferred for initial evaluation) | No supplier, drivetrain or vehicle platform selected |
+| Official project name | **PUI89 AI Robot Car** | Confirmed project identity |
+| Vehicle class | **Not selected** — body style, dimensions and seating remain open | No production vehicle or platform selected |
+| Powertrain | **Not selected** — evaluate options only after requirements are defined | No drivetrain, supplier or platform selected |
 | AI architecture | PUI89 Shared AI Core | Software-first; advisory only |
 | Market intent | Global-market requirements and regional adaptation | No market homologation or regulatory compliance claimed |
 | Environment | Flood-risk awareness, route avoidance, all-weather hazard context | No flood wading, waterproofing or fire-resistance capability claimed |
 | Human authority | Human driver retains control | No autonomous steering, throttle, braking or propulsion |
 
-## HEV-first, powertrain-neutral AI
+## Powertrain-neutral AI architecture
 
-Full Hybrid (HEV) is the preferred first powertrain architecture to study. It offers electric-motor assistance without requiring routine external plug-in charging. This is a research priority, not a final drivetrain decision or a claim of fuel-economy performance.
+No powertrain type is currently selected. The PUI89 AI Core should remain independent of propulsion type. Any future comparison of petrol/ICE, HEV, PHEV or BEV options must be based on verified vehicle specifications, user requirements, safety, service access, warranty, lifecycle cost and regional conditions. No powertrain priority or fuel-economy claim is approved.
 
 Keep the PUI89 AI Core independent of propulsion type. Versioned, read-only vehicle-context adapters may support petrol/ICE, HEV, PHEV and BEV information without creating separate AI stacks. Compare specific vehicles and markets using verified specifications, safety ratings, service access, warranty, lifecycle cost and independent evidence. Do not treat mild hybrid (MHEV) as equivalent to full hybrid (HEV).
 
@@ -124,7 +127,7 @@ Software-first driver-awareness research using removable, non-invasive sensors a
 
 ## Perception & Task Intelligence (PTI)
 
-**Role in this product:** provide driver-centred road and vehicle-context awareness for the SUV concept. PTI is the shared PUI89 perception-and-task framework; the capabilities below are intended research and evaluation tasks, not production vehicle features.
+**Role in this product:** provide driver-centred road and vehicle-context awareness for the vehicle concept. PTI is the shared PUI89 perception-and-task framework; the capabilities below are intended research and evaluation tasks, not production vehicle features.
 
 **Priority perception tasks**
 - Check camera visibility, image quality, sensor availability and observation freshness.
@@ -151,7 +154,7 @@ PUI89 uses six shared intelligence groups across its six active products. This p
 - Action & Reaction Intelligence — task planning, bounded proposals, event response, prediction, recovery and escalation.
 - Safety & Control Intelligence — independent permissions, operating limits, verification, human approval, fault handling, safe hold and emergency-stop boundaries.
 
-### PUI89 AI Global SUV capability allocation
+### PUI89 AI Robot Car capability allocation
 
 - **Vision:** Road users, lanes, signs, road edges, cabin occupancy and hazard cues.
 - **Audio:** Cabin speech assistant, sirens/horns, alerts and acoustic vehicle diagnostics.
@@ -166,7 +169,7 @@ PUI89 uses six shared intelligence groups across its six active products. This p
 
 ### Six-intelligence concept visual
 
-![PUI89 AI Global SUV six-group AI architecture concept](docs/images/suv-six-intelligence-concept.svg)
+![PUI89 AI Robot Car six-group AI architecture concept](docs/images/vehicle-six-intelligence-concept.svg)
 
 *Concept diagram only: it illustrates intended software intelligence domains, not a built product, installed model stack, integrated sensor suite or validated capability.*
 
@@ -190,7 +193,7 @@ Existing repository materials include a deterministic signal-to-advisory baselin
 ### Next engineering gates
 
 1. Align adapter contracts with the canonical PUI89 Shared AI Core and retain conformance evidence.
-2. Define medium-size SUV user, packaging, passenger, cargo and global-market requirements without presenting targets as specifications.
+2. Define vehicle concept user, packaging, passenger, cargo and global-market requirements without presenting targets as specifications.
 3. Build synthetic flood-risk, fast-moving-water, unknown-depth, smoke, thermal-event and sensor-failure scenarios.
 4. Evaluate transparent baselines, false alerts, missed hazards, stale-data rejection and uncertainty behaviour.
 5. Complete qualified automotive, hybrid-powertrain, battery, fire-safety, cybersecurity and regulatory reviews before any hardware integration.
@@ -214,12 +217,12 @@ PUI89 prioritises open-source software, transparent licensing, reproducible work
 
 ## Current truth and limitations
 
-This repository is a research and software foundation. It does **not** contain a functioning SUV, selected production platform, validated drivetrain, verified sensor layout, production CAD/BOM, real-world flood or fire protection, autonomous-driving capability, road test or certified safety system. Concept art is illustrative only. All physical capabilities remain subject to engineering and independent validation.
+This repository is a research and software foundation. It does **not** contain a functioning vehicle, selected production platform, validated drivetrain, verified sensor layout, production CAD/BOM, real-world flood or fire protection, autonomous-driving capability, road test or certified safety system. Concept art is illustrative only. All physical capabilities remain subject to engineering and independent validation.
 
 ## Project links
 
-- [English project page](https://pui89.github.io/ai-global-suv.html)
-- [Thai project page](https://pui89.github.io/ai-global-suv-th.html)
+- [English project page](https://pui89.github.io/ai-global-vehicle.html)
+- [Thai project page](https://pui89.github.io/ai-global-vehicle-th.html)
 - [PUI89 portfolio](https://pui89.github.io/)
 - [Website source](https://github.com/Pui89/Pui89.github.io)
 - [PUI89 Shared AI Core](https://github.com/Pui89/PUI89-Shared-AI-Core)
@@ -234,7 +237,7 @@ Apache License 2.0. See [LICENSE](LICENSE). Third-party images, datasets, model 
 
 **Indicative one-unit engineering prototype planning range: ฿100,000–฿350,000 (THB).**
 
-**Included at a planning level:** An AI compute and sensor-integration prototype using an existing compatible test vehicle or bench rig. Purchase of a donor SUV and vehicle certification are excluded.
+**Included at a planning level:** An AI compute and sensor-integration prototype using an existing compatible test vehicle or bench rig. Purchase of a donor vehicle and vehicle certification are excluded.
 
 **Estimate status:** preliminary internal planning estimate only; not a supplier quotation, purchase commitment, verified bill of materials, fixed project budget or claim that a prototype exists. The range depends on final requirements, component selection, non-Chinese-origin supplier availability, compatibility, import/shipping costs and test scope. Obtain current written quotations and verify country of manufacture/origin, exact model/part number, specifications, warranty and lead time before any procurement.
 
@@ -266,7 +269,7 @@ Apache License 2.0. See [LICENSE](LICENSE). Third-party images, datasets, model 
 
 **Prototype boundary:** the allowance is for a controlled engineering prototype, not a certified commercial product or production-ready system. It excludes labour, research salaries, facilities, VAT/tax, import duties, freight/insurance unless explicitly quoted, certification, production tooling, mass production, maintenance and contingency. No purchase, download, installation or supplier commitment is authorised by this documentation.
 
-## Shared Interaction Intelligence — PUI89 AI Global SUV
+## Shared Interaction Intelligence — PUI89 AI Robot Car
 
 The proposed driver-assistance interaction profile may provide:
 
@@ -277,9 +280,9 @@ The proposed driver-assistance interaction profile may provide:
 
 **Driver authority:** voice is an information interface only. It must not issue autonomous steering, throttle, braking or propulsion commands. Safety-critical alerts must be prioritised, understandable and tested for distraction; the human driver retains control.
 
-**Recommended model candidates for AI Global SUV (not approved or integrated):**
+**Recommended model candidates for AI Robot Car (not approved or integrated):**
 
-| Model/tool | Role in SUV interaction | Status |
+| Model/tool | Role in vehicle interaction | Status |
 |---|---|---|
 | [openai/whisper-small](https://huggingface.co/openai/whisper-small) | Speech-to-text for limited navigation/context requests; requires in-cabin noise and distraction evaluation | PENDING_REVIEW |
 | [hexgrad/Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) | English spoken navigation/status prompts; Thai TTS is not established | PENDING_REVIEW |
@@ -296,7 +299,7 @@ This product follows the proposed [PUI89 World-Class Engineering Standard v1.0](
 
 ## PUI89 Technical Visual — AI workflow
 
-![SUV workflow: road observation, context fusion, hazard assessment, advisory warnings and human driver control.](docs/images/pui89-technical-visual.svg)
+![vehicle workflow: road observation, context fusion, hazard assessment, advisory warnings and human driver control.](docs/images/pui89-technical-visual.svg)
 
 *Advisory-only concept. No autonomous steering, throttle, braking, flood-wading, crash or fire-protection capability is claimed.*
 
@@ -305,14 +308,14 @@ This diagram follows the [PUI89 Technical Visual Standard v1.0](https://github.c
 
 ## Automotive AI Compute & Sensor Architecture v1.0
 
-The Global SUV has a product-specific engineering architecture covering staged automotive compute, sensor strategy, read-only vehicle-data boundaries, driver-distraction controls, test gates and evidence requirements. It is a proposed research architecture only; no vehicle integration or validation is claimed. See [SUV Automotive AI Compute & Sensor Architecture v1.0](docs/SUV_AUTOMOTIVE_AI_COMPUTE_AND_SENSOR_ARCHITECTURE_V1.0.md).
+The Global vehicle has a product-specific engineering architecture covering staged automotive compute, sensor strategy, read-only vehicle-data boundaries, driver-distraction controls, test gates and evidence requirements. It is a proposed research architecture only; no vehicle integration or validation is claimed. See [vehicle Automotive AI Compute & Sensor Architecture v1.0](docs/รถยนต์_AUTOMOTIVE_AI_COMPUTE_AND_SENSOR_ARCHITECTURE_V1.0.md).
 
 
 ## Everyday Intelligence, Simple Operation & On-Device Alerts
 
 **Design principle:** AI for Everyone. Easy to Use. Safe to Trust. Ready for the Real World.
 
-PUI89 AI Global SUV follows the PUI89 shared design direction: make everyday life easier through intelligence, not make people learn complicated technology.
+PUI89 AI Robot Car follows the PUI89 shared design direction: make everyday life easier through intelligence, not make people learn complicated technology.
 
 - **Simple physical operation:** clear buttons and a safe, bounded start workflow. Basic local use should not require an app, smartphone pairing or internet where technically feasible. Voice is optional.
 - **Multi-Perception Intelligence (MPI):** select mission-appropriate vision, audio, touch/contact, spatial, motion, thermal and environmental sensing. Chemical sensing or material analysis is only for specific validated instruments; these are not universal human-equivalent senses.
@@ -351,7 +354,7 @@ These are design requirements and message examples, not claims that the display,
 
 ## No App Required — End-to-End User Experience
 
-**Customer-facing requirement:** AI Global SUV must be usable from initial setup through everyday operation, monitoring, configuration, safe stopping and recovery without requiring the customer to download or install an application on a smartphone, tablet or computer. Essential functions must be available directly through the product or its appropriate local operator station.
+**Customer-facing requirement:** AI Robot Car must be usable from initial setup through everyday operation, monitoring, configuration, safe stopping and recovery without requiring the customer to download or install an application on a smartphone, tablet or computer. Essential functions must be available directly through the product or its appropriate local operator station.
 
 - No mandatory smartphone application, application download, account registration or phone pairing for essential local operation.
 - Essential local functions should work without internet access wherever technically feasible.
@@ -366,7 +369,7 @@ These are design requirements and message examples, not claims that the display,
 
 ### ไม่ต้องใช้แอป — ประสบการณ์ใช้งานตั้งแต่ต้นจนจบ
 
-ลูกค้าต้องสามารถตั้งค่า ใช้งาน ตรวจสอบ ปรับการตั้งค่า หยุดอย่างปลอดภัย และกู้คืน AI Global SUV ได้โดยไม่ต้องดาวน์โหลดหรือติดตั้งแอปบนสมาร์ตโฟน แท็บเล็ต หรือคอมพิวเตอร์ ฟังก์ชันที่จำเป็นต้องเข้าถึงได้โดยตรงจากตัวผลิตภัณฑ์หรือสถานีควบคุมในพื้นที่ที่เหมาะสม
+ลูกค้าต้องสามารถตั้งค่า ใช้งาน ตรวจสอบ ปรับการตั้งค่า หยุดอย่างปลอดภัย และกู้คืน AI Robot Car ได้โดยไม่ต้องดาวน์โหลดหรือติดตั้งแอปบนสมาร์ตโฟน แท็บเล็ต หรือคอมพิวเตอร์ ฟังก์ชันที่จำเป็นต้องเข้าถึงได้โดยตรงจากตัวผลิตภัณฑ์หรือสถานีควบคุมในพื้นที่ที่เหมาะสม
 
 - ไม่บังคับใช้แอปมือถือ ดาวน์โหลดแอป ลงทะเบียนบัญชี หรือจับคู่โทรศัพท์สำหรับการใช้งานพื้นฐาน
 - ฟังก์ชันพื้นฐานภายในเครื่องควรทำงานได้โดยไม่พึ่งอินเทอร์เน็ตเมื่อเป็นไปได้ทางเทคนิค
@@ -385,7 +388,7 @@ These are design requirements and message examples, not claims that the display,
 
 **Severity:** use four levels — **Information, Advisory, Warning and Emergency**. Each alert should state what happened, affected area/subsystem, time and source, confidence/uncertainty, recommended safe action, and whether human acknowledgement is needed. Missing, stale or conflicting evidence must not be presented as confirmed or safe.
 
-**suv warning scope:** Road hazards and collision-risk advisories; weather and verified flood-risk context; unknown water depth, current or passability; supported read-only vehicle-health, battery or thermal anomalies; stale, missing or conflicting sensor/vehicle data.
+**vehicle warning scope:** Road hazards and collision-risk advisories; weather and verified flood-risk context; unknown water depth, current or passability; supported read-only vehicle-health, battery or thermal anomalies; stale, missing or conflicting sensor/vehicle data.
 
 **Product safety boundary:** Warnings must be glanceable and non-distracting. If flood depth, current or passability is unknown, show “UNKNOWN — DO NOT ENTER.” The driver retains full steering, throttle and braking control; AI is advisory only.
 

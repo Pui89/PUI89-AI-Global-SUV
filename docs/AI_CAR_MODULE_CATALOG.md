@@ -1,4 +1,4 @@
-# PUI89 AI Global SUV — 24-Module Intelligence Catalogue
+# PUI89 AI Robot Car — 24-Module Intelligence Catalogue
 
 **Status:** Proposed module catalogue and implementation roadmap.  
 **Authority:** Advisory-only; human driver retains control.  

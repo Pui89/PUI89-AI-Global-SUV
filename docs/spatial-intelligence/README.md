@@ -1,4 +1,4 @@
-# PUI89 AI Global SUV: Spatial Intelligence integration profile
+# PUI89 AI Robot Car: Spatial Intelligence integration profile
 
 This project now has a project-specific spatial integration profile at
 `INTEGRATION_PROFILE.json`.

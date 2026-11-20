@@ -1,14 +1,14 @@
-# Project Plan — PUI89 AI Global SUV
+# Project Plan — PUI89 AI Robot Car
 
 ## Product definition
 
-A software-first vehicle-intelligence research concept for a medium-size, five-door SUV intended to inform global-market requirements. Priorities are practical passenger and cargo utility, all-weather awareness, flood-risk avoidance and human-driver support. This repository is not a functioning vehicle, autonomous-driving system or road-certified product.
+A software-first vehicle-intelligence research concept for a vehicle concept with body style and dimensions not yet selected intended to inform global-market requirements. Priorities are practical passenger and cargo utility, all-weather awareness, flood-risk avoidance and human-driver support. This repository is not a functioning vehicle, autonomous-driving system or road-certified product.
 
 ## Vehicle and powertrain strategy
 
-**Vehicle class:** medium-size SUV. The project is no longer a compact/small city-car concept.
+**Vehicle class:** vehicle concept. The project is no longer a compact/vehicle concept with body style and dimensions not yet selected.
 
-**Powertrain priority: HEV-first.** Full Hybrid (HEV) is the preferred first architecture to evaluate, subject to vehicle-specific, market-specific and engineering evidence. No supplier, production platform or final drivetrain has been selected.
+**Powertrain selection: not yet selected.** No powertrain architecture is currently preferred or selected. Any future comparison must follow user requirements, safety, cost and regional engineering evidence. No supplier, production platform or final drivetrain has been selected.
 
 1. Study full HEV first; use petrol/ICE as a benchmark and preserve PHEV/BEV compatibility.
 2. Keep the PUI89 AI Core propulsion-neutral through versioned, read-only vehicle-context adapters.
@@ -85,7 +85,7 @@ Default to Git, Python standard library, synthetic fixtures and GitHub features 
 - [ ] Align interface versions with canonical PUI89 AI Core.
 
 ### Phase 1 — requirements and contracts
-- [ ] Define medium-size SUV user, packaging, passenger and cargo requirements.
+- [ ] Define vehicle concept user, packaging, passenger and cargo requirements.
 - [ ] Define global-market requirement matrix and target-market assumptions.
 - [ ] Define typed Observation, WorldState, ActionProposal and FailureReport schemas.
 - [ ] Add deterministic validation and safety-gate tests.
