@@ -16,13 +16,13 @@ class SharedContractAdapterTests(unittest.TestCase):
         self.timestamp = "2026-11-13T00:00:00Z"
         self.signal = VehicleSignal(
             name="water_on_route", value=True, source="synthetic-scenario",
-            observed_at=self.timestamp, evidence_ref="synthetic://car/flood-01",
+            observed_at=self.timestamp, evidence_ref="synthetic://suv/flood-01",
         )
         self.advisory = VehicleAdvisory(
             code="water_on_route", priority="urgent_review",
             message="Water is reported on the intended route.",
             recommendation="Avoid crossing the water-covered route.",
-            evidence_refs=("synthetic://car/flood-01",),
+            evidence_refs=("synthetic://suv/flood-01",),
         )
 
     def test_signal_maps_to_observation_with_provenance(self):
@@ -38,7 +38,7 @@ class SharedContractAdapterTests(unittest.TestCase):
     def test_observation_rejects_timezone_naive_timestamp(self):
         invalid = VehicleSignal(
             name="water_on_route", value=True, source="synthetic",
-            observed_at="2026-11-13T00:00:00", evidence_ref="synthetic://car/naive",
+            observed_at="2026-11-13T00:00:00", evidence_ref="synthetic://suv/naive",
         )
         with self.assertRaisesRegex(ValueError, "timezone"):
             signal_to_observation(
@@ -60,7 +60,7 @@ class SharedContractAdapterTests(unittest.TestCase):
     def test_observation_rejects_non_boolean_value(self):
         invalid = VehicleSignal(
             name="water_on_route", value="safe", source="synthetic",
-            observed_at=self.timestamp, evidence_ref="synthetic://car/invalid",
+            observed_at=self.timestamp, evidence_ref="synthetic://suv/invalid",
         )
         with self.assertRaisesRegex(ValueError, "boolean"):
             signal_to_observation(
@@ -71,7 +71,7 @@ class SharedContractAdapterTests(unittest.TestCase):
     def test_degraded_quality_is_not_serialized_as_usable(self):
         degraded = VehicleSignal(
             name="water_on_route", value=True, source="synthetic",
-            observed_at=self.timestamp, evidence_ref="synthetic://car/degraded",
+            observed_at=self.timestamp, evidence_ref="synthetic://suv/degraded",
             quality="degraded",
         )
         result = signal_to_observation(
