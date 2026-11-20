@@ -1,14 +1,16 @@
 # Implementation Status — PUI89 AI Global SUV
 
-Last updated: 2026-11-13  
+Last updated: 2026-11-20  
 Repository: Pui89/PUI89-AI-Global-SUV  
 Official project identity: PUI89 AI Global SUV  
 Overall status: early-stage software and research foundation; vehicle concept and engineering requirements are not a built or validated product.
 
 ## Verified software foundation
 
+The product identity is PUI89 AI Global SUV. The Python import namespace `pui89_car` is retained temporarily for compatibility with existing code and tests; it is an internal legacy package name, not the product name. A package rename requires a separate tested refactor.
+
 - `docs/MASTER_ENGINEERING_SPEC_V2.md`: prior hybrid-SUV engineering direction, payload study target, flood-resilience design intent, global-market gates and unresolved decisions. Treat all numerical targets as unverified study inputs until reconciled and approved.
-- `docs/AI_CAR_MODULE_CATALOG.md`: proposed vehicle-intelligence modules with inputs, advisory outputs and failure cases.
+- `docs/SUV_MODULE_CATALOG.md`: proposed vehicle-intelligence modules with inputs, advisory outputs and failure cases.
 - `pui89_car/intelligence.py`: deterministic, dependency-free signal-to-advisory baseline; preserves unknown, stale, conflicting and low-quality signal states.
 - `pui89_car/shared_contract_adapter.py`: initial serialization adapter for Shared AI Core contracts.
 - `pui89-adapter.json`: project manifest for the declared Shared AI Core contract version.
