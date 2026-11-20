@@ -113,6 +113,12 @@ Cross-product architecture, evidence contracts, safety, privacy, security, recov
 
 Current maturity labels follow the [PUI89 Portfolio Alignment Register](https://pui89.github.io/) and [Evidence-Based Development Maturity Standard](https://pui89.github.io/).
 
+## AI Model & Intelligence profile
+
+**Candidate capability profile:** Object Detection, Image Segmentation, Object Tracking and Sensor Fusion for driver-advisory road-scene awareness; Anomaly Detection and Predictive Models for vehicle/system condition and risk. VLM/LLM may support evidence-linked explanations under human supervision. Driver retains steering, throttle and braking authority.
+
+All nine shared capability families and their definitions, evaluation requirements, provenance/uncertainty rules and safety boundaries are maintained in the [PUI89 Shared AI Core Model Intelligence Framework](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/architecture/PUI89_MODEL_INTELLIGENCE_FRAMEWORK_V1.0.md). This product profile is a **candidate engineering allocation**, not evidence of model installation, runtime integration, benchmark results, field validation or certified performance. Select and enable each capability only after product-specific requirements, approved data, compute/energy budgets and verification gates are satisfied.
+
 ## Vehicle capabilities and functional capacity
 
 **Scope boundary:** global SUV design intent with driver-first, advisory-only AI. Vehicle dimensions, seat count, mass, cargo volume, towing, ground clearance, platform, powertrain subtype and operational limits remain TBD pending qualified engineering.
