@@ -2,7 +2,8 @@
 
 Last updated: 2026-11-20  
 Repository: Pui89/PUI89-AI-Global-SUV  
-Official project identity: PUI89 AI Global SUV  
+Official project identity: PUI89 AI Global SUV
+Project ID: `pui89-ai-global-suv`  
 Overall status: early-stage software and research foundation; vehicle concept and engineering requirements are not a built or validated product.
 
 ## Verified software foundation
@@ -16,7 +17,7 @@ The product identity is PUI89 AI Global SUV. The Python import namespace `pui89_
 - `pui89-adapter.json`: project manifest for the declared Shared AI Core contract version.
 - `tests/contracts/`: synthetic positive and negative JSON fixtures.
 - `tests/test_shared_contract_adapter.py`: unit tests for provenance mapping, unknown preservation, advisory-only authority and review state.
-- `docs/SHARED_AI_CORE_INTEGRATION_V0.1.md`: integration scope, safety boundaries and outstanding verification.
+- `docs/SHARED_AI_CORE_INTEGRATION_V0.1.md`: current SUV project ID and integration safety boundary; predecessor conformance report is explicitly historical and current SUV conformance remains unverified.
 
 ## Not yet implemented or validated
 

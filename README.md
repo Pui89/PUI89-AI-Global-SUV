@@ -22,7 +22,7 @@ These are learning benchmarks only. PUI89 will develop its own architecture, int
 
 ## Product identity and design specification
 
-PUI89 AI Global SUV is a distinct medium-size, five-door SUV programme—not a generic AI car. Its exterior direction is an upright SUV body with a tall passenger cabin, rear cargo compartment, practical ride-height study, pronounced wheel-arch cladding and the PUI89 Deep Navy / Electric Cyan / Titanium Silver design language.
+PUI89 AI Global SUV is a distinct medium-size, five-door SUV programme—not a generic passenger vehicle. Its exterior direction is an upright SUV body with a tall passenger cabin, rear cargo compartment, practical ride-height study, pronounced wheel-arch cladding and the PUI89 Deep Navy / Electric Cyan / Titanium Silver design language.
 
 ### Vehicle definition
 - **Vehicle class:** medium-size global-market SUV concept.

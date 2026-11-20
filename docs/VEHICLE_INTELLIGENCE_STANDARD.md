@@ -1,10 +1,10 @@
 # PUI89 Vehicle Intelligence Standard (PVIS)
 **Standard ID:** PVIS-1.0  
-**Applies to:** PUI89 AI Car and AI Motorcycle  
+**Applies to:** PUI89 AI Global SUV and PUI89 AI Step-Through Scooter  
 **Status:** Engineering standard for research and simulation; not a safety certification.
 
 ## 1. Purpose
-Provide one consistent, evidence-led intelligence architecture for PUI89 road-vehicle projects. The standard governs perception, vehicle/environment state estimation, risk reasoning, advisory decisions, uncertainty, human oversight, cybersecurity, validation, and reporting. Both projects must reuse the PUI89 Shared AI Core rather than create competing copies.
+Provide one consistent, evidence-led intelligence architecture for PUI89 road-vehicle projects. The standard governs perception, vehicle/environment state estimation, risk reasoning, advisory decisions, uncertainty, human oversight, cybersecurity, validation, and reporting. Both products must reuse the PUI89 Shared AI Core rather than create competing copies.
 
 ## 2. Intelligence architecture
 Every implementation should follow this pipeline:
@@ -26,7 +26,7 @@ Use the canonical PUI89 contracts and version them consistently:
 - **ActionProposal:** advisory action, rationale, evidence, confidence, expiry, required human authority, prohibited actuation.
 - **FailureReport:** failure mode, severity, detection evidence, containment, recovery recommendation, unresolved risk.
 
-Do not fork or silently redefine these contracts inside either vehicle repository. Record the compatible AI Core version/commit when integration is implemented.
+Do not fork or silently redefine these contracts inside either road-vehicle repository. Record the compatible AI Core version/commit when integration is implemented.
 
 ## 4. Vehicle intelligence capability domains
 Implement and evaluate capabilities independently; a project must not claim a capability merely because it appears in this list.
@@ -111,8 +111,8 @@ Every release or evaluation report must state:
 7. What evidence demonstrates improvement?
 
 ## 11. Project-specific extensions
-- **AI Car:** add vehicle-class, cabin/occupant privacy, automotive electrical architecture, and car-specific visibility/geometry test scenarios.
-- **AI Motorcycle:** add rider vulnerability, balance/lean context, two-wheel traction, road-surface contamination, protective-equipment awareness only where observable, and stricter distraction/minimal-alert design. Do not infer rider condition or intent without validated evidence.
+- **PUI89 AI Global SUV:** add SUV-class packaging, cabin/occupant privacy, automotive electrical architecture, visibility/geometry, cargo restraint and SUV-specific road/flood-context test scenarios.
+- **PUI89 AI Step-Through Scooter:** add rider vulnerability, balance/lean context, two-wheel traction, road-surface contamination, protective-equipment awareness only where observable, and stricter distraction/minimal-alert design. Do not infer rider condition or intent without validated evidence.
 
 ## 12. Acceptance checklist
 A feature is not ready to be described as validated unless:

@@ -1,4 +1,4 @@
-"""Adapter from PUI89 AI Car advisory records to Shared AI Core v0.1.0.
+"""Adapter from PUI89 AI Global SUV advisory records to Shared AI Core v0.1.0.
 
 This module is a serialization boundary only. It does not validate external
 truth, access sensors, invoke models, or authorize vehicle control.
@@ -9,7 +9,7 @@ from datetime import datetime
 from typing import Any
 
 CONTRACT_VERSION = "0.1.0"
-PROJECT_ID = "pui89-ai-car"
+PROJECT_ID = "pui89-ai-global-suv"
 _QUALITY_MAP = {
     "good": "usable",
     "degraded": "degraded",
@@ -62,7 +62,7 @@ def signal_to_observation(
         "payload": {"signal_name": signal.name, "value": signal.value},
         "quality": {
             "status": _QUALITY_MAP[signal.quality],
-            "notes": "Mapped from the AI Car signal quality label; not independently calibrated.",
+            "notes": "Mapped from the PUI89 AI Global SUV signal quality label; not independently calibrated.",
         },
         "uncertainty": {
             "description": "Signal uncertainty is not quantified by this adapter.",

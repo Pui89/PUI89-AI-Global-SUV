@@ -1,4 +1,4 @@
-"""Bridge PUI89 Car local dataclasses to Shared AI Core v0.1 contracts."""
+"""Bridge PUI89 AI Global SUV local dataclasses to Shared AI Core v0.1 contracts."""
 from __future__ import annotations
 from datetime import datetime
 
@@ -25,7 +25,7 @@ def build_car_v01_records(observation: Observation, world_state: WorldState,
                           modality="other", recorded_at=None,
                           failure_report: FailureReport | None = None):
     if not isinstance(observation, Observation) or not isinstance(world_state, WorldState) or not isinstance(proposal, ActionProposal):
-        raise ValueError("observation, world_state and proposal must use PUI89 Car contract types")
+        raise ValueError("observation, world_state and proposal must use PUI89 AI Global SUV contract types")
     observed_at = _timestamp(observation.timestamp)
     recorded_at = _timestamp(recorded_at or observed_at)
     if source_type not in SOURCE_TYPES or modality not in MODALITIES:
@@ -43,7 +43,7 @@ def build_car_v01_records(observation: Observation, world_state: WorldState,
         "schema_version": SCHEMA_VERSION,
         "observation_id": observation.source,
         "observed_at": observed_at,
-        "source": {"source_id": observation.source, "source_type": source_type, "device_or_system": "PUI89 AI Car local contract"},
+        "source": {"source_id": observation.source, "source_type": source_type, "device_or_system": "PUI89 AI Global SUV local contract"},
         "modality": modality,
         "payload": {"value": observation.value, "unit": observation.units, "provenance_label": observation.provenance},
         "quality": {"status": quality_status, "notes": "Integrity and quality are preserved from the project contract; no external sensor validation is implied."},
@@ -52,7 +52,7 @@ def build_car_v01_records(observation: Observation, world_state: WorldState,
     }
     state_record = {
         "schema_version": SCHEMA_VERSION,
-        "state_id": "car-world-state:" + observation.source,
+        "state_id": "suv-world-state:" + observation.source,
         "updated_at": recorded_at,
         "evidence_refs": list(dict.fromkeys(world_state.evidence_refs or proposal.evidence_refs)),
         "entities": [{
@@ -66,7 +66,7 @@ def build_car_v01_records(observation: Observation, world_state: WorldState,
     }
     action_record = {
         "schema_version": SCHEMA_VERSION,
-        "proposal_id": "car-advisory:" + observation.source,
+        "proposal_id": "suv-advisory:" + observation.source,
         "created_at": recorded_at,
         "objective": "Present a bounded vehicle-context advisory for human review.",
         "world_state_ref": state_record["state_id"],
@@ -85,13 +85,13 @@ def build_car_v01_records(observation: Observation, world_state: WorldState,
     result = {"observation": observation_record, "world_state": state_record, "action_proposal": action_record}
     if failure_report is not None:
         if not isinstance(failure_report, FailureReport):
-            raise ValueError("failure_report must use PUI89 Car FailureReport")
+            raise ValueError("failure_report must use PUI89 AI Global SUV FailureReport")
         severity = failure_report.severity if failure_report.severity in {"informational", "low", "moderate", "high", "critical", "unknown"} else "unknown"
         result["failure_report"] = {
             "schema_version": SCHEMA_VERSION,
-            "failure_id": "car-failure:" + failure_report.failure_mode,
+            "failure_id": "suv-failure:" + failure_report.failure_mode,
             "occurred_at": recorded_at,
-            "system_or_component": "PUI89 AI Car software contract",
+            "system_or_component": "PUI89 AI Global SUV software contract",
             "severity": severity,
             "summary": failure_report.failure_mode,
             "observed_result": failure_report.containment,

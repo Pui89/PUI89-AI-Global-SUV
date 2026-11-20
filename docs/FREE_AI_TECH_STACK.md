@@ -19,7 +19,7 @@
 - [PyTorch](https://pytorch.org/), [OpenCV](https://opencv.org/), [scikit-learn](https://scikit-learn.org/), [NumPy](https://numpy.org/), [pandas](https://pandas.pydata.org/), [Jupyter](https://jupyter.org/).
 - OpenCV 4.5.0+ uses Apache-2.0; verify exact versions and dependencies.
 
-## Robotics, car and motorcycle simulation
+## Robotics, SUV and scooter simulation
 - [ROS 2 Jazzy](https://docs.ros.org/en/jazzy/), [Gazebo](https://gazebosim.org/), [CARLA](https://carla.org/), [SUMO](https://sumo.dlr.de/), [MuJoCo](https://mujoco.org/).
 - Simulation only. No physical vehicle, ECU, CAN bus, steering, throttle, brake, propulsion or battery connections.
 
@@ -39,7 +39,7 @@
 6. Agents may inspect, summarize and create **advisory proposals only**. No direct vehicle actuation or remote operation.
 7. Label each capability as proposed, implemented, simulation-tested, bench-tested, field-tested or independently validated. Never promote a simulation result into a real-world safety claim.
 
-## Recommended AI car / motorcycle pipeline
+## Recommended SUV / scooter intelligence pipeline
 Synthetic sensor inputs → validation/provenance → shared PUI89 AI Core → state and hazard reasoning → agentic advisory workflow → CARLA/SUMO/Gazebo simulation → failure injection and regression tests → evidence report.
 
 **Zero-cost warning:** free/open-source code does not make model weights, datasets, hosting, compute or all commercial uses free. Check upstream terms every time. PUI89 excludes Chinese-origin model families from this curated starter list in accordance with its sourcing preference.
