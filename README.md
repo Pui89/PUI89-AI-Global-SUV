@@ -51,6 +51,8 @@ Start with the user, then apply engineering to build products that provide pract
 
 **Official product identity:** PUI89 AI Global SUV — a medium-size, five-door SUV concept developed with global-market requirements in mind.
 
+**Independent product boundary:** PUI89 AI Global SUV is a standalone four-wheel passenger-vehicle project. **PUI89 AI Step-Through Scooter** is a separate two-wheel rider-mobility project maintained in [`Pui89/AI-Step-Through-Scooter`](https://github.com/Pui89/AI-Step-Through-Scooter). They are not variants or subprojects of one another. They may reuse approved Shared AI Core interfaces, but retain separate product requirements, vehicle engineering, repositories, validation plans and maturity evidence.
+
 PUI89 AI Global SUV is a software-first vehicle-intelligence research concept for a **medium-size, five-door SUV**. The design direction prioritizes practical passenger and cargo space, all-weather usability, global-market adaptability and risk-aware driver support. It is not a small city car.
 
 ## Product direction

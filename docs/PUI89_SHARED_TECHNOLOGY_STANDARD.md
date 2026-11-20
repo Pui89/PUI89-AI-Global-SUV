@@ -109,7 +109,7 @@ Cross-cutting capabilities:
 | Multimodal Narcotics Screening AI | RGB and approved sensor evidence fusion; provenance and calibration; uncertainty and human review; false-positive/false-negative benchmarks; privacy and audit trail; no autonomous enforcement. |
 | Homeguard AI Nomad | Sensor fusion for heat, water, humidity, smoke, electrical and structural signals; anomaly/change detection; explainable alerts; offline-first operation; privacy and false-alarm controls. |
 | PUI89 AI Global SUV | Road-scene perception, world-state tracking, driver-advisory planning, simulation, vehicle-health research, cybersecurity and driver override; no road deployment from unvalidated AI. |
-| PUI89 AI Robot Motorcycle | Rider-centric perception, stability and hazard modelling, simulation-only control proposals, fault detection, battery/electrical protection and human override; no road deployment from unvalidated AI. |
+| PUI89 AI Step-Through Scooter | Rider-centric perception, stability and hazard modelling, simulation-only control proposals, fault detection, battery/electrical protection and human override; no road deployment from unvalidated AI. This is a separate product and repository from PUI89 AI Global SUV. |
 
 ## 9. Evidence and release gates
 

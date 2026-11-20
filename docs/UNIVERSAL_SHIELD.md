@@ -12,7 +12,7 @@ Protect people, animals, assets, data, and project integrity through evidence-le
 3. Multimodal Narcotics Screening AI — multimodal screening decision-support and robotic concept.
 4. Homeguard AI Nomad — home/environment monitoring platform and future robot concept.
 5. PUI89 AI Global SUV — vehicle intelligence and driver-assistance research.
-6. AI Motorcycle — rider-focused vehicle intelligence research.
+6. PUI89 AI Step-Through Scooter — rider-focused, two-wheel step-through vehicle intelligence research; a separate product from PUI89 AI Global SUV.
 
 ## 1. Physical safety and environmental protection
 Every project must maintain a hazard register covering foreseeable people/animal exposure, pinch/crush/cut/impact, entanglement, falls, collision, instability, environmental exposure, maintenance, transport, and foreseeable misuse.
