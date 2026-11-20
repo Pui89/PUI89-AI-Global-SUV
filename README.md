@@ -19,6 +19,38 @@ PUI89 AI Global SUV is a software-first vehicle-intelligence concept intended fo
 
 These are learning benchmarks only. PUI89 will develop its own architecture, interfaces, design language and validation evidence; no proprietary technology or protected design is copied.
 
+
+## Product identity and design specification
+
+PUI89 AI Global SUV is a distinct medium-size, five-door SUV programme—not a generic AI car. Its exterior direction is an upright SUV body with a tall passenger cabin, rear cargo compartment, practical ride-height study, pronounced wheel-arch cladding and the PUI89 Deep Navy / Electric Cyan / Titanium Silver design language.
+
+### Vehicle definition
+- **Vehicle class:** medium-size global-market SUV concept.
+- **Body direction:** five doors (four side doors and a rear liftgate), enclosed passenger cabin and dedicated rear cargo area.
+- **Use context:** everyday and family travel, mixed urban/highway use, regional road conditions and serviceability; target markets and operating envelope require a formal requirements study.
+- **Packaging:** seating layout, dimensions, wheelbase, track, curb mass, GVWR/GAWR, payload, cargo volume, towing, ground clearance, approach/departure angles and turning circle remain **TBD**. No numerical values are approved.
+
+### Powertrain and energy
+- Full Hybrid (HEV) is the first architecture proposed for evaluation.
+- Petrol-only is a simplicity/cost benchmark; PHEV and BEV remain comparison cases.
+- Engine, motor, transmission, battery chemistry/capacity, supplier, platform, fuel economy, range, emissions and performance are **not selected or established**.
+
+### Product AI capabilities under research
+- Road-scene and road-user awareness; obstacles, lane context, signs and visibility where supported by validated sensors.
+- Weather, surface condition and water-on-road context, with conservative route-risk advice. Unknown water depth/current/passability must be treated as **unknown — do not enter**.
+- Read-only vehicle-health and diagnostic observations through authorised, verified interfaces only.
+- Explainable driver alerts, local event history, sensor-health reporting and Thai/English on-device interaction requirements.
+- Software-first Shared AI Core, heterogeneous compute budgeting, local inference and fail-safe degradation. These are research/design goals, not claims of installed hardware or validated performance.
+
+### Sensors, safety and data governance
+- Candidate modalities may include RGB/depth cameras, radar, ultrasonic, GNSS, IMU, ambient/weather, thermal and supported vehicle telemetry. Exact sensor set, location, range and coverage remain TBD until vehicle-specific engineering and validation.
+- Preserve sensor provenance, calibration state, timestamp, uncertainty, disagreement and failure status. Missing or stale evidence must not be presented as safe.
+- Local-first processing/storage; no unapproved transfer of cabin images, voice, location or vehicle telemetry.
+- Zero China supply-chain and technology dependence; verify origin, licence, security and supportability before adopting suppliers, components or software.
+- The driver always controls steering, throttle, braking and propulsion. No autonomous control or actuator command path is in scope.
+
+**Specification status:** the vehicle class, five-door body direction, design language and HEV-first evaluation order are design intentions. Physical dimensions, capacities, performance, installed hardware, production configuration and compliance remain open decisions or unvalidated.
+
 ## Master design and engineering document
 
 **[PUI89 AI Global SUV — Master Design & Engineering Blueprint v1.0](docs/PUI89_AI_GLOBAL_SUV_MASTER_DESIGN_ENGINEERING_BLUEPRINT_V1.0.md)**
