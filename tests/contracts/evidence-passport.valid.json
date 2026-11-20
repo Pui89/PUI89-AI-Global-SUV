@@ -1,11 +1,11 @@
 {
   "schema_version": "0.1.0",
-  "passport_id": "car-passport-001",
+  "passport_id": "suv-passport-001",
   "created_at": "2026-11-13T00:00:00Z",
-  "project_id": "pui89-ai-car",
+  "project_id": "pui89-ai-global-suv",
   "conclusion": {"statement": "Avoid the water-covered route.", "status": "conditional"},
   "evidence": {
-    "supporting_refs": ["synthetic://car/observation-001"],
+    "supporting_refs": ["synthetic://suv/observation-001"],
     "conflicting_refs": [],
     "missing_items": ["Water depth", "Water current", "Independent sensor verification"],
     "provenance_status": "partial"
