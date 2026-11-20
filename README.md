@@ -104,3 +104,10 @@ Current maturity labels follow the [PUI89 Portfolio Alignment Register](https://
 - No autonomous vehicle control or claim of safe water crossing is made.
 
 **Capacity evidence status:** Vehicle form is a concept; all numeric vehicle capacities and operational performance remain TBD / not validated.
+
+
+## Physical & Multimodal Sensor Privacy
+
+PUI89 adopts the [Physical & Multimodal Sensor Privacy Standard v1.0](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/privacy/PUI89_PHYSICAL_MULTIMODAL_SENSOR_PRIVACY_STANDARD_V1.0.md) as a shared engineering requirement. Any PUI89-installed camera and microphone require physical controls independent of vehicle OEM systems. PUI89 AI remains advisory; privacy controls must not alter OEM safety systems or driver control.
+
+**Evidence status:** requirements/specification only. No product-level hardware implementation or verification is claimed by this README section.
