@@ -85,7 +85,7 @@ def build_car_v01_records(observation: Observation, world_state: WorldState,
     result = {"observation": observation_record, "world_state": state_record, "action_proposal": action_record}
     if failure_report is not None:
         if not isinstance(failure_report, FailureReport):
-            raise ValueError("failure_report must use PUI89 Car FailureReport")
+            raise ValueError("failure_report must use PUI89 AI Global SUV FailureReport")
         severity = failure_report.severity if failure_report.severity in {"informational", "low", "moderate", "high", "critical", "unknown"} else "unknown"
         result["failure_report"] = {
             "schema_version": SCHEMA_VERSION,
