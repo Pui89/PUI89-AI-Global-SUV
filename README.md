@@ -49,3 +49,58 @@ PUI89 AI Global SUV is a **software-first vehicle intelligence concept** for a m
 Cross-product architecture, evidence contracts, safety, privacy, security, recovery, device interaction and localization requirements are maintained in the [PUI89 Shared AI Core](https://github.com/Pui89/PUI89-Shared-AI-Core). Vehicle interfaces, road-risk thresholds and driver safety cases remain SUV-specific.
 
 Current maturity labels follow the [PUI89 Portfolio Alignment Register](https://github.com/Pui89/Pui89.github.io/blob/main/docs/PUI89_PORTFOLIO_ALIGNMENT_REGISTER_2026-11-18.md) and [Evidence-Based Development Maturity Standard](https://github.com/Pui89/Pui89.github.io/blob/main/docs/PUI89_DEVELOPMENT_STAGE_STANDARD.md).
+
+## Vehicle Capabilities & Functional Capacity
+
+**Scope boundary:** PUI89 AI Global SUV is a medium-size, five-door SUV concept with driver-first, advisory-only AI. No production vehicle, donor platform, vehicle integration or road validation is established.
+
+### 1. Physical capacity
+- Vehicle class/form: medium-size, five-door SUV concept.
+- Seating, occupant mass, cargo volume, gross vehicle mass, towing, ground clearance, dimensions and axle loads: **TBD** pending platform selection and applicable vehicle engineering.
+- No passenger, cargo or towing rating is claimed.
+
+### 2. Mobility capacity
+- Intended vehicle use is on-road mobility; supported road, weather and environmental operating conditions must be defined for the selected platform.
+- Define speed envelope, turning/parking constraints, tyre and braking interfaces, ground clearance and any water exposure limits from verified vehicle specifications.
+- No autonomous driving, flood-wading depth or off-road capability is claimed.
+
+### 3. Perception capacity
+- Candidate perception: road scene, lanes, vehicles, pedestrians, cyclists, animals, signs/signals, visibility, road surface and water-on-road context.
+- Assess flood-risk and route context; if water depth, current or passability is unknown, report **unknown — do not enter**.
+- Sensor placement, coverage, detection range, weather limits and performance must be validated on the selected vehicle.
+- No driver monitoring or identity inference is claimed unless separately specified, permissioned and validated.
+
+### 4. Computing capacity
+- Define automotive compute, memory, storage, thermal and latency budgets after sensor and vehicle-platform selection.
+- Prefer local processing for safety-relevant perception; document model provenance, version, confidence and failure behaviour.
+- Vehicle data interfaces should be read-only unless separately approved through a safety case.
+- **Compute hardware and measured performance:** TBD.
+
+### 5. Power capacity
+- Powertrain research direction is HEV-first while keeping AI architecture powertrain-neutral; no drivetrain has been selected.
+- Define AI-system power draw, vehicle electrical interface, standby load, thermal limits and fault isolation after platform selection.
+- **Traction battery/fuel, AI power budget and runtime:** TBD.
+
+### 6. Communication capacity
+- Define in-vehicle network interfaces, local connectivity, GNSS/navigation data sources and approved update paths only after platform review.
+- Local driver alerts must not depend on internet availability.
+- Define data minimisation, consent, cybersecurity and loss-of-connectivity behaviour.
+- **Protocols, coverage and range:** TBD.
+
+### 7. Safety capacity
+- AI is advisory only. The driver retains full control of steering, throttle and braking.
+- No autonomous steering, propulsion, throttle or braking commands.
+- Alerts must be prioritised, understandable and designed to minimise driver distraction; critical vehicle functions remain independent.
+- Flood, collision and road-hazard warnings are not guarantees of prevention or safe passage.
+
+### 8. Maintenance capacity
+- Define read-only diagnostics, sensor cleaning/calibration, wiring inspection, software/model version records and service procedures with the selected vehicle platform.
+- Predictive-maintenance outputs must identify the source evidence and must not replace professional inspection.
+- **Maintenance intervals and supported vehicle diagnostics:** TBD.
+
+### 9. Operating limits
+- Concept only; no vehicle integration, road testing, crashworthiness result, flood-wading capability or regulatory certification is established.
+- Vehicle capacity, sensor performance, compute, power and communication specifications remain TBD until a platform is selected and tested.
+- No autonomous vehicle control or claim of safe water crossing is made.
+
+**Capacity evidence status:** Vehicle form is a concept; all numeric vehicle capacities and operational performance remain TBD / not validated.
