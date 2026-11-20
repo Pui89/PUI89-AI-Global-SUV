@@ -32,6 +32,64 @@ Start with the user, then apply engineering to build products that provide pract
 
 ## Product at a glance
 
+
+## Latest Product Capability Baseline — 18 November 2026
+
+**Capability lifecycle:** Perceive → Understand → Predict → Decide → Act. The following is the product-specific target capability map. Shared AI Core provides reusable foundations; each product selects sensors and functions appropriate to its mission.
+
+### Perception and sensory intelligence
+
+- Surrounding road-user/object awareness, lane/road context and obstacle perception using reviewed camera/radar/depth options.
+
+- Weather, visibility, road-surface, water-on-road and flood-risk context; unknown depth or uncertain route means warn/avoid, never infer safe wading.
+
+- Vehicle-health observations from approved read-only interfaces: battery, thermal, electrical, tyre and vibration indicators where available.
+
+- Cabin sound/occupant interaction and environmental monitoring only within driver-distraction and privacy constraints.
+
+### Understanding, prediction and driver assistance
+
+- Multimodal road-context fusion, hazard prioritisation, route-risk explanation and driver-facing alerts.
+
+- Predictive maintenance research using validated vehicle telemetry and model-specific baselines.
+
+- Simulation/digital-twin analysis for sensor placement, scenarios, compute budgets and failure cases.
+
+- HEV-first, powertrain-neutral AI architecture; no dependence on one engine or battery configuration.
+
+### Safety, compute and human authority
+
+- Edge/heterogeneous compute coordination, model sizing and graceful fallback as design goals.
+
+- Sensor health, uncertainty, data freshness and evidence logging.
+
+- Advisory-only: no AI autonomous steering, throttle, braking or propulsion commands; driver remains in control.
+
+### ภาษาไทย — ความสามารถและแนวทางพัฒนา
+
+- รับรู้รถ ผู้ใช้ถนน สิ่งของ เส้นทาง ช่องทางจราจร และสิ่งกีดขวางด้วยแนวทางกล้อง เรดาร์ หรือ Depth ที่ผ่านการพิจารณา
+
+- วิเคราะห์สภาพอากาศ ทัศนวิสัย พื้นผิวถนน น้ำบนถนน และบริบทความเสี่ยงน้ำท่วม หากไม่ทราบระดับน้ำหรือความปลอดภัยของเส้นทางให้เตือนและหลีกเลี่ยง ห้ามอนุมานว่าลุยน้ำได้
+
+- ตรวจสอบข้อมูลสุขภาพรถผ่านช่องทางอ่านอย่างเดียว เช่น แบตเตอรี่ ความร้อน ระบบไฟฟ้า ยาง และแรงสั่น เมื่อรถเปิดให้เข้าถึงข้อมูล
+
+- รองรับเสียงและการโต้ตอบในห้องโดยสารภายใต้ข้อจำกัดด้านสมาธิผู้ขับขี่และความเป็นส่วนตัว
+
+- รวมข้อมูลหลายรูปแบบ จัดลำดับความเสี่ยง อธิบายบริบทเส้นทาง และแจ้งเตือนผู้ขับขี่
+
+- ศึกษา Predictive Maintenance จากข้อมูล telemetry ที่ตรวจสอบแล้วและค่าพื้นฐานเฉพาะรุ่น
+
+- ใช้ Simulation/Digital Twin ศึกษาตำแหน่งเซนเซอร์ สถานการณ์ งบประมวลผล และกรณีขัดข้อง
+
+- ออกแบบ AI แบบ HEV-first และไม่ผูกกับระบบขับเคลื่อนแบบใดแบบหนึ่ง
+
+- พัฒนา Edge/heterogeneous compute การปรับขนาดโมเดล การตรวจสุขภาพเซนเซอร์ และการบันทึกหลักฐาน
+
+- AI ทำหน้าที่ให้คำแนะนำเท่านั้น ไม่ควบคุมพวงมาลัย คันเร่ง เบรก หรือระบบขับเคลื่อน ผู้ขับขี่ควบคุมรถเอง
+
+**Evidence boundary / ขอบเขตหลักฐาน:** Product and AI capabilities remain concept/specification targets. No vehicle integration, road testing, flood-wading depth, ADAS certification, autonomous control or validated predictive maintenance is claimed. / ความสามารถยังเป็นเป้าหมายระดับแนวคิดและข้อกำหนด ยังไม่มีการติดตั้งในรถ ทดสอบถนน ยืนยันความลึกการลุยน้ำ รับรอง ADAS ควบคุมอัตโนมัติ หรือ Predictive Maintenance ที่ผ่านการตรวจสอบ
+
+
 **Product direction:** A medium-size, five-door SUV concept with a software-first, advisory AI architecture.
 
 **User value:** Explore driver-support intelligence for global-market mobility, with context-aware road-risk awareness and human control.
