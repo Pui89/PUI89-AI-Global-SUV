@@ -1,6 +1,6 @@
 # PUI89 AI Global SUV
 
-**A global-market SUV concept with original PUI89 vehicle intelligence architecture and driver-first, advisory-only AI.**
+**Engineering a global-market SUV concept around original PUI89 vehicle intelligence, human-centred safety and evidence-led development.**
 
 [English project page](https://pui89.github.io/ai-global-suv.html) · [ภาษาไทย](https://pui89.github.io/ai-global-suv-th.html) · [PUI89 portfolio](https://pui89.github.io/)
 
@@ -86,9 +86,11 @@ The master blueprint covers:
 
 ## Current development status
 
-**Implemented — early software-only safety and contract foundations; master blueprint added as a proposed design baseline.** No vehicle integration or road validation is claimed.
+**Stage: concept definition and early software-only engineering foundations.** The repository contains design studies, engineering documentation and initial software contract/safety work. This is not a physical vehicle prototype, production-ready design, validated perception system or vehicle-integrated AI product. No donor vehicle, production platform, powertrain, supplier or sensor package has been selected. No vehicle integration, road testing, crash testing, flood-wading validation or regulatory certification is claimed.
 
-**Next evidence gate:** create a traceable Vehicle Requirements & Decision Register covering user needs, operating conditions, packaging, safety, privacy, serviceability, target markets and supplier provenance before selecting a vehicle platform or integrating hardware.
+**Current evidence boundary:** the earlier 10/10 Shared AI Core conformance record belongs to the predecessor project identity `pui89-ai-car`; it is historical evidence only and is not a current PUI89 AI Global SUV conformance result. SUV-specific conformance remains pending verification against exact current commits. CI checks on repository changes do not establish vehicle performance or physical safety.
+
+**Next evidence gates:** (1) establish a traceable Vehicle Requirements & Decision Register; (2) run SUV-specific Shared AI Core contract conformance against exact pinned commits; (3) test synthetic road-context, flood-uncertainty, sensor-fault and conflicting-observation cases; (4) review sensor, compute, privacy, safety and supplier-provenance decisions before considering hardware integration.
 
 ## Existing project documentation
 
@@ -96,6 +98,14 @@ The master blueprint covers:
 - [AI architecture](docs/AI_ARCHITECTURE.md)
 - [Project plan](docs/PROJECT_PLAN.md)
 - [Fire and flood resilience requirements](docs/FIRE_FLOOD_RESILIENCE_REQUIREMENTS_V0.1.md)
+
+## Global-market product direction
+
+The intended product is a premium, practical medium-size five-door SUV design study with a tall cabin, useful rear cargo area and the PUI89 Deep Navy / Electric Cyan / Titanium Silver identity. This is an original PUI89 direction, not a claim of equivalence to any established automaker or production vehicle. HEV is the first powertrain architecture proposed for evaluation; no drivetrain or vehicle platform has been selected.
+
+The AI scope is driver-first and advisory-only: road-scene context, road-user and obstacle awareness, weather/visibility and road-water context, conservative route-risk information, and read-only vehicle-health observations where an authorised interface exists. The driver retains steering, throttle, braking and propulsion authority. Unknown water depth, current or passability must be reported as **unknown — do not enter**.
+
+All dimensions, seating, mass, payload, cargo capacity, towing, ground clearance, performance, range, fuel economy, emissions, sensor placement and operating limits remain TBD or unvalidated. Candidate sensors and software functions are not installed capabilities.
 
 ## Shared PUI89 engineering
 
