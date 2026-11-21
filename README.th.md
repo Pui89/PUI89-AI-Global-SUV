@@ -70,3 +70,7 @@ PUI89 AI Global SUV เป็นโครงการแนวคิดรถ SU
 - [Repository](https://github.com/Pui89/PUI89-AI-Global-SUV)
 
 ตัวเลขขนาด น้ำหนัก ระยะทาง ความจุ พละกำลัง และราคา ยังไม่ถือว่าได้รับอนุมัติจนกว่าจะมีข้อกำหนดและหลักฐานที่เหมาะสม
+
+## การตรวจสอบช่องว่างการพัฒนา Vehicle AI
+
+อ่าน [PUI89 Vehicle AI Development Gap Audit v1.0 ภาษาไทย](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/engineering/PUI89_VEHICLE_AI_DEVELOPMENT_GAP_AUDIT_V1.0.th.md) เพื่อดูสถานะ SUV/Scooter ตามหลักฐาน ช่องว่างการพัฒนา Validation Gates และลำดับการพัฒนา CPU-first พร้อม [ฉบับภาษาอังกฤษ](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/engineering/PUI89_VEHICLE_AI_DEVELOPMENT_GAP_AUDIT_V1.0.md) ผล Audit ไม่ได้หมายถึงมีการเชื่อมต่อรถหรือผ่านการทดสอบบนถนนแล้ว
