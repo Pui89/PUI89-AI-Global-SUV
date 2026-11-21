@@ -1,0 +1,206 @@
+# Product Manual & Remote Companion Standard v1.0
+
+**Product:** PUI89 AI Global SUV  
+**Status:** approved development specification; not a claim that translated manuals, a mobile app, remote connectivity, or product hardware are already implemented or validated.  
+**Applies to:** physical product packaging, offline documentation, digital manuals, and a future PUI89 Remote Companion application.
+
+## 1. Customer commitment
+
+Every shipped unit must include both (1) the complete printed, product-specific User Manual and (2) a concise printed Quick Start & Safety Guide in the destination-market language. Both must be readable without a phone, QR scan, account, app, Wi-Fi or internet. The QR code and short readable URL are supplementary routes to the digital manual, updates and support; they must never replace printed instructions. A downloadable, versioned offline PDF/HTML edition is an additional copy.
+
+Do not ship a product with machine-translated safety instructions that have not been reviewed by a competent technical translator and product safety reviewer.
+
+## 2. Language coverage
+
+### Required release baseline
+- English — international master source.
+- Thai — Thailand.
+- Add destination-market languages before commercial shipment, according to the approved sales territory and local legal requirements.
+
+### Market language plan
+Target markets identified for this product: Thailand; India; Indonesia; Philippines; Vietnam; Europe; North America; global English-speaking markets.
+
+Planned language coverage: English, Thai, Hindi, Bahasa Indonesia, Filipino, Vietnamese, Spanish, Portuguese.
+
+Language priority is a planning decision, not evidence of completed translation or confirmed customer demand. Add languages when market validation, distribution plans, and support capacity justify them. For India, select regional languages according to the actual state/customer audience; Hindi alone is not sufficient for every region.
+
+### Translation quality controls
+1. Maintain one version-controlled English master.
+2. Use a product terminology glossary and translation memory.
+3. Translate warnings, labels, procedures, and troubleshooting without changing technical meaning.
+4. Have a native-language technical reviewer check each language.
+5. Have a product/safety reviewer approve all safety-critical content.
+6. Record language, document version, reviewer, approval date, and source revision.
+7. Keep all language editions aligned to the same hardware/software revision; show a clear superseded-version notice.
+8. Never use unreviewed automated translation as the final safety manual.
+
+## 3. In-the-box documentation
+
+Every retail/service package must contain:
+- Complete printed User Manual in the destination-market language.
+- Printed Quick Start & Safety Guide in the destination-market language, or a clear language-selection card when multiple editions are packed.
+- Printed safety essentials: intended use, prohibited use, warnings, emergency stop/stop procedure, and local operator responsibilities.
+- QR card and short URL to the official product manual, app instructions, support and current document revision.
+- Product identification and hardware/software revision reference.
+- Warranty/service information applicable to the destination country.
+
+The full User Manual must include:
+1. Product overview, intended use, limitations and specifications.
+2. Unboxing, installation, charging/power and first-time setup.
+3. Controls, indicators, status messages and normal operation.
+4. Safety, emergency stop, safe states and recovery.
+5. App pairing and account/device permissions, when available.
+6. Remote connectivity requirements, offline behaviour and loss-of-connection response.
+7. Cleaning, inspection, maintenance and approved spare parts.
+8. Troubleshooting, fault codes, logs and support.
+9. Data privacy, camera/microphone/sensor controls and data export/deletion.
+10. Warranty, service, regulatory notices and revision history.
+
+## 4. PUI89 Remote Companion App — shared requirements
+
+**App name (working title):** PUI89 Remote Companion.  
+**Status:** proposed shared application specification; not yet a released or implemented app.
+
+The app should provide one customer interface for the six PUI89 products, while showing only features supported by the paired product and its verified hardware/software version.
+
+### Core customer features
+- Pair a product locally using a deliberate physical/on-device pairing action.
+- View connection state, product identity, firmware/software version and device health.
+- Open the correct language manual and product-specific quick-start steps.
+- View alerts, fault codes, maintenance schedules and service history.
+- View permitted telemetry, reports and diagnostic summaries.
+- Manage authorized users, roles, notification preferences and privacy permissions.
+- Download manuals and selected diagnostic reports for offline reference.
+- Show last-updated time, stale-data warning and connection-loss state.
+- Provide accessible language selection and clear units/date/time formats.
+
+### Remote operation boundary
+The app is a companion and supervisory interface, not a replacement for local controls or safety systems. Core product functions must remain available offline where the product design supports offline operation. Internet access must not be a prerequisite for emergency stop or safe shutdown.
+
+Remote commands must be limited to explicitly approved, low-risk functions. Any movement or hazardous operation requires the product-specific local physical enable, local operator presence where required, safety interlocks, and a visible stop path. The app must never bypass an emergency stop, interlock, safe state, human approval, or local control.
+
+Product-specific restrictions:
+Vehicle/AI-system health, software version, diagnostic summaries, maintenance reminders, alerts, trip/vehicle status where supported, and settings that do not affect driving safety. No remote steering, throttle, braking, gear selection, engine start, or autonomous vehicle control through the companion app.
+
+### Connectivity and security requirements
+- Prefer local, direct pairing for initial setup; remote access is opt-in.
+- Use authenticated, encrypted communication and per-device authorization.
+- Apply least-privilege roles; separate owner, operator, service and read-only access.
+- Provide revocation, session expiry, device unpairing and audit records.
+- Do not expose credentials, tokens or sensitive diagnostics in manuals, QR codes or logs.
+- Do not silently enable remote access or upload images, audio, location or telemetry.
+- Clearly disclose which data leaves the device, destination, purpose and retention.
+- On stale telemetry, communication loss, authentication failure or conflicting state, disable remote commands and show a clear warning.
+- Do not rely on a cloud connection for emergency stop or essential local safety functions.
+- Avoid single-vendor lock-in and unapproved third-party/cloud dependencies; review supplier, hosting and software provenance before selection.
+
+## 5. User journey
+
+1. Customer opens the printed Quick Start Guide.
+2. Customer chooses the preferred language.
+3. Customer reads safety essentials before powering or operating the product.
+4. Customer scans the QR code or enters the short URL to open the correct manual.
+5. If the app is available, customer installs it from an official, verified distribution channel and checks the app publisher/version.
+6. Customer pairs locally using the product's physical/on-device pairing process.
+7. Customer explicitly chooses whether to enable optional remote connectivity and data sharing.
+8. Customer uses only functions supported by that product; the app explains unavailable functions rather than implying they exist.
+
+## 6. Release gates — do not claim completion until evidence exists
+
+- [ ] English master manual approved for the exact product revision.
+- [ ] Destination-market language list confirmed for the actual launch territory.
+- [ ] Each translated manual reviewed by a native-language technical reviewer.
+- [ ] Safety warnings independently approved.
+- [ ] Printed in-box quick-start and QR/short URL proof checked.
+- [ ] QR destination, offline manual download and document version verified.
+- [ ] App implementation and supported OS/device matrix tested.
+- [ ] Local pairing, permissions, revocation and offline behaviour tested.
+- [ ] Remote-command restrictions and connection-loss fail-safe tested.
+- [ ] Privacy, security, data retention and support procedures reviewed.
+- [ ] Customer usability test completed in each launch language.
+- [ ] Country-specific legal, warranty, radio/connectivity and product requirements reviewed.
+
+Until the relevant gate passes, label the item **planned**, **draft**, **in translation**, **under review**, **implemented**, or **validated** accurately. Do not describe the app as available or manuals as included in shipped boxes until production and packaging evidence confirms it.
+
+## 7. Versioning and ownership
+
+Store each language edition with a stable product/document ID, product revision, language code, version, release date, reviewer and change log. Keep a printable PDF and accessible HTML version. The QR code should resolve to a stable official product documentation page, not a temporary file link.
+
+## 8. Immediate implementation sequence
+
+1. Approve the English master structure and product-specific safety content.
+2. Publish English and Thai digital manuals first.
+3. Confirm target-country language priorities from actual launch plans.
+4. Translate and independently review the next highest-priority languages.
+5. Design and test the in-box printed quick-start/QR card.
+6. Build the shared app shell around manuals, pairing, device status and diagnostics.
+7. Add product-specific remote functions only after the relevant hardware and safety interfaces are validated.
+
+
+## 9. Offline Independence & Connectivity Resilience — Product-Specific Requirements
+
+**Normative reference:** [PUI89 Offline Independence & Connectivity Resilience Standard v1.0](https://github.com/Pui89/Pui89.github.io/blob/main/docs/PUI89_OFFLINE_INDEPENDENCE_CONNECTIVITY_RESILIENCE_STANDARD_V1.0.md). Apply the shared L0 fully-offline, L1 local-connection, L2 internet-connected and L3 remote-service model. L0 is the baseline; higher connectivity levels are optional.
+
+### 9.1 Offline baseline
+The primary driver-operated controls, braking, steering, lighting and required vehicle safety systems must be independent of the companion app and internet. AI assistance and connected features must fail visibly without compromising driver control. Loss of connectivity must not itself trigger braking, steering, throttle, gear or propulsion changes. No remote steering, throttle, braking, gear selection, ignition or motion activation.
+
+### 9.2 Required local design
+- Printed Quick Start and Safety Guide accompanies every shipped unit; full manual is supplied in an offline-readable form. QR code and human-readable short URL are supplemental only.
+- Physical local controls, local status/fault indication and the applicable stop/emergency-stop path must not depend on the app, Wi-Fi, internet or cloud.
+- Identify the exact local AI/model/sensor/compute functions that remain available offline. Missing inputs, unavailable models, thermal/compute limits and stale observations must produce an explicit unavailable/unknown state, never a fabricated result.
+- Store relevant records and fault events locally with defined capacity, integrity, retention and export/recovery behaviour.
+- Document low-power, power-loss, restart and local service/recovery procedures. Restart must not replay stale remote commands or automatically resume hazardous work.
+
+### 9.3 Connectivity-loss response
+- Detect local-link, internet, cloud, remote-operator and telemetry-freshness failures separately.
+- Reject delayed, duplicated, expired and out-of-order remote commands. Disable remote command acceptance when link state or data freshness is uncertain.
+- Enter the product-specific safe state defined by hazard analysis. Reconnection must not automatically resume mobility or hazardous activity.
+- The local stop and safety interlocks always override the app. No remote bypass is permitted.
+
+### 9.4 Remote Companion boundary
+Remote Companion is optional. It may expose only product functions implemented and verified for the connected hardware/software revision. No remote actuation that could create a hazardous condition is permitted under this specification. Remote diagnostics/status must be authenticated, encrypted, least-privilege, revocable and auditable.
+
+### 9.5 Verification gates
+Before claiming offline capability, test with no smartphone/app, radios disabled, no internet/cloud, link loss during active tasks, stale/duplicate/delayed commands, reconnection, local emergency stop, low power/power loss, restart, full/corrupt local storage, unavailable sensors/model and manual-only troubleshooting. Record exact build/configuration, procedure, expected/actual result, logs, tester, date and defects. A documented test checklist is not evidence of a passed test.
+
+### 9.6 Status boundary
+This appendix defines proposed engineering requirements only. Mark each item planned, specified, implemented, tested or validated based on evidence. Do not claim the product is fully offline, fail-safe, certified or commercially ready until its applicable release gates pass.
+
+
+## 10. Engineering implementation and acceptance criteria
+
+Specification only; no implementation or test pass is implied.
+- Essential rider/driver operation, OEM safety, local stop and safe shutdown must not depend on phone, app, Bluetooth, Wi-Fi, internet, DNS, cloud or remote operator.
+- Define basic use with physical controls and printed manual only. Classify functions local/offline, optional-connected or unavailable; list sensor/compute/model/storage/power dependencies.
+- Keep vehicle steering, throttle, braking, propulsion, lighting and OEM safety under the validated vehicle architecture. PUI89 connectivity loss must not interfere with driver control or trigger vehicle actuation.
+- Maintain local control/indicator inventory and fault responses. Local event logs require integrity, bounded retention, export and storage-full/corrupt behaviour; never silently overwrite protected evidence.
+- Reject unauthenticated, expired, duplicate, replayed and out-of-order commands. Reconnection never causes actuation or replays stale commands. Restart in a defined safe state.
+- Define responses for absent phone, app crash, radio/Wi-Fi/internet/cloud loss, stale telemetry, expired authentication, sensor/model failure, low battery and power loss.
+- Every shipped unit includes complete printed User Manual and Quick Start & Safety Guide in destination language. Cover no-phone/no-app/no-Wi-Fi/no-internet use, driver controls, indicators, warnings, connectivity/power loss, troubleshooting, maintenance, privacy and revision. QR is supplementary; page references/index must work without it.
+
+### Mandatory OFF-01–OFF-15 verification
+| ID | Test | Acceptance |
+|---|---|---|
+| OFF-01 | No phone/app | Driver operation and local safety functions unaffected |
+| OFF-02 | Wi-Fi off/no internet | Declared offline functions remain usable |
+| OFF-03 | Cloud/DNS unavailable | Vehicle controls and safety unaffected |
+| OFF-04 | App terminated | Local vehicle controls remain correct; link loss shown |
+| OFF-05 | Remote lost during task | No unexpected steering/throttle/braking/propulsion |
+| OFF-06 | Delayed/duplicate/replay/out-of-order command | Rejected and logged |
+| OFF-07 | Reconnection | No automatic actuation or stale-command replay |
+| OFF-08 | Local stop with radios off | Applicable stop independent; reset does not auto-start |
+| OFF-09 | Low power/power interruption | Safe transition; no unexpected motion on restart |
+| OFF-10 | Storage full/corrupt | Safety effective; fault shown; protected evidence retained |
+| OFF-11 | Sensor/model unavailable | AI reports unavailable/uncertain; driver retains control |
+| OFF-12 | Printed manual only | Safe-use/recovery instructions found without QR/phone |
+| OFF-13 | Local service/no cloud | Authorised technician can inspect/recover |
+| OFF-14 | Reboot after fault | Safe startup; no stale command or unexpected motion |
+| OFF-15 | Wrong manual language/revision | Packaging check catches mismatch |
+
+Test exact build/platform with qualified vehicle safety review. Record setup, procedure, expected/actual, evidence, tester/date and defects. N/A requires approved rationale. Simulation/checklist is not road or vehicle validation.
+
+### Product profile
+PUI89 AI Global SUV: Driver-first vehicle concept. Steering, throttle, braking, propulsion, lighting and OEM safety remain independent of PUI89 app/cloud. Connectivity loss must not trigger unsafe vehicle action. No remote start, steering, acceleration, braking, shifting or movement.
+
+### Release/status
+Offline-ready requires vehicle hazard/architecture review, local-control independence, no-phone/no-network verification, stale-command/reconnection tests, printed manual proof and service demonstration. Separate Specified, Implemented, Tested, Validated and Released labels. Current docs establish requirements only.
