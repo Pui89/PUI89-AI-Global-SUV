@@ -8,11 +8,11 @@ Protect people, animals, assets, data, and project integrity through evidence-le
 
 ## Six-project scope
 1. Coconut Harvest AI — agricultural perception and harvesting-robot concept.
-2. Flood Rescue AI — flood/disaster rescue-robot concept.
-3. Multimodal Narcotics Screening AI — multimodal screening decision-support and robotic concept.
-4. Homeguard AI Nomad — home/environment monitoring platform and future robot concept.
-5. PUI89 AI Global SUV — vehicle intelligence and driver-assistance research.
-6. AI Motorcycle — rider-focused vehicle intelligence research.
+2. PUI89 Sentinel — four-legged quadruped for supervised all-terrain exploration and inspection.
+3. PUI89 AI HOME — indoor four-wheel home-awareness and assistance robot.
+4. PUI89 AI NOMAD — compact dog-inspired four-wheel mobile assistant with a handle.
+5. PUI89 AI Global SUV — human-driver vehicle concept with advisory AI.
+6. PUI89 AI Step-Through Scooter — rider-first two-wheel step-through scooter concept.
 
 ## 1. Physical safety and environmental protection
 Every project must maintain a hazard register covering foreseeable people/animal exposure, pinch/crush/cut/impact, entanglement, falls, collision, instability, environmental exposure, maintenance, transport, and foreseeable misuse.
@@ -59,7 +59,7 @@ Each project must document:
 7. Recovery, inspection, restart authorization, and post-incident review.
 8. Lessons learned and regression tests.
 
-The system must never delay contacting emergency services when there is immediate danger. AI must not autonomously perform enforcement, rescue, medical, or safety-critical physical actions under this standard.
+The system must never delay contacting emergency services when there is immediate danger. AI must not autonomously perform enforcement, medical, or safety-critical physical actions under this standard.
 
 ## 6. Shared AI Core integration across all six projects
 Use one canonical, versioned PUI89 AI Core. Each project consumes the same contract definitions and records the compatible core version/commit. Do not fork or silently redefine shared contracts.
@@ -109,7 +109,7 @@ Use exact labels:
 - **Field-tested:** defined real-world test completed with documented controls.
 - **Independently validated/certified:** supported by named independent evidence/certification.
 
-Every public capability claim must state its evidence and limitations. Never infer waterproof, fireproof, secure, autonomous, real-time, roadworthy, rescue-capable, or certified status from a concept or passing software tests.
+Every public capability claim must state its evidence and limitations. Never infer waterproof, fireproof, secure, autonomous, real-time, roadworthy or certified status from a concept or passing software tests.
 
 ## 10. Required SHIELD review report
 For every project/release, report:
@@ -124,7 +124,6 @@ For every project/release, report:
 
 ## 11. Project-specific hazard extensions
 - **Coconut Harvest AI:** falling coconuts/tools, cutting and pinch zones, worker/animal exclusion, height and reach limits, tree/branch uncertainty, dropped-load containment.
-- **Flood Rescue AI:** current, depth, debris, entrapment, capsizing, tether/anchor failure, battery isolation in water, rescue-person exposure, communications loss, safe withdrawal. Any depth/current capability requires measured test evidence.
 - **Multimodal Narcotics Screening AI:** false positives/negatives, modality disagreement, sensor calibration, dataset bias/provenance, chain of custody, privacy, human review, and prohibition on autonomous enforcement.
 - **Homeguard AI Nomad:** electrical/fire/water/mold and structural-warning uncertainty, false alarms, privacy, offline operation, safe charging, and clear emergency escalation.
 - **PUI89 AI Global SUV:** collision exposure, vulnerable road users, vehicle electrical/thermal hazards, occupant privacy, degraded sensing, and no direct steering/throttle/brake control.
