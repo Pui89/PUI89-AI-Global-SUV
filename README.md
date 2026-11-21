@@ -166,3 +166,12 @@ Proposed advisory-only specification: [AI-04 product profile](docs/AI04_DRIVER_B
 ## Vehicle AI Development Gap Audit
 
 See the [PUI89 Vehicle AI Development Gap Audit v1.0](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/engineering/PUI89_VEHICLE_AI_DEVELOPMENT_GAP_AUDIT_V1.0.md) for the evidence-backed SUV/Scooter maturity matrix, implementation gaps, validation gates and recommended CPU-first sequence. [Thai version](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/engineering/PUI89_VEHICLE_AI_DEVELOPMENT_GAP_AUDIT_V1.0.th.md). Audit findings do not imply vehicle integration or road validation.
+
+
+## Offline Independence & Connectivity Resilience
+
+**The product must work without the app. Safety must work without connectivity.** Basic supported local operation, local status and safety controls must not require a smartphone, app, Wi-Fi, internet or cloud. The printed Quick Start and Safety Guide is supplied with the unit; the complete manual must be readable offline. QR and short URL are optional supplements. On link loss, remote commands are disabled and the product follows its own hazard-based safe state. See the [PUI89 Offline Independence & Connectivity Resilience Standard v1.0](https://github.com/Pui89/Pui89.github.io/blob/main/docs/PUI89_OFFLINE_INDEPENDENCE_CONNECTIVITY_RESILIENCE_STANDARD_V1.0.md) and the [product manual/Remote Companion specification](docs/PRODUCT_MANUAL_AND_REMOTE_COMPANION_STANDARD_V1.md).
+
+**Product-specific offline baseline:** The primary driver-operated controls, braking, steering, lighting and required vehicle safety systems must be independent of the companion app and internet. AI assistance and connected features must fail visibly without compromising driver control. Loss of connectivity must not itself trigger braking, steering, throttle, gear or propulsion changes. No remote steering, throttle, braking, gear selection, ignition or motion activation.
+
+These are development requirements, not claims of implemented, tested or validated capability.
