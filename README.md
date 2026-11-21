@@ -1,5 +1,8 @@
 # PUI89 AI Global SUV
 
+[English](README.md) · [ภาษาไทย](README.th.md)
+
+
 **Engineering a global-market SUV concept around original PUI89 vehicle intelligence, human-centred safety and evidence-led development.**
 
 [English project page](https://pui89.github.io/ai-global-suv.html) · [ภาษาไทย](https://pui89.github.io/ai-global-suv-th.html) · [PUI89 portfolio](https://pui89.github.io/)
