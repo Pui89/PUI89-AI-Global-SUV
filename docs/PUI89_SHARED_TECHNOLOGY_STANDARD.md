@@ -79,7 +79,7 @@ Security automation must use pinned, reviewed action versions or locally verifie
 - NVIDIA Isaac Lab: framework is published under BSD-3-Clause; GPU requirements and the Isaac Sim/Omniverse terms must be checked separately. Official source: https://developer.nvidia.com/isaac/lab
 - NVIDIA Isaac Sim: NVIDIA describes it as free/open source under Apache-2.0 while also documenting additional software/materials terms and separate paid redistribution/cloud costs. Do not use cloud services or redistribution features that can incur charges. Official source: https://developer.nvidia.com/isaac/sim
 
-Do not install heavy simulators on constrained machines. Keep robot, car and motorcycle control interfaces in mock/simulation mode. No direct hardware actuation, road deployment, rescue deployment, or safety-critical control from an unvalidated AI model.
+Do not install heavy simulators on constrained machines. Keep robot, car and motorcycle control interfaces in mock/simulation mode. No direct hardware actuation, vehicle operation or safety-critical control from an unvalidated AI model.
 
 ## 7. Shared PUI89 AI Core requirements
 
@@ -105,7 +105,6 @@ Cross-cutting capabilities:
 | PUI89 project | Priority applications |
 |---|---|
 | Coconut Harvest AI | Multimodal perception; maturity classification; uncertainty-aware detection; arm/gripper simulation; worker/animal safety; orchard/environment robustness; predictive maintenance. |
-| Flood Rescue AI | Multisensor world-state; terrain/water/current simulation; resilient navigation; communications-loss handling; flotation/stability and rescue-safety modelling; human-authorized proposals only. |
 | Multimodal Narcotics Screening AI | RGB and approved sensor evidence fusion; provenance and calibration; uncertainty and human review; false-positive/false-negative benchmarks; privacy and audit trail; no autonomous enforcement. |
 | Homeguard AI Nomad | Sensor fusion for heat, water, humidity, smoke, electrical and structural signals; anomaly/change detection; explainable alerts; offline-first operation; privacy and false-alarm controls. |
 | PUI89 AI Global SUV | Road-scene perception, world-state tracking, driver-advisory planning, simulation, vehicle-health research, cybersecurity and driver override; no road deployment from unvalidated AI. |
