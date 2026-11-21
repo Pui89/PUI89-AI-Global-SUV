@@ -144,3 +144,8 @@ All nine shared capability families and their definitions, evaluation requiremen
 ## AI-01 — Multi-Camera Surround Vision Profile
 
 The [PUI89 AI Global SUV AI-01 profile](docs/AI01_SURROUND_VISION_PROFILE_V1.0.md) adapts the reusable [PUI89 Multi-Vehicle Surround Vision module](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/architecture/PUI89_MULTI_VEHICLE_SURROUND_VISION_V1.0.md) to a proposed front/rear/left/right camera layout. Four cameras do not guarantee complete 360-degree coverage. Camera placement, calibration, compute, environmental limits and all performance remain TBD pending evidence. **Maturity:** proposed profile only; no installed cameras, vehicle integration or validation is claimed.
+
+
+## AI-02 — Object & Obstacle Detection
+
+The [SUV AI-02 profile](docs/AI02_OBJECT_OBSTACLE_DETECTION_PROFILE_V1.0.md) defines candidate classes, SUV operating domains, evaluation requirements and advisory-only safety boundaries. Proposed; no model or vehicle integration is verified.
