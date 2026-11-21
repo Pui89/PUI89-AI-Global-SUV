@@ -154,3 +154,7 @@ The [SUV AI-02 profile](docs/AI02_OBJECT_OBSTACLE_DETECTION_PROFILE_V1.0.md) def
 ## AI-03 — Vulnerable Road User Awareness
 
 The [SUV AI-03 profile](docs/AI03_VRU_AWARENESS_PROFILE_V1.0.md) proposes driver-advisory awareness of pedestrians, children as pedestrians and cyclists. It addresses parking, reversing, urban and road-scene contexts, bodywork occlusion, multi-view coverage, environmental degradation and driver-alert human factors. Sensor package, coverage, thresholds and operating envelope remain TBD. **Maturity:** proposed documentation only; no vehicle integration or road validation is claimed. The driver retains steering, throttle and braking authority.
+
+## AI-03 — Vulnerable Road User Protection
+
+Proposed advisory-only specification: [AI-03 profile](docs/AI03_VULNERABLE_ROAD_USER_PROTECTION_PROFILE_V1.0.md). This is a documentation proposal, not an implemented or validated capability.
