@@ -70,7 +70,7 @@ No benchmark implies that PUI89 has equivalent performance, features, certificat
 
 ### 5.1 Cabin architecture
 - Driver cockpit, passenger zones, seating, restraints, airbags, child-seat anchors, HVAC, storage and ingress/egress must be designed as one integrated package.
-- Seat count and cabin dimensions remain TBD.
+- Five-seat Luxury First-Class layout is the agreed project direction; final cabin dimensions, package and occupant clearances remain subject to engineering validation.
 - Comfort targets should be measurable: ergonomic reach, posture, visibility, noise/vibration/harshness, thermal comfort and accessibility.
 - Cabin materials and finishes require supplier provenance, durability, repair and chemical-compliance evidence.
 
@@ -112,7 +112,7 @@ PUI89 will evaluate powertrain options using transparent, market-specific eviden
 - Plug-in hybrid (PHEV) study.
 - Battery electric vehicle (BEV) study.
 
-The previous HEV-first direction remains a research priority, not a final product decision. The AI architecture must remain powertrain-neutral.
+The agreed first architecture target is a 2.5L Full Hybrid (HEV); the exact engine family/model, motor, transmission, battery and supplier remain unselected and require engineering comparison. This is a design target, not a production selection. The AI architecture must remain powertrain-neutral.
 
 ### 7.2 Comparison criteria
 - Real-world energy/fuel consumption under comparable cycles and conditions.
@@ -336,3 +336,13 @@ Create a traceable **Vehicle Requirements & Decision Register** linked to this b
 This document is a proposed master design and engineering baseline. It does not demonstrate that a vehicle has been built, that components have been selected, that systems have been implemented or integrated, or that any performance, safety, cybersecurity, regulatory or commercial requirement has been met.
 
 All vehicle-specific values remain TBD until supported by engineering evidence. Changes must be versioned, reviewed and traceable. No default-branch merge, physical purchase, download, installation, paid service or vehicle test is authorised by this document alone.
+
+
+## 17. Luxury, serviceability and global parts strategy
+
+Adopt the controlled requirements in [PUI89 Global Serviceability & Parts Strategy v1.0](PUI89_GLOBAL_SERVICEABILITY_AND_PARTS_STRATEGY_V1.0.md). The SUV must combine a premium five-seat cabin and all-climate usability with accessible routine service points, modular repair where safe, documented diagnostics, technician-centred repair procedures, traceable component identity and regionally supportable parts.
+
+Evaluate qualified supplier and service ecosystems in Thailand/ASEAN, Japan, South Korea, Europe and the United States. The project retains a zero-China-dependence requirement and must verify actual manufacturing origin and sub-tier provenance. Do not infer origin from brand headquarters or distributor location. No supplier, component, manufacturer part number or alternate is approved by this strategy alone.
+
+Measure serviceability through timed technician tasks, tool/access requirements, diagnostic fault-injection tests, post-repair verification, parts interchangeability evidence and regional availability data. High-voltage systems require trained technicians and approved isolation/service procedures. PUI89 AI remains advisory and read-only; it must not clear safety faults or command vehicle control systems.
+
