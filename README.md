@@ -256,3 +256,17 @@ This product follows the portfolio-wide [PUI89 Future-Ready Technology Policy v1
 | Safety & cybersecurity | Preserve OEM safety controls; threat-model interfaces and updates; no AI authority over steering, throttle, braking or safety-critical ECU writes. |
 
 **First gate:** architecture and data-access boundaries with OEM-compatible, read-only/advisory integration. **Status:** Planned roadmap only.
+
+
+## Long-Term Technology Evolution & Anti-Obsolescence Strategy (2027–2030+)
+
+This forward-looking roadmap extends the current P1–P4 development sequence beyond the 2026 trend baseline. It identifies evaluation horizons, not guaranteed future capabilities or fixed adoption dates. Each technology remains conditional on verified user value, provenance and licensing, target-hardware fit, safety, maintainability and reproducible evidence.
+
+| Horizon | Product evolution focus |
+|---|---|
+| 2027 | Lock advisory-only authority, read-only vehicle-data boundaries, driver-monitoring privacy rules and safety/security interface requirements. |
+| 2028 | Evaluate road/cabin sensor fusion and transparent predictive diagnostics using lawful representative data; document false alerts, missed events and uncertainty. |
+| 2029 | Explore context-aware mobility assistance, vehicle digital-twin/health representations and secure software-defined vehicle integration without bypassing OEM controls. |
+| 2030+ | Maintain compatibility across vehicle generations through versioned read-only adapters; no AI control of steering, throttle, braking or safety-critical ECU writes. |
+
+**Continuous anti-obsolescence rule:** review technology signals monthly, architecture quarterly and the full roadmap annually; trigger an out-of-cycle review when a critical dependency is unsupported, a security issue emerges, or measured performance/resource limits are breached. Keep a verified baseline, migration and rollback path, compatibility/regression tests and a documented decision for every upgrade. Do not adopt a trend solely because it is new. **Status:** Planned roadmap; no future capability is claimed as implemented or validated.
