@@ -239,3 +239,7 @@ These priorities apply across the vehicle lifecycle and must be converted into t
 8. **Lifetime Reliability** — verify durability, maintainability, corrosion, thermal, vibration and repair performance through repeatable tests, field evidence and configuration-controlled records; do not use unverified lifetime claims.
 
 **Measurement rule:** “easy”, “global”, “long-term” and “reliable” are not accepted as marketing-only claims. Each requires a defined task or metric, test conditions, responsible reviewer, acceptance threshold and retained evidence. No supplier, part availability, repair time, service interval or lifetime rating is claimed until verified.
+
+## Future-Ready Technology Policy
+
+This product follows the portfolio-wide [PUI89 Future-Ready Technology Policy v1.0](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/architecture/PUI89_FUTURE_READY_TECHNOLOGY_POLICY_V1.0.md). The policy requires upgradeable interfaces, evidence-based technology selection, provenance/licence review, local-first resource discipline, compatibility testing, safe fallback and controlled release scope. Technology candidates are reviewed monthly and architecture decisions quarterly. This link records policy adoption intent; it does **not** claim that model switching, hardware abstraction, sensor adapters, automated monitoring or product-level validation are already implemented.
