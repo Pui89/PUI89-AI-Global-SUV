@@ -175,3 +175,19 @@ See the [PUI89 Vehicle AI Development Gap Audit v1.0](https://github.com/Pui89/P
 **Product-specific offline baseline:** The primary driver-operated controls, braking, steering, lighting and required vehicle safety systems must be independent of the companion app and internet. AI assistance and connected features must fail visibly without compromising driver control. Loss of connectivity must not itself trigger braking, steering, throttle, gear or propulsion changes. No remote steering, throttle, braking, gear selection, ignition or motion activation.
 
 These are development requirements, not claims of implemented, tested or validated capability.
+
+
+## Latest engineering progress — 22 November 2026
+
+**Maturity:** Implemented — early software-only safety/contract foundation. **Evidence status:** PARTIAL. This does not establish vehicle integration, road testing or autonomous capability.
+
+**Recent verified repository progress:**
+- Merged the multilingual manual and remote-companion specification (PR #107).
+- Added offline-first requirements and evidence status to the README, including the requirement that primary driver controls and required vehicle safety systems remain independent of apps, internet and AI assistance.
+- AI functions remain advisory; the driver retains steering, throttle and braking authority.
+
+**Not established:** a physical vehicle prototype, selected production platform, integrated sensors, validated road-scene accuracy, road testing, vehicle safety certification or autonomous driving.
+
+**Next evidence gate:** complete the driver-use-case and hazard baseline, define permitted read-only vehicle interfaces and data provenance, then execute reproducible software tests and scenario-based evaluation with explicit false-alert, missed-hazard and unknown-state analysis before any vehicle integration.
+
+**Last reviewed:** 22 November 2026. See [multilingual manual/remote companion PR #107](https://github.com/Pui89/PUI89-AI-Global-SUV/pull/107).
