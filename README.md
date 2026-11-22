@@ -31,10 +31,10 @@ PUI89 AI Global SUV is a distinct medium-size, five-door SUV programme—not a g
 - **Vehicle class:** medium-size global-market SUV concept.
 - **Body direction:** five doors (four side doors and a rear liftgate), enclosed passenger cabin and dedicated rear cargo area.
 - **Use context:** everyday and family travel, mixed urban/highway use, regional road conditions and serviceability; target markets and operating envelope require a formal requirements study.
-- **Packaging:** seating layout, dimensions, wheelbase, track, curb mass, GVWR/GAWR, payload, cargo volume, towing, ground clearance, approach/departure angles and turning circle remain **TBD**. No numerical values are approved.
+- **Packaging:** five-seat layout is the agreed design direction; final cabin packaging, dimensions, wheelbase, track, curb mass, GVWR/GAWR, payload implementation, cargo volume, towing, ground clearance, approach/departure angles and turning circle remain subject to engineering validation. The agreed 500 kg payload and 2,700 kg GVWR are targets, not certified ratings.
 
 ### Powertrain and energy
-- Full Hybrid (HEV) is the first architecture proposed for evaluation.
+- A 2.5L Full Hybrid (HEV) is the agreed first powertrain architecture target for evaluation; the exact engine family/model and supplier are not selected.
 - Petrol-only is a simplicity/cost benchmark; PHEV and BEV remain comparison cases.
 - Engine, motor, transmission, battery chemistry/capacity, supplier, platform, fuel economy, range, emissions and performance are **not selected or established**.
 
