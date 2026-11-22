@@ -223,3 +223,19 @@ For international engineering, factory and worker handoff, use the controlled PU
 - [PUI89 Global Manufacturing Handoff System v1.0](https://github.com/Pui89/Pui89.github.io/blob/main/docs/PUI89_GLOBAL_MANUFACTURING_HANDOFF_SYSTEM_V1.0.md)
 
 **Production rule:** Build, buy, substitute, inspect or release only against the exact approved vehicle configuration, revision, drawing, BOM and work instruction. Missing or conflicting values are **STOP — DO NOT GUESS**; raise a Technical Query (TQ). The shared blank manufacturing templates are being reviewed in [PUI89 website PR #639](https://github.com/Pui89/Pui89.github.io/pull/639) and are not yet production authority.
+
+
+## Eight Long-Term Engineering Priorities
+
+These priorities apply across the vehicle lifecycle and must be converted into traceable requirements, verification methods, acceptance criteria and released service evidence:
+
+1. **Easy to Inspect** — provide safe, clearly labelled access to routine inspection points, diagnostic connectors and service status; verify access with technician task studies.
+2. **Easy to Repair** — use replaceable modules and repairable trim/harness sections where safety, durability and lifecycle cost permit; verify removal/reinstallation and post-repair function.
+3. **Globally Serviceable** — evaluate qualified service and parts ecosystems in Thailand/ASEAN, Japan, South Korea, Europe and the United States. These are target regions, not confirmed coverage.
+4. **Parts Traceability** — record exact manufacturer, manufacturer part number, manufacturing site, country of origin, sub-tier provenance, revision, approved fitment and validated alternatives. Unknown provenance means not approved.
+5. **Long-Term Support** — plan workshop manuals, wiring/diagnostic information, technician training, warranty/recall processes, software support and component end-of-life/supersession handling.
+6. **Offline Reliability** — primary driving controls and required vehicle safety functions must not depend on a phone, app, internet or cloud. Essential diagnostics and service information should have an offline path.
+7. **AI Maintenance Intelligence** — PUI89 AI may explain authorised read-only diagnostic evidence, trends and uncertainty and recommend inspection. It must not clear/suppress safety faults, write to control ECUs or replace a qualified technician.
+8. **Lifetime Reliability** — verify durability, maintainability, corrosion, thermal, vibration and repair performance through repeatable tests, field evidence and configuration-controlled records; do not use unverified lifetime claims.
+
+**Measurement rule:** “easy”, “global”, “long-term” and “reliable” are not accepted as marketing-only claims. Each requires a defined task or metric, test conditions, responsible reviewer, acceptance threshold and retained evidence. No supplier, part availability, repair time, service interval or lifetime rating is claimed until verified.
