@@ -70,7 +70,7 @@ No benchmark implies that PUI89 has equivalent performance, features, certificat
 
 ### 5.1 Cabin architecture
 - Driver cockpit, passenger zones, seating, restraints, airbags, child-seat anchors, HVAC, storage and ingress/egress must be designed as one integrated package.
-- Seat count and cabin dimensions remain TBD.
+- Five-seat Luxury First-Class layout is the agreed project direction; final cabin dimensions, package and occupant clearances remain subject to engineering validation.
 - Comfort targets should be measurable: ergonomic reach, posture, visibility, noise/vibration/harshness, thermal comfort and accessibility.
 - Cabin materials and finishes require supplier provenance, durability, repair and chemical-compliance evidence.
 
@@ -112,7 +112,7 @@ PUI89 will evaluate powertrain options using transparent, market-specific eviden
 - Plug-in hybrid (PHEV) study.
 - Battery electric vehicle (BEV) study.
 
-The previous HEV-first direction remains a research priority, not a final product decision. The AI architecture must remain powertrain-neutral.
+The agreed first architecture target is a 2.5L Full Hybrid (HEV); the exact engine family/model, motor, transmission, battery and supplier remain unselected and require engineering comparison. This is a design target, not a production selection. The AI architecture must remain powertrain-neutral.
 
 ### 7.2 Comparison criteria
 - Real-world energy/fuel consumption under comparable cycles and conditions.
