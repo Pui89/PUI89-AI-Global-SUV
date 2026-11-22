@@ -239,3 +239,34 @@ These priorities apply across the vehicle lifecycle and must be converted into t
 8. **Lifetime Reliability** — verify durability, maintainability, corrosion, thermal, vibration and repair performance through repeatable tests, field evidence and configuration-controlled records; do not use unverified lifetime claims.
 
 **Measurement rule:** “easy”, “global”, “long-term” and “reliable” are not accepted as marketing-only claims. Each requires a defined task or metric, test conditions, responsible reviewer, acceptance threshold and retained evidence. No supplier, part availability, repair time, service interval or lifetime rating is claimed until verified.
+
+## Future-Ready Technology Policy
+
+This product follows the portfolio-wide [PUI89 Future-Ready Technology Policy v1.0](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/architecture/PUI89_FUTURE_READY_TECHNOLOGY_POLICY_V1.0.md). The policy requires upgradeable interfaces, evidence-based technology selection, provenance/licence review, local-first resource discipline, compatibility testing, safe fallback and controlled release scope. Technology candidates are reviewed monthly and architecture decisions quarterly. This link records policy adoption intent; it does **not** claim that model switching, hardware abstraction, sensor adapters, automated monitoring or product-level validation are already implemented.
+
+## Product-Specific Technology Upgrade Plan
+
+**Gartner 2026 alignment:** Physical AI, hybrid/AI supercomputing, Domain-Specific Models, Digital Provenance and AI Security. See the [canonical portfolio policy](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/architecture/PUI89_FUTURE_READY_TECHNOLOGY_POLICY_V1.0.md).
+
+| Upgrade area | Planned sequence (not yet a capability claim) |
+|---|---|
+| Advisory ADAS & road perception | Define advisory-only scope and driver authority; evaluate perception/warning quality on lawful, representative data with uncertainty reporting. |
+| Sensor fusion & driver monitoring | Specify data interfaces and evaluate components independently; document false positives, missed detections and degraded conditions. |
+| Predictive maintenance | Start with traceable read-only vehicle data and transparent diagnostics; require evidence before forecasting claims. |
+| Safety & cybersecurity | Preserve OEM safety controls; threat-model interfaces and updates; no AI authority over steering, throttle, braking or safety-critical ECU writes. |
+
+**First gate:** architecture and data-access boundaries with OEM-compatible, read-only/advisory integration. **Status:** Planned roadmap only.
+
+
+## Long-Term Technology Evolution & Anti-Obsolescence Strategy (2027–2030+)
+
+This forward-looking roadmap extends the current P1–P4 development sequence beyond the 2026 trend baseline. It identifies evaluation horizons, not guaranteed future capabilities or fixed adoption dates. Each technology remains conditional on verified user value, provenance and licensing, target-hardware fit, safety, maintainability and reproducible evidence.
+
+| Horizon | Product evolution focus |
+|---|---|
+| 2027 | Lock advisory-only authority, read-only vehicle-data boundaries, driver-monitoring privacy rules and safety/security interface requirements. |
+| 2028 | Evaluate road/cabin sensor fusion and transparent predictive diagnostics using lawful representative data; document false alerts, missed events and uncertainty. |
+| 2029 | Explore context-aware mobility assistance, vehicle digital-twin/health representations and secure software-defined vehicle integration without bypassing OEM controls. |
+| 2030+ | Maintain compatibility across vehicle generations through versioned read-only adapters; no AI control of steering, throttle, braking or safety-critical ECU writes. |
+
+**Continuous anti-obsolescence rule:** review technology signals monthly, architecture quarterly and the full roadmap annually; trigger an out-of-cycle review when a critical dependency is unsupported, a security issue emerges, or measured performance/resource limits are breached. Keep a verified baseline, migration and rollback path, compatibility/regression tests and a documented decision for every upgrade. Do not adopt a trend solely because it is new. **Status:** Planned roadmap; no future capability is claimed as implemented or validated.
