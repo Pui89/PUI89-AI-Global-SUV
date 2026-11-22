@@ -199,7 +199,24 @@ Before design freeze, review:
 7. Total cost of ownership using transparent assumptions and market-specific evidence.
 8. User experience when connectivity, sensors or optional AI features are unavailable.
 
-## 10. Governance and evidence status
+
+
+## 10. Eight long-term engineering priorities and measurable governance
+
+Apply the following eight principles as controlled lifecycle requirements:
+
+1. **Easy to Inspect:** accessible, labelled routine inspection points and diagnostics; verify through timed technician task studies, tool/access records and no-damage inspection.
+2. **Easy to Repair:** modular replacement and repairable subassemblies where safe; verify removal/install steps, required tools, repair limits, calibration and post-repair checks.
+3. **Globally Serviceable:** assess qualified service capability and parts pathways in Thailand/ASEAN, Japan, South Korea, Europe and the US. Record actual country/site coverage, training, lead time and support evidence; target regions are not proof of availability.
+4. **Parts Traceability:** retain manufacturer, exact manufacturer part number, manufacturing site, country of origin, sub-tier provenance, revision, approved fitment and validated alternatives. Unknown or conflicting provenance is a stop condition.
+5. **Long-Term Support:** control owner/workshop manuals, wiring and diagnostic data, technician training, warranty/recall handling, software support, end-of-life notices, supersession and last-time-buy decisions.
+6. **Offline Reliability:** primary driver controls and required safety functions remain independent of app, phone, internet and cloud. Provide local status, essential warnings and an offline service-information path.
+7. **AI Maintenance Intelligence:** advisory/read-only analysis only; preserve evidence, timestamps, uncertainty and fault severity. Never clear/suppress safety faults, write to safety-critical controllers, bypass interlocks or replace qualified inspection.
+8. **Lifetime Reliability:** establish repeatable environmental, corrosion, thermal, vibration, fatigue, serviceability and post-repair tests; retain failures, corrective actions and field feedback against exact configuration.
+
+For every priority, the requirements register must identify an owner, applicable configuration, verification method, test conditions, measurable acceptance criterion, evidence location, review date and approval authority. “Easy”, “global”, “long-term” and “lifetime” are not accepted as unmeasured marketing claims. No supplier coverage, repair-time target, maintenance interval, service life or availability statement is approved by this section alone.
+
+## 11. Governance and evidence status
 
 This document defines proposed engineering requirements. It does not establish:
 - a selected engine, hybrid system, battery, supplier or vehicle platform;
