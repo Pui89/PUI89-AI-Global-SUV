@@ -243,3 +243,16 @@ These priorities apply across the vehicle lifecycle and must be converted into t
 ## Future-Ready Technology Policy
 
 This product follows the portfolio-wide [PUI89 Future-Ready Technology Policy v1.0](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/architecture/PUI89_FUTURE_READY_TECHNOLOGY_POLICY_V1.0.md). The policy requires upgradeable interfaces, evidence-based technology selection, provenance/licence review, local-first resource discipline, compatibility testing, safe fallback and controlled release scope. Technology candidates are reviewed monthly and architecture decisions quarterly. This link records policy adoption intent; it does **not** claim that model switching, hardware abstraction, sensor adapters, automated monitoring or product-level validation are already implemented.
+
+## Product-Specific Technology Upgrade Plan
+
+**Gartner 2026 alignment:** Physical AI, hybrid/AI supercomputing, Domain-Specific Models, Digital Provenance and AI Security. See the [canonical portfolio policy](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/architecture/PUI89_FUTURE_READY_TECHNOLOGY_POLICY_V1.0.md).
+
+| Upgrade area | Planned sequence (not yet a capability claim) |
+|---|---|
+| Advisory ADAS & road perception | Define advisory-only scope and driver authority; evaluate perception/warning quality on lawful, representative data with uncertainty reporting. |
+| Sensor fusion & driver monitoring | Specify data interfaces and evaluate components independently; document false positives, missed detections and degraded conditions. |
+| Predictive maintenance | Start with traceable read-only vehicle data and transparent diagnostics; require evidence before forecasting claims. |
+| Safety & cybersecurity | Preserve OEM safety controls; threat-model interfaces and updates; no AI authority over steering, throttle, braking or safety-critical ECU writes. |
+
+**First gate:** architecture and data-access boundaries with OEM-compatible, read-only/advisory integration. **Status:** Planned roadmap only.
