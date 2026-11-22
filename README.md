@@ -191,3 +191,7 @@ These are development requirements, not claims of implemented, tested or validat
 **Next evidence gate:** complete the driver-use-case and hazard baseline, define permitted read-only vehicle interfaces and data provenance, then execute reproducible software tests and scenario-based evaluation with explicit false-alert, missed-hazard and unknown-state analysis before any vehicle integration.
 
 **Last reviewed:** 22 November 2026. See [multilingual manual/remote companion PR #107](https://github.com/Pui89/PUI89-AI-Global-SUV/pull/107).
+
+## Global manufacturing engineering
+
+The product-specific [PUI89 Global Manufacturing Design Brief v1.0](docs/PUI89_GLOBAL_MANUFACTURING_DESIGN_BRIEF_V1.0.md) defines the preliminary product envelope, candidate material families, component architecture, global human-factors requirements, extreme-environment design strategy, manufacturing transfer package, quality gates and unresolved specifications. It distinguishes proposed targets from tested or verified performance. Candidate materials and component types are not an approved BOM; exact grades, models, dimensions and tolerances remain open until engineering analysis and validation.
