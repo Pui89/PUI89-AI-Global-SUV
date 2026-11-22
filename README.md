@@ -79,6 +79,26 @@ The master blueprint covers:
 - Read-only vehicle-health observations where the vehicle provides a verified interface.
 - Driver-facing alerts and evidence-based decision support.
 
+## Luxury, Serviceability & Global Parts Strategy
+
+**Design principle: Premium to own. Practical to maintain. Repairable by design.**
+
+The agreed project direction is a five-seat Luxury First-Class SUV, 2.5L Hybrid (HEV) as the first architecture to evaluate, FWD/e-AWD study, 500 kg payload target, 2,700 kg GVWR target subject to engineering validation, and -40°C to +50°C operating-climate design target with -50°C to +60°C as an extended engineering challenge. These are targets, not validated specifications or approved production ratings.
+
+The engineering brief must make luxury measurable through cabin comfort, low noise/vibration, effective heating/cooling/defrosting, ergonomic seating and controls, durable cleanable materials, corrosion protection and all-climate usability.
+
+Serviceability requirements:
+- Accessible routine inspection and service points for filters, fluids, fuses, relays, low-voltage battery and diagnostics.
+- Modular replacement of serviceable pumps, fans, sensors, harness sections, lamps, switches, trim and control modules where safe and practical.
+- Clear fault codes, read-only diagnostic access for PUI89 AI, offline-capable service information and traceable repair procedures.
+- Workshop manuals, wiring diagrams, connector references, verified torque values, calibration/relearn steps and Thai/English owner/technician documentation.
+- High-voltage battery, inverter and e-motor work restricted to qualified technicians using approved isolation and service procedures.
+- No invented service intervals, torque values, part numbers, interchangeability claims or repair-cost promises.
+
+Global parts strategy: evaluate qualified supply and service networks in Thailand/ASEAN, Japan, South Korea, Europe and the United States. Prioritise documented automotive standards, mature service ecosystems, long-term support, regional stock, verified origin and second sources for critical parts. The project retains its zero-China-dependence requirement; supplier headquarters or distributor location alone is not proof of component origin. No supplier is selected and no availability is guaranteed.
+
+Read the full [Luxury, Serviceability & Global Parts Strategy v1.0](docs/PUI89_GLOBAL_SERVICEABILITY_AND_PARTS_STRATEGY_V1.0.md).
+
 ## What is not established
 
 - No production vehicle, donor platform, vehicle integration or road testing is established.
