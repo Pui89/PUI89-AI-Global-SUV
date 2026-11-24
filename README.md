@@ -1,5 +1,7 @@
 # PUI89 AI Global SUV
 
+**ภาษาไทย:** [อ่าน README ภาษาไทย](README.th.md)
+
 ## Product and AI system update — 18 November 2026
 
 **Public product summary (EN):** PUI89 AI Global SUV is a medium-size, five-door SUV concept with a software-first, driver-centred AI architecture. HEV is the preferred first powertrain research direction; no production vehicle, donor platform or drivetrain has been selected.
