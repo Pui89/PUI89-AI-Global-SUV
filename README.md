@@ -270,3 +270,62 @@ This forward-looking roadmap extends the current P1–P4 development sequence be
 | 2030+ | Maintain compatibility across vehicle generations through versioned read-only adapters; no AI control of steering, throttle, braking or safety-critical ECU writes. |
 
 **Continuous anti-obsolescence rule:** review technology signals monthly, architecture quarterly and the full roadmap annually; trigger an out-of-cycle review when a critical dependency is unsupported, a security issue emerges, or measured performance/resource limits are breached. Keep a verified baseline, migration and rollback path, compatibility/regression tests and a documented decision for every upgrade. Do not adopt a trend solely because it is new. **Status:** Planned roadmap; no future capability is claimed as implemented or validated.
+
+
+---
+
+## Academic Research Direction — Q1-Targeted Study (Proposed)
+
+**Research topic:** Predictive Multimodal AI for Road and Environmental Risk Awareness  
+**Working title:** *Spatiotemporal Multimodal Risk Prediction and Uncertainty-Calibrated Driver Advisories under Changing Road and Environmental Conditions*
+
+**Status:** Proposed for lecturer review. Novelty and dataset suitability require verification. This is advisory intelligence, not autonomous vehicle control.
+
+### Problem and motivation
+Object detection does not necessarily predict whether an object or road condition creates a vehicle hazard. Risk depends on motion, road geometry, weather, visibility, ego-vehicle context and temporal change. A warning system must not present unknown conditions as safe.
+
+### Candidate research gaps
+- Gap between frame-level detection and temporally grounded vehicle-relevant risk prediction.
+- Calibration and false-alert performance under adverse weather and distribution shift.
+- Robust fusion of camera, radar/LiDAR or vehicle-context inputs when available and synchronised.
+- Generalisation across cities, routes, seasons and sensor configurations.
+
+### Research questions and hypotheses
+- **RQ1:** Does spatiotemporal multimodal modelling improve hazard-risk prediction over frame-level detection and fixed warning rules?
+- **RQ2:** How does uncertainty calibration affect warning quality under adverse weather and distribution shift?
+- **RQ3:** Can explanations be grounded in measured observations and predicted trajectories?
+- **H1:** Temporal context and available complementary modalities will improve event-level risk prediction over matched frame-only baselines.
+- **H2:** Uncertainty-aware thresholds will improve the missed-hazard/nuisance-alert trade-off on held-out routes.
+
+### Proposed hybrid-AI method
+1. Detect/segment road users, road surface, obstacles and relevant scene elements.
+2. Track objects and estimate motion/trajectory using temporal models and geometry.
+3. Fuse camera, radar/LiDAR and contextual inputs only after timestamp, calibration and provenance checks.
+4. Estimate risk over defined time horizons with a probabilistic or learned prediction model.
+5. Calibrate uncertainty and apply warning/abstention thresholds.
+6. Generate driver-facing explanations from structured evidence; VLMs may assist language but cannot invent sensor facts.
+7. Keep all outputs advisory and read-only.
+
+### Candidate datasets and data collection
+- **nuScenes** for multi-sensor urban driving perception/tracking.
+- **nuPlan** for driving scenarios and planning-related evaluation.
+- **BDD100K** for diverse weather, time-of-day and road scenes.
+- Permissioned local-road observations may be added for Thai conditions with route/time metadata and privacy protection.
+- Check dataset terms: some benchmark licences restrict commercial use; research access does not automatically authorise commercial reuse.
+
+### Experiments and evaluation
+Baselines: frame-level detector; detector plus fixed warning rules; temporal tracking; available sensor-fusion baseline; proposed spatiotemporal risk model.
+- Frame-only versus temporal prediction at predeclared horizons.
+- Camera-only versus genuinely available and synchronised multimodal inputs.
+- Rain, night, glare, low visibility, occlusion and road-surface changes.
+- Held-out routes/cities/time periods with adjacent-frame leakage prevention.
+- Risk calibration, warning lead time, false alerts, missed hazards and inference latency.
+
+**Primary outcome:** pre-register event-level hazard recall at a fixed false-warning rate or one clearly defined risk-prediction endpoint.  
+**Secondary metrics:** precision, PR-AUC, time-to-event error, warning lead time, false warnings/hour, calibration, subgroup performance and latency.
+
+### Expected contribution
+A reproducible spatiotemporal risk-prediction and evaluation method linking detected evidence, object motion, road/environment context and calibrated uncertainty for driver advisories.
+
+### Safety and publication boundaries
+The SUV AI is **advisory-only**. No autonomous steering, throttle, braking, propulsion or safety-critical ECU write is included. Unknown road-water depth remains unknown; do not advise entry into flooded roads with unverified depth. Use lawful, privacy-reviewed data and independent route/time test splits. Q1 publication is not guaranteed.
