@@ -329,3 +329,7 @@ A reproducible spatiotemporal risk-prediction and evaluation method linking dete
 
 ### Safety and publication boundaries
 The SUV AI is **advisory-only**. No autonomous steering, throttle, braking, propulsion or safety-critical ECU write is included. Unknown road-water depth remains unknown; do not advise entry into flooded roads with unverified depth. Use lawful, privacy-reviewed data and independent route/time test splits. Q1 publication is not guaranteed.
+
+## 360° Intelligence
+
+The [360° Intelligence Profile v1.0](docs/PUI89_360_DEGREE_INTELLIGENCE_PROFILE_V1.0.md) defines vehicle-surround perception and driver-facing alerts with explicit blind-zone and sensor-degradation handling. Driver control remains authoritative. **Status: Proposed**; no vehicle integration or road validation is established.
