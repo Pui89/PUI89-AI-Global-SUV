@@ -154,3 +154,38 @@ PUI89 AI Global SUV เป็นโครงการแนวคิดรถ SU
 | 2030+ | รักษาความเข้ากันได้กับรถหลายรุ่นผ่าน Read-only Adapter ที่กำหนดเวอร์ชัน ห้าม AI ควบคุมพวงมาลัย คันเร่ง เบรก หรือเขียน ECU ที่มีผลต่อความปลอดภัย |
 
 **กฎป้องกันความล้าสมัยอย่างต่อเนื่อง:** ติดตามสัญญาณเทคโนโลยีทุกเดือน ทบทวนสถาปัตยกรรมทุกไตรมาส และทบทวน Roadmap ทั้งหมดทุกปี พร้อมทบทวนนอกกำหนดเมื่อ Dependency สำคัญหยุดสนับสนุน พบปัญหาความปลอดภัย หรือผลทดสอบเกินข้อจำกัดด้านประสิทธิภาพ/ทรัพยากร ทุกการอัปเกรดต้องมี Baseline ที่ตรวจสอบแล้ว แผน Migration/Rollback ชุดทดสอบ Compatibility/Regression และบันทึกเหตุผลการตัดสินใจ ห้ามเลือกเทคโนโลยีเพียงเพราะเป็นของใหม่ **สถานะ:** เป็นแผนที่เสนอ ยังไม่กล่าวอ้างว่าความสามารถในอนาคตถูกพัฒนาหรือ Validate แล้ว
+
+
+---
+
+## ทิศทางการวิจัยทางวิชาการ — เป้าหมายวารสาร Q1 (ข้อเสนอ)
+
+**หัวข้อวิจัย:** Predictive Multimodal AI สำหรับการรับรู้ความเสี่ยงบนถนนและสภาพแวดล้อม  
+**ชื่อบทความเบื้องต้น:** *Spatiotemporal Multimodal Risk Prediction and Uncertainty-Calibrated Driver Advisories under Changing Road and Environmental Conditions*
+
+### ปัญหาและช่องว่าง
+การตรวจจับวัตถุไม่ได้หมายความว่าจะทำนายความเสี่ยงต่อรถได้ ความเสี่ยงขึ้นกับการเคลื่อนที่ รูปทรงถนน สภาพอากาศ ทัศนวิสัย บริบทของรถ และการเปลี่ยนแปลงตามเวลา ช่องว่างที่ต้องตรวจสอบ ได้แก่ การเชื่อม Frame-level Detection กับ Risk Prediction การ Calibration/False Alarm ในสภาพอากาศเลวร้าย การผสาน Sensor ที่ซิงโครไนซ์ และการทดสอบข้ามเส้นทาง/เมือง
+
+### คำถามและสมมติฐาน
+- RQ1 Spatiotemporal Multimodal Model ช่วยทำนายความเสี่ยงได้ดีกว่า Frame-level Detection และ Fixed Warning Rules หรือไม่
+- RQ2 Calibration ช่วยรักษาคุณภาพคำเตือนเมื่อเกิด Distribution Shift หรือไม่
+- RQ3 คำอธิบายอ้างอิง Observation และ Trajectory ที่วัดได้หรือไม่
+- H1 Temporal Context และ Sensor ที่มีจริงจะเพิ่ม Event-level Risk Prediction
+- H2 Uncertainty-aware Threshold จะช่วยสมดุลระหว่างการพลาดอันตรายและการเตือนผิดบนเส้นทางทดสอบใหม่
+
+### วิธีการแบบ Hybrid AI
+ตรวจจับ/แบ่งส่วนผู้ใช้ถนน พื้นผิว และสิ่งกีดขวาง ติดตามวัตถุและประเมิน Trajectory ผสาน Camera/Radar/LiDAR เฉพาะเมื่อเวลา Calibration และ Provenance ถูกต้อง ประเมินความเสี่ยงตามช่วงเวลา Calibrate Uncertainty และสร้างคำอธิบายจาก Structured Evidence โดย VLM ห้ามแต่งข้อเท็จจริง ผลลัพธ์เป็น Read-only Advisory
+
+### ชุดข้อมูลที่เสนอ
+nuScenes สำหรับ Multi-sensor Driving, nuPlan สำหรับ Driving Scenarios, BDD100K สำหรับสภาพถนน/อากาศหลากหลาย และข้อมูลถนนในประเทศไทยที่ได้รับอนุญาต ตรวจสอบใบอนุญาตอย่างละเอียด เพราะบางชุดจำกัดการใช้เชิงพาณิชย์
+
+### การทดลองและตัวชี้วัด
+เปรียบเทียบ Frame-level Detector, Fixed Warning Rules, Temporal Tracking, Sensor Fusion และ Proposed Risk Model ทดสอบ Frame-only/Temporal, Camera-only/Multimodal, ฝน กลางคืน แสงสะท้อน ทัศนวิสัยต่ำ การบัง และเส้นทางใหม่ ป้องกัน Leakage ระหว่างเฟรมติดกัน
+
+**ผลหลัก:** Event-level Hazard Recall ภายใต้ False-warning Rate ที่กำหนด หรือ Endpoint หลักหนึ่งตัวที่กำหนดล่วงหน้า  
+**ผลรอง:** Precision, PR-AUC, Time-to-event Error, Warning Lead Time, False Warnings/Hour, Calibration และ Latency
+
+### ผลงานที่คาดหวังและขอบเขตความปลอดภัย
+วิธีทำนายความเสี่ยงตามเวลาแบบ Spatiotemporal ที่เชื่อมหลักฐานการตรวจจับ การเคลื่อนที่ บริบทถนน และ Uncertainty ที่ผ่าน Calibration
+
+AI ของ SUV ให้คำแนะนำเท่านั้น ไม่มีการควบคุมพวงมาลัย คันเร่ง เบรก ระบบขับเคลื่อน หรือเขียน ECU ที่มีผลต่อความปลอดภัย หากไม่ทราบความลึกน้ำ ต้องแสดงว่าไม่ทราบ และห้ามแนะนำให้ขับเข้าพื้นที่น้ำท่วมที่ไม่ได้ตรวจสอบความลึก
