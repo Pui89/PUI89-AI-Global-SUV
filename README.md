@@ -11,6 +11,16 @@
 
 *Concept artwork only. It is not a production vehicle, selected platform or functioning prototype.*
 
+## Image Evidence & Licensing Standard
+
+**Real-world reference:** cite real automotive technologies, production-vehicle components, driver-assistance sensors, safety systems, manufacturing processes and road environments. Identify manufacturers/models where relevant; these are benchmarks, not PUI89-owned technology or validation.
+
+**PUI89 concept image:** the SUV illustration is a proposed PUI89 design direction, not a production vehicle, selected donor platform, road-legal vehicle or functioning prototype.
+
+**Evidence caption:** distinguish manufacturer reference, PUI89 concept render, simulation and verified test evidence. Do not imply crash-test ratings, ADAS performance, road legality, range or production readiness without authoritative evidence.
+
+**Image source & licence:** prefer [Wikimedia Commons](https://commons.wikimedia.org/) and [Pexels](https://www.pexels.com/). Record source page, creator, asset URL, exact licence, attribution, access date and modifications. Check trademark, publicity, commercial-use and derivative-work restrictions before publishing.
+
 ## Product direction
 
 PUI89 AI Global SUV is a software-first vehicle-intelligence concept intended for global-market requirements. The project aims to develop an original PUI89 design and engineering architecture informed by selected industry benchmarks:
