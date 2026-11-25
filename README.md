@@ -333,3 +333,7 @@ The SUV AI is **advisory-only**. No autonomous steering, throttle, braking, prop
 ## 360° Intelligence
 
 The [360° Intelligence Profile v1.0](docs/PUI89_360_DEGREE_INTELLIGENCE_PROFILE_V1.0.md) defines vehicle-surround perception and driver-facing alerts with explicit blind-zone and sensor-degradation handling. Driver control remains authoritative. **Status: Proposed**; no vehicle integration or road validation is established.
+
+
+## Hybrid End-to-End Multimodal AI
+[PUI89 Hybrid End-to-End AI Product Adapter v1.0](docs/architecture/PUI89_HYBRID_END_TO_END_AI_ADAPTER_V1.0.md) — proposed product-specific adoption plan. E2E benefits require comparative evidence; product boundaries, independent safety and evidence gates remain mandatory.
