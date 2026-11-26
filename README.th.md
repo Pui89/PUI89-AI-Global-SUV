@@ -239,3 +239,10 @@ Console สำหรับผู้ขับขี่ที่เสนอจะ
 ระบบอัจฉริยะภายใน SUV ให้ข้อมูลและคำแนะนำตามอินเทอร์เฟซรถที่ตรวจสอบแล้วเท่านั้น การทำงาน Offline ไม่ได้ให้อำนาจขับขี่อัตโนมัติ ผู้ขับยังรับผิดชอบพวงมาลัย คันเร่ง และเบรก AI ห้ามควบคุมอุปกรณ์เหล่านี้
 
 เมื่อข้อมูลขาดหาย เก่า ขัดแย้ง หรือไม่น่าเชื่อถือ ให้แสดงเหตุผลและงดการกระทำที่ได้รับผลกระทบ ใช้เฉพาะข้อมูลและความสามารถภายในเครื่องที่ตรวจสอบแล้ว หากความปลอดภัย ความมั่นใจของเส้นทาง หรือพลังงานสำรองไม่เพียงพอ ให้เข้าสู่ SAFE STOP / NEED HELP แทนการคาดเดา คำว่า “Offline capable” ไม่ได้หมายถึงรับประกันการทำงานได้ในทุกพื้นที่ห่างไกล ป่า ใต้ดิน หรือพื้นที่ภาคสนามลึก
+
+
+## Self-Recovery and Camera-Assisted Awareness
+
+**Proposed requirements — not implemented, camera hardware not selected, not field-validated.** A restart returns to a safe software state and repeats self-checks; it never automatically resumes motion or erases fault history. Detect stalls, impact/fall, abnormal power, sensor faults or software failures; stop safely, log the event, run bounded diagnostics and resume only after the fault is cleared. Suspected electrical short, overheating or physical damage requires hardware isolation and human inspection; do not repeatedly power-cycle. Camera inputs are local-first and are not the sole safety sensor.
+
+ใช้เฉพาะกล้องรถและอินเทอร์เฟซที่ได้รับอนุมัติและผ่านการตรวจสอบ การกู้คืนเป็นการให้ข้อมูลเท่านั้น เก็บหลักฐานวินิจฉัย แสดงคำเตือนชัดเจน และให้ผู้ขับหยุดรถอย่างปลอดภัย ห้ามขับเคลื่อนรถ เริ่มขับใหม่ หรือควบคุมพวงมาลัย คันเร่ง และเบรกเอง
