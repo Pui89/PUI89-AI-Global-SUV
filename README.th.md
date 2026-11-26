@@ -203,3 +203,15 @@ AI ของ SUV ให้คำแนะนำเท่านั้น ไม�
 ## 360° Intelligence
 
 กำหนดระบบรับรู้รอบรถสำหรับแจ้งเตือนผู้ขับขี่เกี่ยวกับรถ คน และสิ่งกีดขวาง โดยคำนึงถึงมุมอับและสภาพถนน ผู้ขับขี่ยังคงควบคุมรถทั้งหมด ดู [360° Intelligence Profile v1.0](docs/PUI89_360_DEGREE_INTELLIGENCE_PROFILE_V1.0.md) และ [สถาปัตยกรรมกลาง](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/PUI89_360_DEGREE_INTELLIGENCE_V1.0.md) **สถานะ: Proposed** ยังไม่มีการติดตั้งเซนเซอร์หรือทดสอบบนถนน
+
+
+## การตรวจสอบคุณสมบัติด้านสภาพแวดล้อม วัสดุ และความปลอดภัย
+
+ผลิตภัณฑ์นี้ใช้ [กรอบ PUI89 Six-Product Environmental, Material & Safety Qualification](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/standards/PUI89_SIX_PRODUCT_ENVIRONMENTAL_MATERIAL_SAFETY_QUALIFICATION_V1.0.th.md) ข้อกำหนดเฉพาะ SUV ครอบคลุมชิ้นส่วน/ขั้วต่อเกรดยานยนต์ น้ำกระเด็นจากถนนและฝุ่น วัฏจักรอุณหภูมิ การสั่นสะเทือน UV เกลือ/การกัดกร่อน สิ่งสกปรกบนหน้าต่างเซนเซอร์ Transient ทางไฟฟ้าของรถ EMC และการยึดติดที่มั่นคง ต้องประเมินมาตรฐานยานยนต์และโซนของระบบย่อย ห้ามนำระดับ IP ของอุปกรณ์อุตสาหกรรมไปอ้างกับรถทั้งคัน AI เป็นระบบให้คำแนะนำ ไม่ควบคุมพวงมาลัย คันเร่ง หรือเบรก ยังไม่มีการกล่าวอ้างการเชื่อมต่อรถ การทดสอบถนน หรือการรับรองน้ำ/ไฟ
+
+
+## การตรวจจับแรงสั่นสะเทือนและการแสดงผลบน Console
+
+**สถานะ: Proposed / Not implemented / Not tested.** การตรวจจับแบบสดต้องใช้เซนเซอร์จริงร่วมกับ Embedded Acquisition และ Software/AI ไม่ใช่ AI อย่างเดียว Hardware ที่ควรศึกษา: IMU/Accelerometer เดิมในรถ หรือเซนเซอร์เกรดยานยนต์ โดยเซนเซอร์ระบบย่อยต้องผ่านการทบทวนการติดตั้งรถ วิเคราะห์บริบทแรงสั่นถนน/ตัวถัง และตัวบ่งชี้ล้อ/ยาง/ระบบขับเคลื่อนเฉพาะเมื่อมีสัญญาณรถที่ผ่านการตรวจสอบ ต้องทบทวนการติดตั้งรถและข้อกำหนดยานยนต์ที่เกี่ยวข้องก่อนติดตั้ง
+
+Console ต้องแยก **Hardware** (มีเซนเซอร์ ชนิด/ตำแหน่ง/การเชื่อมต่อ/Calibration), **Embedded & Signal Processing** (Acquisition, RMS/Peak/FFT และคุณภาพข้อมูล), **AI/Analytics** (โมเดลตรวจจับ/แนวโน้มและ Confidence), **Integration** (จับคู่รถ/โมดูลและ Workflow ซ่อม) และ **Overall capability** (Hardware required / AI-Software only / Hardware + AI / Not available) แสดง Not installed, No live data, Not tested และ TBD อย่างชัดเจน ห้ามสร้างค่าการสั่นสดหรือแสดง Healthy เมื่อไม่มีข้อมูล การเลือกเซนเซอร์ จุดยึด Calibration Baseline Threshold False Alarm และ Detection Latency ต้องมีหลักฐาน AI เป็นคำแนะนำและไม่สั่งพวงมาลัย คันเร่ง หรือเบรก ดู [กรอบ Vibration และ Console ทั้ง 6 ผลิตภัณฑ์](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/feature/vibration-detection-console-v1/docs/standards/PUI89_SIX_PRODUCT_ENVIRONMENTAL_MATERIAL_SAFETY_QUALIFICATION_V1.0.th.md)
