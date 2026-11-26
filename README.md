@@ -343,3 +343,8 @@ The SUV AI is **advisory-only**. No autonomous steering, throttle, braking, prop
 ## 360° Intelligence
 
 The [360° Intelligence Profile v1.0](docs/PUI89_360_DEGREE_INTELLIGENCE_PROFILE_V1.0.md) defines vehicle-surround perception and driver-facing alerts with explicit blind-zone and sensor-degradation handling. Driver control remains authoritative. **Status: Proposed**; no vehicle integration or road validation is established.
+
+
+## Environmental, Material & Safety Qualification
+
+This product follows the [PUI89 Six-Product Environmental, Material & Safety Qualification Framework](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/standards/PUI89_SIX_PRODUCT_ENVIRONMENTAL_MATERIAL_SAFETY_QUALIFICATION_V1.0.md). SUV-specific candidate requirements cover automotive-grade components/connectors, road spray and dust, temperature cycling, vibration, UV, salt/corrosion, optical-window contamination, vehicle electrical transients, EMC and secure mounting. Evaluate applicable automotive standards and exact subsystem zones; do not transfer an industrial IP rating to the complete vehicle. AI remains advisory and does not control steering, throttle or braking. No vehicle integration, road test, ingress or fire certification is claimed.
