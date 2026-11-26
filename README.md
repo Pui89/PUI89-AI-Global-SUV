@@ -370,3 +370,12 @@ The intended driver-facing console presents vehicle operating state, AI/ADAS ava
 - Use a vehicle-approved startup/ready/operating/shutdown sequence; do not imply that the shared robot lifecycle directly controls vehicle ignition.
 
 See the [PUI89 Universal Local Console Architecture v1.0 — Draft PR](https://github.com/Pui89/PUI89-Shared-AI-Core/pull/210). This is a proposed design requirement, not evidence of a functioning vehicle console or road validation.
+
+
+## Simple Local Intelligence for Offline and Uncertain Conditions
+
+**Design requirement — not implemented or field-validated.** Keep essential functions on-device; no mandatory cloud, internet, phone app or remote control. Use energy conservatively: warn at a validated low-power threshold, shed nonessential workloads first, and preserve energy for a safe stop. Do not assume self-charging or unlimited runtime.
+
+SUV local intelligence is informational/advisory and depends on verified onboard vehicle interfaces. Offline status does not authorize autonomous driving. The driver remains responsible for steering, throttle and braking; AI must not control them.
+
+When inputs are missing, stale, conflicting or unreliable, show the reason and abstain from the affected action. Use only verified local data and capabilities. If safety, route confidence or energy reserve is insufficient, enter SAFE STOP / NEED HELP rather than guessing. “Offline capable” does not mean guaranteed operation in every remote, wild, underground or deep-field environment.
