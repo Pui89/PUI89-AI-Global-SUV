@@ -215,3 +215,34 @@ AI ของ SUV ให้คำแนะนำเท่านั้น ไม�
 **สถานะ: Proposed / Not implemented / Not tested.** การตรวจจับแบบสดต้องใช้เซนเซอร์จริงร่วมกับ Embedded Acquisition และ Software/AI ไม่ใช่ AI อย่างเดียว Hardware ที่ควรศึกษา: IMU/Accelerometer เดิมในรถ หรือเซนเซอร์เกรดยานยนต์ โดยเซนเซอร์ระบบย่อยต้องผ่านการทบทวนการติดตั้งรถ วิเคราะห์บริบทแรงสั่นถนน/ตัวถัง และตัวบ่งชี้ล้อ/ยาง/ระบบขับเคลื่อนเฉพาะเมื่อมีสัญญาณรถที่ผ่านการตรวจสอบ ต้องทบทวนการติดตั้งรถและข้อกำหนดยานยนต์ที่เกี่ยวข้องก่อนติดตั้ง
 
 Console ต้องแยก **Hardware** (มีเซนเซอร์ ชนิด/ตำแหน่ง/การเชื่อมต่อ/Calibration), **Embedded & Signal Processing** (Acquisition, RMS/Peak/FFT และคุณภาพข้อมูล), **AI/Analytics** (โมเดลตรวจจับ/แนวโน้มและ Confidence), **Integration** (จับคู่รถ/โมดูลและ Workflow ซ่อม) และ **Overall capability** (Hardware required / AI-Software only / Hardware + AI / Not available) แสดง Not installed, No live data, Not tested และ TBD อย่างชัดเจน ห้ามสร้างค่าการสั่นสดหรือแสดง Healthy เมื่อไม่มีข้อมูล การเลือกเซนเซอร์ จุดยึด Calibration Baseline Threshold False Alarm และ Detection Latency ต้องมีหลักฐาน AI เป็นคำแนะนำและไม่สั่งพวงมาลัย คันเร่ง หรือเบรก ดู [กรอบ Vibration และ Console ทั้ง 6 ผลิตภัณฑ์](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/feature/vibration-detection-console-v1/docs/standards/PUI89_SIX_PRODUCT_ENVIRONMENTAL_MATERIAL_SAFETY_QUALIFICATION_V1.0.th.md)
+
+
+## Local Vehicle Console — แนวคิด Console ภายในรถ (ข้อเสนอ)
+
+**สถานะ: Proposed / Not implemented / Not tested** ยังไม่มีหลักฐานว่ามีหน้าจอรถจริง มีการเลือกฮาร์ดแวร์ยานยนต์ เชื่อมต่อ Vehicle Bus หรือมี Local Console ที่ผ่านการตรวจสอบแล้ว
+
+Console สำหรับผู้ขับขี่ที่เสนอจะแสดงสถานะการทำงานของรถ ความพร้อมของ AI/ADAS เมื่อได้รับอนุมัติ คำเตือน การวินิจฉัยแบบ Read-only ที่ได้รับอนุมัติ ข้อมูลแบตเตอรี่/ระบบขับเคลื่อนเมื่ออินเทอร์เฟซรองรับ สถานะบำรุงรักษา และคำอธิบาย Fault ที่ชัดเจน รูปแบบต้องเหมาะกับรถยนต์ อ่านได้รวดเร็ว และลดการเบี่ยงเบนสมาธิผู้ขับขี่
+
+- คำเตือนที่จำเป็นและข้อมูลภายในเครื่องที่ได้รับอนุมัติต้องไม่ขึ้นกับแอปโทรศัพท์ บริการรีโมต บัญชี Cloud หรืออินเทอร์เน็ต
+- ผู้ขับขี่รับผิดชอบการควบคุมรถทั้งหมด Console ให้ข้อมูล/คำแนะนำเท่านั้น ห้ามสั่งเลี้ยว คันเร่ง หรือเบรก
+- ห้ามเปิดสิทธิ์เขียนข้อมูลไปยังเครือข่ายรถที่เกี่ยวข้องกับความปลอดภัยผ่าน Console การเชื่อมต่อและเข้าถึงข้อมูลต้องผ่านการทบทวนโดยวิศวกรยานยนต์ที่มีคุณสมบัติเหมาะสม
+- การปิดหน้าจอไม่ใช่การแยกพลังงานรถหรือ Emergency Stop ต้องคงระบบ Ignition เบรก และระบบความปลอดภัยที่ผ่านการรับรอง พร้อมกำหนดพฤติกรรมเมื่อจอ พลังงาน เซนเซอร์ หรือเครือข่ายขัดข้อง
+- ใช้ลำดับเปิด/พร้อม/ทำงาน/ปิดระบบที่ได้รับอนุมัติสำหรับรถยนต์ ไม่ตีความว่าวงจรหุ่นยนต์ทั่วไปเป็นคำสั่งควบคุม Ignition ของรถโดยตรง
+
+ดู [PUI89 Universal Local Console Architecture v1.0 — Draft PR](https://github.com/Pui89/PUI89-Shared-AI-Core/pull/210) นี่เป็นข้อกำหนดการออกแบบที่เสนอ ไม่ใช่หลักฐานว่ามี Console รถที่ทำงานได้จริงหรือผ่านการทดสอบบนถนน
+
+
+## Local Intelligence ที่เรียบง่ายสำหรับพื้นที่ Offline และไม่แน่นอน
+
+**ข้อกำหนดการออกแบบ — ยังไม่ได้พัฒนาและตรวจสอบภาคสนาม** ให้ฟังก์ชันที่จำเป็นทำงานภายในอุปกรณ์ ไม่บังคับ Cloud อินเทอร์เน็ต แอปโทรศัพท์ หรือรีโมต ใช้พลังงานอย่างประหยัด: เตือนเมื่อถึงระดับพลังงานต่ำที่ผ่านการกำหนดจากการทดสอบ ลดงานที่ไม่จำเป็นก่อน และสำรองพลังงานไว้สำหรับการหยุดอย่างปลอดภัย ห้ามสมมติว่าชาร์จไฟเองได้หรือทำงานได้ไม่จำกัดเวลา
+
+ระบบอัจฉริยะภายใน SUV ให้ข้อมูลและคำแนะนำตามอินเทอร์เฟซรถที่ตรวจสอบแล้วเท่านั้น การทำงาน Offline ไม่ได้ให้อำนาจขับขี่อัตโนมัติ ผู้ขับยังรับผิดชอบพวงมาลัย คันเร่ง และเบรก AI ห้ามควบคุมอุปกรณ์เหล่านี้
+
+เมื่อข้อมูลขาดหาย เก่า ขัดแย้ง หรือไม่น่าเชื่อถือ ให้แสดงเหตุผลและงดการกระทำที่ได้รับผลกระทบ ใช้เฉพาะข้อมูลและความสามารถภายในเครื่องที่ตรวจสอบแล้ว หากความปลอดภัย ความมั่นใจของเส้นทาง หรือพลังงานสำรองไม่เพียงพอ ให้เข้าสู่ SAFE STOP / NEED HELP แทนการคาดเดา คำว่า “Offline capable” ไม่ได้หมายถึงรับประกันการทำงานได้ในทุกพื้นที่ห่างไกล ป่า ใต้ดิน หรือพื้นที่ภาคสนามลึก
+
+
+## Self-Recovery and Camera-Assisted Awareness
+
+**Proposed requirements — not implemented, camera hardware not selected, not field-validated.** A restart returns to a safe software state and repeats self-checks; it never automatically resumes motion or erases fault history. Detect stalls, impact/fall, abnormal power, sensor faults or software failures; stop safely, log the event, run bounded diagnostics and resume only after the fault is cleared. Suspected electrical short, overheating or physical damage requires hardware isolation and human inspection; do not repeatedly power-cycle. Camera inputs are local-first and are not the sole safety sensor.
+
+ใช้เฉพาะกล้องรถและอินเทอร์เฟซที่ได้รับอนุมัติและผ่านการตรวจสอบ การกู้คืนเป็นการให้ข้อมูลเท่านั้น เก็บหลักฐานวินิจฉัย แสดงคำเตือนชัดเจน และให้ผู้ขับหยุดรถอย่างปลอดภัย ห้ามขับเคลื่อนรถ เริ่มขับใหม่ หรือควบคุมพวงมาลัย คันเร่ง และเบรกเอง

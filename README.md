@@ -355,3 +355,34 @@ This product follows the [PUI89 Six-Product Environmental, Material & Safety Qua
 **Status: Proposed / Not implemented / Not tested.** Live vibration monitoring requires physical sensing hardware plus embedded acquisition and software/AI analysis; it is not AI-only. Candidate hardware: existing vehicle IMU/accelerometer or qualified automotive-grade sensor; subsystem sensors only after vehicle integration review. Candidate analysis: road/body vibration context and wheel/tyre/drivetrain anomaly indicators only where validated vehicle signals exist. Vehicle integration and applicable automotive qualification must be reviewed before installation.
 
 The console must separate **Hardware** (sensor presence/type/location/connection/calibration), **Embedded & Signal Processing** (acquisition, RMS/peak/FFT and data quality), **AI/Analytics** (anomaly/trend model and confidence), **Integration** (vehicle/module mapping and maintenance workflow), and **Overall capability** (Hardware required / AI-Software only / Hardware + AI / Not available). Show Not installed, No live data, Not tested and TBD explicitly. Never invent live metrics or show healthy status without sensor data. Sensor selection, mounting, calibration, baselines, thresholds, false alarms and detection latency require evidence. AI is advisory and does not command steering, throttle or braking. See the [shared vibration and console framework](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/feature/vibration-detection-console-v1/docs/standards/PUI89_SIX_PRODUCT_ENVIRONMENTAL_MATERIAL_SAFETY_QUALIFICATION_V1.0.md).
+
+
+## Local Vehicle Console — Proposed
+
+**Status: Proposed / Not implemented / Not tested.** No production vehicle display, selected automotive hardware, vehicle-bus integration or validated local console is established.
+
+The intended driver-facing console presents vehicle operating state, AI/ADAS availability where approved, warnings, approved read-only diagnostics, battery/powertrain information where supported, maintenance status and clear fault explanations. The layout must be vehicle-specific, readable at a glance and designed to minimise driver distraction.
+
+- Essential warnings and approved local information must not depend on a phone app, remote service, cloud account or internet.
+- Driver remains fully responsible for vehicle operation. The console is informational/advisory and must not command steering, throttle or braking.
+- Do not expose write access to safety-critical vehicle networks through the console. Interfaces and data access require qualified automotive engineering review.
+- Screen shutdown is not vehicle power isolation or an emergency stop. Preserve qualified ignition, braking and safety systems; define safe behavior for display, power, sensor and network failures.
+- Use a vehicle-approved startup/ready/operating/shutdown sequence; do not imply that the shared robot lifecycle directly controls vehicle ignition.
+
+See the [PUI89 Universal Local Console Architecture v1.0 — Draft PR](https://github.com/Pui89/PUI89-Shared-AI-Core/pull/210). This is a proposed design requirement, not evidence of a functioning vehicle console or road validation.
+
+
+## Simple Local Intelligence for Offline and Uncertain Conditions
+
+**Design requirement — not implemented or field-validated.** Keep essential functions on-device; no mandatory cloud, internet, phone app or remote control. Use energy conservatively: warn at a validated low-power threshold, shed nonessential workloads first, and preserve energy for a safe stop. Do not assume self-charging or unlimited runtime.
+
+SUV local intelligence is informational/advisory and depends on verified onboard vehicle interfaces. Offline status does not authorize autonomous driving. The driver remains responsible for steering, throttle and braking; AI must not control them.
+
+When inputs are missing, stale, conflicting or unreliable, show the reason and abstain from the affected action. Use only verified local data and capabilities. If safety, route confidence or energy reserve is insufficient, enter SAFE STOP / NEED HELP rather than guessing. “Offline capable” does not mean guaranteed operation in every remote, wild, underground or deep-field environment.
+
+
+## Self-Recovery and Camera-Assisted Awareness
+
+**Proposed requirements — not implemented, camera hardware not selected, not field-validated.** A restart returns to a safe software state and repeats self-checks; it never automatically resumes motion or erases fault history. Detect stalls, impact/fall, abnormal power, sensor faults or software failures; stop safely, log the event, run bounded diagnostics and resume only after the fault is cleared. Suspected electrical short, overheating or physical damage requires hardware isolation and human inspection; do not repeatedly power-cycle. Camera inputs are local-first and are not the sole safety sensor.
+
+Use only approved existing vehicle cameras and qualified interfaces. Recovery is informational: preserve diagnostic evidence, display a clear warning and require the driver to stop safely. Never attempt autonomous vehicle movement, restart driving or control steering, throttle or braking.
