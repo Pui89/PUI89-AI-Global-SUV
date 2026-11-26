@@ -44,9 +44,13 @@ PUI89 AI Global SUV is a distinct medium-size, five-door SUV programme—not a g
 - **Packaging:** five-seat layout is the agreed design direction; final cabin packaging, dimensions, wheelbase, track, curb mass, GVWR/GAWR, payload implementation, cargo volume, towing, ground clearance, approach/departure angles and turning circle remain subject to engineering validation. The agreed 500 kg payload and 2,700 kg GVWR are targets, not certified ratings.
 
 ### Powertrain and energy
-- A 2.5L Full Hybrid (HEV) is the agreed first powertrain architecture target for evaluation; the exact engine family/model and supplier are not selected.
-- Petrol-only is a simplicity/cost benchmark; PHEV and BEV remain comparison cases.
-- Engine, motor, transmission, battery chemistry/capacity, supplier, platform, fuel economy, range, emissions and performance are **not selected or established**.
+- **Current research direction:** 2.0L petrol **Full Hybrid (HEV) with rear-wheel drive (RWD)** as the preferred concept to evaluate. The 2.0L displacement is a preliminary research target, not a selected engine or fixed specification.
+- **Hybrid topology:** evaluate RWD-compatible full-hybrid layouts, including series-parallel options; select only after packaging, efficiency, durability, safety, serviceability and cost comparisons.
+- **Driveline:** RWD is the primary layout under study. AWD is a possible future derivative, not part of the current baseline.
+- **Energy storage:** study a high-voltage hybrid traction battery for the electric drive and electric A/C compressor, plus a separate 12V auxiliary system for low-voltage electronics. Capacity, chemistry, voltage and supplier remain TBD.
+- **Climate control:** study a high-voltage electric variable-speed A/C compressor. The engine may stop while stationary when hybrid-system conditions allow; it may restart when energy or thermal demand requires. A/C energy is not free and ultimately comes from fuel, recovered energy or stored battery energy.
+- **Comparisons:** retain 2.5L HEV, FWD/e-AWD, petrol-only, PHEV and BEV as research benchmarks; they are not the current preferred layout.
+- Engine family, motor arrangement, transmission, battery chemistry/capacity, supplier, platform, fuel economy, range, emissions and performance are **not selected or established**.
 
 ### Product AI capabilities under research
 - Road-scene and road-user awareness; obstacles, lane context, signs and visibility where supported by validated sensors.
@@ -93,7 +97,7 @@ The master blueprint covers:
 
 **Design principle: Premium to own. Practical to maintain. Repairable by design.**
 
-The agreed project direction is a five-seat Luxury First-Class SUV, 2.5L Hybrid (HEV) as the first architecture to evaluate, FWD/e-AWD study, 500 kg payload target, 2,700 kg GVWR target subject to engineering validation, and -40°C to +50°C operating-climate design target with -50°C to +60°C as an extended engineering challenge. These are targets, not validated specifications or approved production ratings.
+The current powertrain research direction is a 2.0L Full HEV with RWD as a preliminary target; 2.5L HEV and FWD/e-AWD remain comparison studies, and AWD may be considered as a future derivative. The five-seat SUV design direction, 500 kg payload target, 2,700 kg GVWR target subject to engineering validation, and -40°C to +50°C operating-climate design target with -50°C to +60°C as an extended engineering challenge remain targets, not validated specifications or approved production ratings.
 
 The engineering brief must make luxury measurable through cabin comfort, low noise/vibration, effective heating/cooling/defrosting, ergonomic seating and controls, durable cleanable materials, corrosion protection and all-climate usability.
 

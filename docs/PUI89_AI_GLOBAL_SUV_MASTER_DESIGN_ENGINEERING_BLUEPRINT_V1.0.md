@@ -112,9 +112,22 @@ PUI89 will evaluate powertrain options using transparent, market-specific eviden
 - Plug-in hybrid (PHEV) study.
 - Battery electric vehicle (BEV) study.
 
-The agreed first architecture target is a 2.5L Full Hybrid (HEV); the exact engine family/model, motor, transmission, battery and supplier remain unselected and require engineering comparison. This is a design target, not a production selection. The AI architecture must remain powertrain-neutral.
+The current preferred research direction is a **2.0L petrol Full Hybrid (HEV) with rear-wheel drive (RWD)**. The 2.0L displacement is a preliminary target for comparison, not a selected engine or frozen specification. Evaluate RWD-compatible full-hybrid topologies, including series-parallel arrangements, before choosing a layout. AWD may be studied as a future derivative. The earlier 2.5L HEV and FWD/e-AWD concepts remain comparison cases, not the current preferred baseline. The exact engine family/model, motor arrangement, transmission, battery, platform and supplier remain unselected. The AI architecture must remain powertrain-neutral.
 
-### 7.2 Comparison criteria
+
+
+### 7.2 RWD hybrid architecture questions
+- Compare longitudinal front-engine layouts with a transmission/hybrid unit driving the rear axle, rear-axle electric-drive arrangements, and other qualified RWD-compatible full-HEV topologies.
+- Define whether the preferred architecture is series-parallel, power-split or another topology only after engineering comparison; do not infer compatibility from a FWD donor system.
+- Assess prop shaft, rear differential, axle loads, packaging, crash structure, thermal management, NVH, service access and high-voltage isolation.
+- Compare RWD and AWD on wet-road traction, gradeability, towing use cases, mass, efficiency, cost and stability-control integration.
+
+### 7.3 Battery, low-voltage and HVAC concept
+- Study a high-voltage traction battery for the hybrid drive and electric A/C compressor; separately study a 12V auxiliary battery for low-voltage electronics and control systems.
+- Study a high-voltage variable-speed electric A/C compressor. Engine stop/start while stationary depends on battery state, cabin heat load, ambient conditions, defrost demand and hybrid control strategy; no idle-time or fuel-saving claim is established.
+- Include DC-DC conversion, isolation monitoring, thermal management, service disconnects and qualified high-voltage service procedures in the safety and packaging review.
+
+### 7.4 Comparison criteria
 - Real-world energy/fuel consumption under comparable cycles and conditions.
 - Emissions and applicable regional regulations.
 - Thermal management, battery/fuel safety and crash response.
