@@ -11,6 +11,24 @@
 
 *Concept artwork only. It is not a production vehicle, selected platform or functioning prototype.*
 
+## PUI89 Design & Customer Promise
+
+> **Easy to Engineer. Easy to Use. Loved by Customers.**
+
+**Easy to drive. Smooth to ride. Luxurious to experience. Excellent performance.**
+
+The customer experience is a core design requirement—not a marketing claim. The SUV must be developed around:
+- **Easy driving:** intuitive controls, clear visibility, comfortable driver ergonomics, predictable handling and low-effort parking/ manoeuvring.
+- **Smooth refinement:** well-calibrated Full HEV power delivery, low noise and vibration, composed ride comfort, smooth braking/acceleration and effective climate control.
+- **Luxury:** spacious and supportive seating, premium-feeling durable materials, quiet-cabin engineering, thoughtful storage, refined fit and finish, and a calm, consistent human-machine interface.
+- **Performance:** measurable targets for acceleration, braking, handling, ride, efficiency, thermal management, durability and all-weather operation—set only after requirements and benchmark studies.
+- **Engineer-friendly delivery:** clear system architecture, controlled interfaces, traceable requirements, complete drawings/BOM, diagnostic access, service procedures and modular repair where practical.
+
+**Commercial objective:** build a product customers choose and recommend, with a credible path to best-seller performance in its target segment and positive unit economics. This is an ambition, not a sales forecast or guarantee. Pricing, margin, demand and repeat-purchase/service economics must be validated with customers, suppliers and manufacturing partners.
+
+**Evidence boundary:** these are design and commercial objectives. They do not establish a completed vehicle, validated driving dynamics, luxury quality, production cost, customer satisfaction, market demand, profitability, regulatory approval or mass-production authorization. Each claim requires defined tests and documented evidence.
+
+
 ## Image Evidence & Licensing Standard
 
 **Real-world reference:** cite real automotive technologies, production-vehicle components, driver-assistance sensors, safety systems, manufacturing processes and road environments. Identify manufacturers/models where relevant; these are benchmarks, not PUI89-owned technology or validation.
