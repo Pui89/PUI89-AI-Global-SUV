@@ -275,3 +275,10 @@ Console สำหรับผู้ขับขี่ที่เสนอจะ
 **Proposed requirements — not implemented, camera hardware not selected, not field-validated.** A restart returns to a safe software state and repeats self-checks; it never automatically resumes motion or erases fault history. Detect stalls, impact/fall, abnormal power, sensor faults or software failures; stop safely, log the event, run bounded diagnostics and resume only after the fault is cleared. Suspected electrical short, overheating or physical damage requires hardware isolation and human inspection; do not repeatedly power-cycle. Camera inputs are local-first and are not the sole safety sensor.
 
 ใช้เฉพาะกล้องรถและอินเทอร์เฟซที่ได้รับอนุมัติและผ่านการตรวจสอบ การกู้คืนเป็นการให้ข้อมูลเท่านั้น เก็บหลักฐานวินิจฉัย แสดงคำเตือนชัดเจน และให้ผู้ขับหยุดรถอย่างปลอดภัย ห้ามขับเคลื่อนรถ เริ่มขับใหม่ หรือควบคุมพวงมาลัย คันเร่ง และเบรกเอง
+
+
+## อัปเดตความสอดคล้องของพอร์ต — 28 พฤศจิกายน 2026
+
+ความต้องการวิจัยปัจจุบันของ AI Global SUV คือ **RWD-first พร้อมความสามารถ AWD**, **Full HEV (ไม่ใช่ PHEV)** และ **เป้าหมายระยะลุยน้ำ 700 มม.** ทั้งหมดเป็นเพียงความต้องการ/เป้าหมายการวิจัย ไม่ใช่แพลตฟอร์มผลิตจริงที่เลือกแล้ว ข้อกำหนดทางวิศวกรรมที่ตรวจสอบแล้ว ความสามารถลุยน้ำที่ผ่านการทดสอบ หรือการรับรอง AI ยังคงทำหน้าที่ให้คำแนะนำเท่านั้น ไม่ได้หมายถึงการควบคุมพวงมาลัย คันเร่ง หรือเบรกอัตโนมัติ
+
+ต้นทุนต้นแบบที่ตรวจสอบได้ยังเป็น **TBD** จนกว่าจะกำหนดขอบเขตให้ชัดเจน (เช่น ชุดเซนเซอร์/คอมพิวเตอร์แบบถอดได้บนรถเดิมที่เข้ากันได้หรือแท่นทดสอบ) และบันทึกชิ้นส่วนเกรดยานยนต์ สิทธิ์การเชื่อมต่อ หลักฐานแหล่งกำเนิด และใบเสนอราคาที่มีวันที่ ดู [กรอบ BOM และต้นทุน 6 ผลิตภัณฑ์](https://github.com/Pui89/PUI89-Research/blob/main/docs/PROTOTYPE_BOM_AND_COST_FRAMEWORK.th.md)
