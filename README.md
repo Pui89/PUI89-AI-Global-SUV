@@ -64,7 +64,7 @@ PUI89 AI Global SUV is a distinct medium-size, five-door SUV programme—not a g
 ### Powertrain and energy
 - **Current research direction:** 2.0L petrol **Full Hybrid (HEV) with rear-wheel drive (RWD)** as the preferred concept to evaluate. The 2.0L displacement is a preliminary research target, not a selected engine or fixed specification.
 - **Hybrid topology:** evaluate RWD-compatible full-hybrid layouts, including series-parallel options; select only after packaging, efficiency, durability, safety, serviceability and cost comparisons.
-- **Driveline:** RWD is the primary layout under study. AWD is a possible future derivative, not part of the current baseline.
+- **Driveline:** RWD is the primary layout under study, with AWD capability included in the current research preference; implementation and performance remain unvalidated.
 - **Energy storage:** study a high-voltage hybrid traction battery for the electric drive and electric A/C compressor, plus a separate 12V auxiliary system for low-voltage electronics. Capacity, chemistry, voltage and supplier remain TBD.
 - **Climate control:** study a high-voltage electric variable-speed A/C compressor. The engine may stop while stationary when hybrid-system conditions allow; it may restart when energy or thermal demand requires. A/C energy is not free and ultimately comes from fuel, recovered energy or stored battery energy.
 - **Comparisons:** retain 2.5L HEV, FWD/e-AWD, petrol-only, PHEV and BEV as research benchmarks; they are not the current preferred layout.
@@ -115,7 +115,7 @@ The master blueprint covers:
 
 **Design principle: Premium to own. Practical to maintain. Repairable by design.**
 
-The current powertrain research direction is a 2.0L Full HEV with RWD as a preliminary target; 2.5L HEV and FWD/e-AWD remain comparison studies, and AWD may be considered as a future derivative. The five-seat SUV design direction, 500 kg payload target, 2,700 kg GVWR target subject to engineering validation, and -40°C to +50°C operating-climate design target with -50°C to +60°C as an extended engineering challenge remain targets, not validated specifications or approved production ratings.
+The current powertrain research direction is a 2.0L Full HEV with RWD as a preliminary target; 2.5L HEV and FWD/e-AWD remain comparison studies, and RWD-first with AWD capability is the current research preference; implementation and performance remain unvalidated. The five-seat SUV design direction, 500 kg payload target, 2,700 kg GVWR target subject to engineering validation, and -40°C to +50°C operating-climate design target with -50°C to +60°C as an extended engineering challenge remain targets, not validated specifications or approved production ratings.
 
 The engineering brief must make luxury measurable through cabin comfort, low noise/vibration, effective heating/cooling/defrosting, ergonomic seating and controls, durable cleanable materials, corrosion protection and all-climate usability.
 
@@ -408,3 +408,10 @@ When inputs are missing, stale, conflicting or unreliable, show the reason and a
 **Proposed requirements — not implemented, camera hardware not selected, not field-validated.** A restart returns to a safe software state and repeats self-checks; it never automatically resumes motion or erases fault history. Detect stalls, impact/fall, abnormal power, sensor faults or software failures; stop safely, log the event, run bounded diagnostics and resume only after the fault is cleared. Suspected electrical short, overheating or physical damage requires hardware isolation and human inspection; do not repeatedly power-cycle. Camera inputs are local-first and are not the sole safety sensor.
 
 Use only approved existing vehicle cameras and qualified interfaces. Recovery is informational: preserve diagnostic evidence, display a clear warning and require the driver to stop safely. Never attempt autonomous vehicle movement, restart driving or control steering, throttle or braking.
+
+
+## Portfolio alignment update — 28 November 2026
+
+Current AI Global SUV research preferences are **RWD-first with AWD capability**, **Full HEV (not PHEV)** and a **700 mm wading-depth target**. These are research preferences/targets only, not a selected production platform, verified engineering specification, tested water-crossing capability or certification. AI remains advisory; no autonomous steering, throttle or braking is implied.
+
+Verified prototype cost remains **TBD** until the scope is fixed (for example, a removable advisory-only sensor/compute kit on a compatible existing vehicle or bench rig), and exact automotive-grade components, interface permissions, origin evidence and dated quotations are recorded. See the [six-product BOM and cost framework](https://github.com/Pui89/PUI89-Research/blob/main/docs/PROTOTYPE_BOM_AND_COST_FRAMEWORK.md).
