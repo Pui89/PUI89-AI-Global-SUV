@@ -408,3 +408,10 @@ When inputs are missing, stale, conflicting or unreliable, show the reason and a
 **Proposed requirements — not implemented, camera hardware not selected, not field-validated.** A restart returns to a safe software state and repeats self-checks; it never automatically resumes motion or erases fault history. Detect stalls, impact/fall, abnormal power, sensor faults or software failures; stop safely, log the event, run bounded diagnostics and resume only after the fault is cleared. Suspected electrical short, overheating or physical damage requires hardware isolation and human inspection; do not repeatedly power-cycle. Camera inputs are local-first and are not the sole safety sensor.
 
 Use only approved existing vehicle cameras and qualified interfaces. Recovery is informational: preserve diagnostic evidence, display a clear warning and require the driver to stop safely. Never attempt autonomous vehicle movement, restart driving or control steering, throttle or braking.
+
+
+## Portfolio alignment update — 28 November 2026
+
+Current AI Global SUV research preferences are **RWD-first with AWD capability**, **Full HEV (not PHEV)** and a **700 mm wading-depth target**. These are research preferences/targets only, not a selected production platform, verified engineering specification, tested water-crossing capability or certification. AI remains advisory; no autonomous steering, throttle or braking is implied.
+
+Verified prototype cost remains **TBD** until the scope is fixed (for example, a removable advisory-only sensor/compute kit on a compatible existing vehicle or bench rig), and exact automotive-grade components, interface permissions, origin evidence and dated quotations are recorded. See the [six-product BOM and cost framework](https://github.com/Pui89/PUI89-Research/blob/main/docs/PROTOTYPE_BOM_AND_COST_FRAMEWORK.md).
