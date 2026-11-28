@@ -1,0 +1,12 @@
+[
+  {
+    "date": "2026-11-28",
+    "timestamp": "2026-11-28T07:13:11.109920+07:00",
+    "cadence": "daily",
+    "score": 29,
+    "score_percent": 29,
+    "evidence_coverage_percent": 88,
+    "evidence_confidence_proxy": "High",
+    "shared_ai_core_integration_percent": 0
+  }
+]
